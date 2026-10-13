@@ -166,3 +166,9 @@ body { font-size: 14px; }
   .centre-page { display: none !important; }
   .print-page { display: block !important; }
 }
+/* Content collections are inferred from the lecture scopes in formal-methods.json. */
+.collection-section + .collection-section { margin-top: 33px; }
+.collection-section .section-heading { margin-bottom: 16px; }
+.collection-section .section-heading h2 { font-size: 20px; }
+.collection-section .section-heading p { font-size: 12px; }
+#library-grid .collection-section { margin-bottom: 27px; }

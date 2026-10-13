@@ -2,14 +2,14 @@
 
 ## Step 1 — Download and extract the website folder
 
-Download the `StudyHub-Virtual-Education-Centre.zip` package, extract it, and find the **`virtual-education-centre`** folder. The `index.html` file must be directly inside this folder, alongside `vercel.json` and `README.md`.
+Download the `StudyHub-Content-Driven-Upgrade.zip` package, extract it, and find the **`virtual-education-centre`** folder. The `index.html` file must be directly inside this folder, alongside `vercel.json` and `README.md`.
 
 ## Step 2 — Open the entire folder in VS Code
 
 1. Open Visual Studio Code.
 2. Select **File → Open Folder…** (Windows/Linux) or **File → Open…** (macOS) and choose `virtual-education-centre`.
 3. Verify the Explorer shows `index.html`, `src`, `assets`, and `docs` at the top level.
-4. You can inspect or edit the text in `src/data/*.json` and design in `src/styles.css`.
+4. You can inspect or edit the questions in `src/data/formal-methods.json` and design in `src/styles.css`.
 
 Do **not** put the `index.html` file inside `src/`; it is the static entry page for the deployment.
 
@@ -55,7 +55,7 @@ npm run check
 npm test
 ```
 
-These check the four-module catalogue, complete 75-question bank and key totals, as well as score and resume calculation rules. You do not need `npm install`.
+These check the four-module catalogue, complete lecture-aligned question bank and key totals, as well as score and resume calculation rules. You do not need `npm install`.
 
 ## Step 6 — Create a GitHub repository
 
@@ -87,9 +87,13 @@ Replace `YOUR_USERNAME` with your GitHub username and authenticate as prompted. 
 
 Vercel documents this static-site configuration here: https://vercel.com/docs/builds/configure-a-build
 
-**Important:** For this app, the `src/data` directory and its five JSON files must be deployed along with `index.html` and `src/main.js`. A successful site will first display the four-module centre, then a Formal Methods paper library with five cards and no “Couldn't load the question bank” warning.
+**Important:** For this app, the `src/data` directory and `formal-methods.json` and `modules.json` must be deployed along with `index.html` and `src/main.js`. A successful site will first display the four-module centre, then a Formal Methods paper library with five cards and no “Couldn't load the question bank” warning.
 
-## Step 8 — Publish future updates
+## Step 8 — Publish future content-only updates
+
+For future Formal Methods lectures, replace only `src/data/formal-methods.json`; see [UPDATING_FORMAL_METHODS.md](UPDATING_FORMAL_METHODS.md). The new JSON must include the old papers and answers as well as new content. Your existing Vercel connection, routes and theme remain unchanged.
+
+## Step 8a — Publish design/code updates
 
 Edit project files locally in VS Code. Test with Live Server and the scripts, then run:
 
@@ -111,7 +115,7 @@ For actual invigilated assessments, use server-side grading, authentication and 
 
 | Problem | What to check |
 | --- | --- |
-| Blank screen or question-bank error | Run with HTTP server, not `file://`, and check that all five `src/data/*.json` paths exist. |
+| Blank screen or question-bank error | Run with HTTP server, not `file://`, and check that all `src/data/formal-methods.json` and `src/data/modules.json` exist. |
 | Site shows 404 for `src/main.js` | Confirm `index.html` is in repository root and `src/main.js` exists. |
 | Vercel only shows favicon or no page | Set output directory to `.`; do not deploy only `assets`. |
 | Answers disappear | Local storage may have been cleared, browser/device changed, or local URL switched between `localhost` and `127.0.0.1`. |

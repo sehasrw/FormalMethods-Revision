@@ -42,7 +42,7 @@ test('Formal Methods dashboard remains reachable via its module route',()=>{
 });
 test('existing paper paths remain available',()=>{
  location.hash='#/papers';handlers.hashchange();
- assert.match(app.innerHTML,/Five independent 100-mark papers/);
+ assert.match(app.innerHTML,/5 papers covering Lectures 1 &amp; 2/);
  assert.equal((app.innerHTML.match(/class="paper-card minimal-paper"/g)||[]).length,5);
 });
 test('module library route loads the four choices',()=>{

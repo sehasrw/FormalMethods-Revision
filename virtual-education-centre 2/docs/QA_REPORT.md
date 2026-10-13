@@ -1,6 +1,6 @@
 # Formal Methods Exam Studio — QA report
 
-**Source scope:** `Lecture 1.pdf` (29 pages) and `Lecture 2.pdf` (24 pages) supplied in conversation. Their pages/slides are cited in `src/data/topics.json`. They are deliberately omitted from the public repository.
+**Source scope:** `Lecture 1.pdf` (29 pages) and `Lecture 2.pdf` (24 pages) supplied in conversation. Their pages/slides are cited in `src/data/formal-methods.json`. They are deliberately omitted from the public repository.
 
 ## Automated checks executed
 
@@ -46,13 +46,23 @@ The platform has been repackaged as **StudyHub — Virtual Education Centre** wi
 
 The landing page is `#/` and the Formal Methods dashboard is `#/formal-methods`. Existing paper/exam routes (`#/papers`, `#/paper/…`) and browser attempt storage key remain the same. Other modules do **not** link to paper routes.
 
-**Automated tests:** `npm run check` validates the four module statuses, five papers, 75 answers and marks; `npm test` passes 10 tests covering attempt logic, marking, modules and route-rendered HTML. These tests do not constitute full visual/manual cross-browser QA. Browser-based review on desktop and mobile is recommended before sharing publicly. No new lecture content was invented.
+**Automated tests:** `npm run check` validates the four module statuses, paper and answer integrity, counts, and marks, including future lecture additions; `npm test` passes 13 tests covering attempt logic, marking, modules and route-rendered HTML. These tests do not constitute full visual/manual cross-browser QA. Browser-based review on desktop and mobile is recommended before sharing publicly. No new lecture content was invented.
 
 
 ## Minimal design refresh — 13 October 2026
 
 - Changed only presentation markup, CSS, favicon and related documentation/tests. The original paper data, key data and scoring code were not changed.
 - `npm test`: **10/10 tests passed** after updating the expected markup.
-- `npm run check`: verified four modules (Formal Methods only unlocked), five papers, 75 matching keys and five 100-mark totals.
+- `npm run check`: verified four modules (Formal Methods only unlocked), five papers, 75 matching keys and 100-mark paper totals.
 - The homepage no longer contains decorative hero-orbit markup, statistic boxes or a redundant campus sidebar.
 - Manual desktop/mobile visual inspection remains outstanding: headless Chromium did not successfully produce screenshots in this environment. Test with Live Server before public rollout.
+
+
+## Content-driven v3 upgrade verification
+
+- Consolidated 5 source papers, 75 questions, 75 answer keys and 15 topic tags into one replaceable file.
+- Confirmed original paper IDs, question IDs, editions and localStorage key are unchanged.
+- Added `src/lib/content.js` verification for duplicate IDs, scope-tags, MCQ option IDs, all question/section mark totals and orphan/missing answer records.
+- Added a simulated future Lecture 3 + new paper test. Test fixtures are **not** included in published content.
+- Updated titles, paper counts, per-paper timers, syllabus headings and collection groups to derive from JSON.
+- Automated checks cannot establish mathematical correctness, nor substitute for full cross-browser/manual student QA.

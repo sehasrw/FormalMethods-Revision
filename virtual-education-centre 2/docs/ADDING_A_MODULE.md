@@ -20,7 +20,7 @@ All module cards are driven by `src/data/modules.json`. Each record has:
 
 1. **Obtain its lecture notes and slides.** Establish verified scope and correct notation, as we did for Formal Methods.
 2. Create a unique data directory, recommended: `src/modules/<module-id>/data/`.
-3. Publish verified papers, questions, answer keys, topic taxonomy and instructions for that module. Store answers separately from question prompts.
+3. Publish verified papers, questions, answer keys, topic taxonomy and instructions for that module. Model answers may be stored in the same module-specific JSON document as questions, as for Formal Methods; this is still publicly readable in a static deployment.
 4. Add a route for the new module to `src/main.js`, plus a route-prefix-aware paper engine, so attempts from different subjects cannot share a question/paper ID accidentally.
 5. Update `moduleCard()` to obtain the open URL from the validated module's route, not the current Formal Methods default.
 6. When the module is fully functional and tested, change its `status` to `available` in `src/data/modules.json` and update the QA checks.
@@ -28,7 +28,7 @@ All module cards are driven by `src/data/modules.json`. Each record has:
 
 ## Current Formal Methods preservation
 
-The original 5 paper files remain under `src/data/` and **the existing browser storage key has not been changed**. All existing routes (`#/papers`, `#/paper/1`, `#/paper/1/q/1`, etc.) remain operational. The Formal Methods module home is now `#/formal-methods`, while `#/` is the new StudyHub campus homepage.
+The original 5 papers are preserved inside `src/data/formal-methods.json` and **the existing browser storage key has not been changed**. All existing routes (`#/papers`, `#/paper/1`, `#/paper/1/q/1`, etc.) remain operational. The Formal Methods module home is now `#/formal-methods`, while `#/` is the new StudyHub campus homepage.
 
 ## User data, friends, and privacy
 
