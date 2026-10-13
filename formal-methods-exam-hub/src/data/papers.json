@@ -1,0 +1,387 @@
+[
+  {
+    "id": "FM-L12-P01",
+    "number": 1,
+    "title": "Foundations to Invariant Reasoning",
+    "scope": [
+      1,
+      2
+    ],
+    "suggestedMinutes": 150,
+    "totalMarks": 100,
+    "questionCount": 15,
+    "questionIds": [
+      "FM-L12-P01-Q01",
+      "FM-L12-P01-Q02",
+      "FM-L12-P01-Q03",
+      "FM-L12-P01-Q04",
+      "FM-L12-P01-Q05",
+      "FM-L12-P01-Q06",
+      "FM-L12-P01-Q07",
+      "FM-L12-P01-Q08",
+      "FM-L12-P01-Q09",
+      "FM-L12-P01-Q10",
+      "FM-L12-P01-Q11",
+      "FM-L12-P01-Q12",
+      "FM-L12-P01-Q13",
+      "FM-L12-P01-Q14",
+      "FM-L12-P01-Q15"
+    ],
+    "sections": [
+      {
+        "id": "A",
+        "title": "Fundamental Knowledge",
+        "marks": 20,
+        "questionIds": [
+          "FM-L12-P01-Q01",
+          "FM-L12-P01-Q02",
+          "FM-L12-P01-Q03",
+          "FM-L12-P01-Q04",
+          "FM-L12-P01-Q05"
+        ]
+      },
+      {
+        "id": "B",
+        "title": "Conceptual Understanding",
+        "marks": 28,
+        "questionIds": [
+          "FM-L12-P01-Q06",
+          "FM-L12-P01-Q07",
+          "FM-L12-P01-Q08",
+          "FM-L12-P01-Q09"
+        ]
+      },
+      {
+        "id": "C",
+        "title": "Practical Applications",
+        "marks": 32,
+        "questionIds": [
+          "FM-L12-P01-Q10",
+          "FM-L12-P01-Q11",
+          "FM-L12-P01-Q12",
+          "FM-L12-P01-Q13"
+        ]
+      },
+      {
+        "id": "D",
+        "title": "Advanced Reasoning",
+        "marks": 20,
+        "questionIds": [
+          "FM-L12-P01-Q14",
+          "FM-L12-P01-Q15"
+        ]
+      }
+    ],
+    "edition": "1.0",
+    "schemaVersion": "1.0",
+    "source": "Original revision papers generated from uploaded Lecture 1 and Lecture 2 PDFs."
+  },
+  {
+    "id": "FM-L12-P02",
+    "number": 2,
+    "title": "Set Types and Operation Contracts",
+    "scope": [
+      1,
+      2
+    ],
+    "suggestedMinutes": 150,
+    "totalMarks": 100,
+    "questionCount": 15,
+    "questionIds": [
+      "FM-L12-P02-Q01",
+      "FM-L12-P02-Q02",
+      "FM-L12-P02-Q03",
+      "FM-L12-P02-Q04",
+      "FM-L12-P02-Q05",
+      "FM-L12-P02-Q06",
+      "FM-L12-P02-Q07",
+      "FM-L12-P02-Q08",
+      "FM-L12-P02-Q09",
+      "FM-L12-P02-Q10",
+      "FM-L12-P02-Q11",
+      "FM-L12-P02-Q12",
+      "FM-L12-P02-Q13",
+      "FM-L12-P02-Q14",
+      "FM-L12-P02-Q15"
+    ],
+    "sections": [
+      {
+        "id": "A",
+        "title": "Fundamental Knowledge",
+        "marks": 20,
+        "questionIds": [
+          "FM-L12-P02-Q01",
+          "FM-L12-P02-Q02",
+          "FM-L12-P02-Q03",
+          "FM-L12-P02-Q04",
+          "FM-L12-P02-Q05"
+        ]
+      },
+      {
+        "id": "B",
+        "title": "Conceptual Understanding",
+        "marks": 28,
+        "questionIds": [
+          "FM-L12-P02-Q06",
+          "FM-L12-P02-Q07",
+          "FM-L12-P02-Q08",
+          "FM-L12-P02-Q09"
+        ]
+      },
+      {
+        "id": "C",
+        "title": "Practical Applications",
+        "marks": 32,
+        "questionIds": [
+          "FM-L12-P02-Q10",
+          "FM-L12-P02-Q11",
+          "FM-L12-P02-Q12",
+          "FM-L12-P02-Q13"
+        ]
+      },
+      {
+        "id": "D",
+        "title": "Advanced Reasoning",
+        "marks": 20,
+        "questionIds": [
+          "FM-L12-P02-Q14",
+          "FM-L12-P02-Q15"
+        ]
+      }
+    ],
+    "edition": "1.0",
+    "schemaVersion": "1.0",
+    "source": "Original revision papers generated from uploaded Lecture 1 and Lecture 2 PDFs."
+  },
+  {
+    "id": "FM-L12-P03",
+    "number": 3,
+    "title": "Abstract Machine State and Set Construction",
+    "scope": [
+      1,
+      2
+    ],
+    "suggestedMinutes": 150,
+    "totalMarks": 100,
+    "questionCount": 15,
+    "questionIds": [
+      "FM-L12-P03-Q01",
+      "FM-L12-P03-Q02",
+      "FM-L12-P03-Q03",
+      "FM-L12-P03-Q04",
+      "FM-L12-P03-Q05",
+      "FM-L12-P03-Q06",
+      "FM-L12-P03-Q07",
+      "FM-L12-P03-Q08",
+      "FM-L12-P03-Q09",
+      "FM-L12-P03-Q10",
+      "FM-L12-P03-Q11",
+      "FM-L12-P03-Q12",
+      "FM-L12-P03-Q13",
+      "FM-L12-P03-Q14",
+      "FM-L12-P03-Q15"
+    ],
+    "sections": [
+      {
+        "id": "A",
+        "title": "Fundamental Knowledge",
+        "marks": 20,
+        "questionIds": [
+          "FM-L12-P03-Q01",
+          "FM-L12-P03-Q02",
+          "FM-L12-P03-Q03",
+          "FM-L12-P03-Q04",
+          "FM-L12-P03-Q05"
+        ]
+      },
+      {
+        "id": "B",
+        "title": "Conceptual Understanding",
+        "marks": 28,
+        "questionIds": [
+          "FM-L12-P03-Q06",
+          "FM-L12-P03-Q07",
+          "FM-L12-P03-Q08",
+          "FM-L12-P03-Q09"
+        ]
+      },
+      {
+        "id": "C",
+        "title": "Practical Applications",
+        "marks": 32,
+        "questionIds": [
+          "FM-L12-P03-Q10",
+          "FM-L12-P03-Q11",
+          "FM-L12-P03-Q12",
+          "FM-L12-P03-Q13"
+        ]
+      },
+      {
+        "id": "D",
+        "title": "Advanced Reasoning",
+        "marks": 20,
+        "questionIds": [
+          "FM-L12-P03-Q14",
+          "FM-L12-P03-Q15"
+        ]
+      }
+    ],
+    "edition": "1.0",
+    "schemaVersion": "1.0",
+    "source": "Original revision papers generated from uploaded Lecture 1 and Lecture 2 PDFs."
+  },
+  {
+    "id": "FM-L12-P04",
+    "number": 4,
+    "title": "State Boundaries and B Notation",
+    "scope": [
+      1,
+      2
+    ],
+    "suggestedMinutes": 150,
+    "totalMarks": 100,
+    "questionCount": 15,
+    "questionIds": [
+      "FM-L12-P04-Q01",
+      "FM-L12-P04-Q02",
+      "FM-L12-P04-Q03",
+      "FM-L12-P04-Q04",
+      "FM-L12-P04-Q05",
+      "FM-L12-P04-Q06",
+      "FM-L12-P04-Q07",
+      "FM-L12-P04-Q08",
+      "FM-L12-P04-Q09",
+      "FM-L12-P04-Q10",
+      "FM-L12-P04-Q11",
+      "FM-L12-P04-Q12",
+      "FM-L12-P04-Q13",
+      "FM-L12-P04-Q14",
+      "FM-L12-P04-Q15"
+    ],
+    "sections": [
+      {
+        "id": "A",
+        "title": "Fundamental Knowledge",
+        "marks": 20,
+        "questionIds": [
+          "FM-L12-P04-Q01",
+          "FM-L12-P04-Q02",
+          "FM-L12-P04-Q03",
+          "FM-L12-P04-Q04",
+          "FM-L12-P04-Q05"
+        ]
+      },
+      {
+        "id": "B",
+        "title": "Conceptual Understanding",
+        "marks": 28,
+        "questionIds": [
+          "FM-L12-P04-Q06",
+          "FM-L12-P04-Q07",
+          "FM-L12-P04-Q08",
+          "FM-L12-P04-Q09"
+        ]
+      },
+      {
+        "id": "C",
+        "title": "Practical Applications",
+        "marks": 32,
+        "questionIds": [
+          "FM-L12-P04-Q10",
+          "FM-L12-P04-Q11",
+          "FM-L12-P04-Q12",
+          "FM-L12-P04-Q13"
+        ]
+      },
+      {
+        "id": "D",
+        "title": "Advanced Reasoning",
+        "marks": 20,
+        "questionIds": [
+          "FM-L12-P04-Q14",
+          "FM-L12-P04-Q15"
+        ]
+      }
+    ],
+    "edition": "1.0",
+    "schemaVersion": "1.0",
+    "source": "Original revision papers generated from uploaded Lecture 1 and Lecture 2 PDFs."
+  },
+  {
+    "id": "FM-L12-P05",
+    "number": 5,
+    "title": "Integrated Lecture 1–2 Examination",
+    "scope": [
+      1,
+      2
+    ],
+    "suggestedMinutes": 150,
+    "totalMarks": 100,
+    "questionCount": 15,
+    "questionIds": [
+      "FM-L12-P05-Q01",
+      "FM-L12-P05-Q02",
+      "FM-L12-P05-Q03",
+      "FM-L12-P05-Q04",
+      "FM-L12-P05-Q05",
+      "FM-L12-P05-Q06",
+      "FM-L12-P05-Q07",
+      "FM-L12-P05-Q08",
+      "FM-L12-P05-Q09",
+      "FM-L12-P05-Q10",
+      "FM-L12-P05-Q11",
+      "FM-L12-P05-Q12",
+      "FM-L12-P05-Q13",
+      "FM-L12-P05-Q14",
+      "FM-L12-P05-Q15"
+    ],
+    "sections": [
+      {
+        "id": "A",
+        "title": "Fundamental Knowledge",
+        "marks": 20,
+        "questionIds": [
+          "FM-L12-P05-Q01",
+          "FM-L12-P05-Q02",
+          "FM-L12-P05-Q03",
+          "FM-L12-P05-Q04",
+          "FM-L12-P05-Q05"
+        ]
+      },
+      {
+        "id": "B",
+        "title": "Conceptual Understanding",
+        "marks": 28,
+        "questionIds": [
+          "FM-L12-P05-Q06",
+          "FM-L12-P05-Q07",
+          "FM-L12-P05-Q08",
+          "FM-L12-P05-Q09"
+        ]
+      },
+      {
+        "id": "C",
+        "title": "Practical Applications",
+        "marks": 32,
+        "questionIds": [
+          "FM-L12-P05-Q10",
+          "FM-L12-P05-Q11",
+          "FM-L12-P05-Q12",
+          "FM-L12-P05-Q13"
+        ]
+      },
+      {
+        "id": "D",
+        "title": "Advanced Reasoning",
+        "marks": 20,
+        "questionIds": [
+          "FM-L12-P05-Q14",
+          "FM-L12-P05-Q15"
+        ]
+      }
+    ],
+    "edition": "1.0",
+    "schemaVersion": "1.0",
+    "source": "Original revision papers generated from uploaded Lecture 1 and Lecture 2 PDFs."
+  }
+]
