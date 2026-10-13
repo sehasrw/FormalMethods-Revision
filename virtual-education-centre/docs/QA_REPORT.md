@@ -47,3 +47,12 @@ The platform has been repackaged as **StudyHub — Virtual Education Centre** wi
 The landing page is `#/` and the Formal Methods dashboard is `#/formal-methods`. Existing paper/exam routes (`#/papers`, `#/paper/…`) and browser attempt storage key remain the same. Other modules do **not** link to paper routes.
 
 **Automated tests:** `npm run check` validates the four module statuses, five papers, 75 answers and marks; `npm test` passes 10 tests covering attempt logic, marking, modules and route-rendered HTML. These tests do not constitute full visual/manual cross-browser QA. Browser-based review on desktop and mobile is recommended before sharing publicly. No new lecture content was invented.
+
+
+## Minimal design refresh — 13 October 2026
+
+- Changed only presentation markup, CSS, favicon and related documentation/tests. The original paper data, key data and scoring code were not changed.
+- `npm test`: **10/10 tests passed** after updating the expected markup.
+- `npm run check`: verified four modules (Formal Methods only unlocked), five papers, 75 matching keys and five 100-mark totals.
+- The homepage no longer contains decorative hero-orbit markup, statistic boxes or a redundant campus sidebar.
+- Manual desktop/mobile visual inspection remains outstanding: headless Chromium did not successfully produce screenshots in this environment. Test with Live Server before public rollout.

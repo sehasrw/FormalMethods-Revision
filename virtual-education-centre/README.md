@@ -1,6 +1,15 @@
-# StudyHub — Virtual Education Centre
+# StudyHub — Minimal Virtual Education Centre
 
-A shareable, **static HTML + CSS + JavaScript** learning centre for university Software Engineering revision. Students land on a module-selection campus before choosing their subject. The existing complete Formal Methods Exam Studio remains accessible and its **five Lecture 1 & 2 papers, 75 questions and 75 model keys** are preserved.
+A shareable, **static HTML + CSS + JavaScript** learning centre for university Software Engineering revision. Students land on a clean, text-first module-selection page before choosing their subject. The existing complete Formal Methods Exam Studio remains accessible and its **five Lecture 1 & 2 papers, 75 questions and 75 model keys** are preserved.
+
+## Design principles (v2.1)
+
+- **One clear destination:** the homepage is a four-module catalogue, not a dashboard with duplicate calls to action.
+- **No decorative icon tiles:** module cards use headings, short descriptions, and status text.
+- **Only Formal Methods opens:** other subjects remain clearly unavailable.
+- **Minimal paper browsing:** five paper cards on the Formal Methods overview, without graphic decorations.
+- **Reduced navigation:** simple StudyHub wordmark, streamlined classroom links, optional theme control.
+- **Full functionality preserved:** marking, timed/untimed practice, printing, progress saving, and answer review have not been removed.
 
 ## Module availability
 
@@ -17,7 +26,7 @@ Locked and coming-soon cards are not clickable links to empty classrooms. No cou
 
 1. Unzip the project and open the **`virtual-education-centre`** folder in Visual Studio Code.
 2. Start the VS Code **Live Server** extension on `index.html`. Alternatively, run `python3 -m http.server 5500` in the terminal and visit `http://localhost:5500`.
-3. The homepage (`#/`) shows four modules; choose **Formal Methods** to enter the existing paper dashboard.
+3. The minimal homepage (`#/`) shows four modules, with **Formal Methods** as the only clickable classroom. Select it to see all five papers directly.
 4. In the Formal Methods sidebar, choose **All modules** to return to the campus homepage.
 5. Study paper routes and locally saved attempts work exactly as before.
 
@@ -34,7 +43,7 @@ virtual-education-centre/
 ├── src/
 │   ├── main.js                   # Campus + existing Formal Methods app routing
 │   ├── styles.css                # Existing exam interface and shared styles
-│   ├── centre.css                # New campus, module cards, mobile design
+│   ├── centre.css                # Minimal campus and classroom presentation overrides
 │   ├── data/
 │   │   ├── modules.json          # Four course cards and availability states
 │   │   ├── papers.json           # Five Formal Methods papers
@@ -50,7 +59,8 @@ virtual-education-centre/
     ├── ADDING_A_MODULE.md       # Future-course content and activation workflow
     ├── VS_CODE_TO_VERCEL.md      # Publish on GitHub and Vercel
     ├── CONTENT_AND_GRADING.md
-    └── QA_REPORT.md
+    ├── QA_REPORT.md
+    └── MINIMAL_DESIGN_UPDATE.md
 ```
 
 ## Tests

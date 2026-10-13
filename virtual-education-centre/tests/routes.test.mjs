@@ -29,7 +29,9 @@ test('the home page shows four modules, only Formal Methods linked',()=>{
  assert.match(app.innerHTML,/Cyber Security/);
  assert.match(app.innerHTML,/Internet of Things \(IoT\)/);
  assert.equal((app.innerHTML.match(/class="course-card /g)||[]).length,4);
- assert.equal((app.innerHTML.match(/class="course-card [^"]* open" href=/g)||[]).length,1);
+ assert.equal((app.innerHTML.match(/class="course-card open" href=/g)||[]).length,1);
+ assert.doesNotMatch(app.innerHTML,/centre-orbit|centre-floating-card|centre-metrics|centre-hero-visual/);
+ assert.doesNotMatch(app.innerHTML,/class="sidebar/); // campus is full width
  assert.match(app.innerHTML,/href="#\/formal-methods"/);
 });
 test('Formal Methods dashboard remains reachable via its module route',()=>{
@@ -40,8 +42,8 @@ test('Formal Methods dashboard remains reachable via its module route',()=>{
 });
 test('existing paper paths remain available',()=>{
  location.hash='#/papers';handlers.hashchange();
- assert.match(app.innerHTML,/Five papers/);
- assert.equal((app.innerHTML.match(/class="paper-card"/g)||[]).length,5);
+ assert.match(app.innerHTML,/Five independent 100-mark papers/);
+ assert.equal((app.innerHTML.match(/class="paper-card minimal-paper"/g)||[]).length,5);
 });
 test('module library route loads the four choices',()=>{
  location.hash='#/modules';handlers.hashchange();

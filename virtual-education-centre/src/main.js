@@ -72,35 +72,39 @@ function currentPaperQuestions(p){return p.questionIds.map((id)=>questionMap[id]
 function paperStatus(p){const a=attemptFor(p);return !a?'not-started':a.submittedAt?'completed':'in-progress';}
 function showToast(message, warning=false){let el=document.querySelector('#toast'); if(!el)return;el.textContent=message;el.className=`toast show ${warning?'warning':''}`;clearTimeout(toastTimer);toastTimer=setTimeout(()=>{el.className='toast';},3500);}
 function sidebar(route){
- const campus = route==='/' || route==='/modules';
- const active=(p)=>route===p || (p==='/papers' && route.startsWith('/paper/'));
- const links = campus ? `
-    <a href="#/" class="nav-item ${active('/')?'active':''}">${icon('home')} Learning centre</a>
-    <a href="#/modules" class="nav-item ${active('/modules')?'active':''}">${icon('layers')} All modules <span class="nav-count">04</span></a>
-    <div class="sidebar-group-title">AVAILABLE NOW</div>
-    <a href="#/formal-methods" class="nav-item">${icon('book')} Formal Methods ${icon('arrow',14)}</a>` : `
-    <a href="#/" class="nav-item nav-back">${icon('left')} All modules</a>
-    <div class="sidebar-group-title">FORMAL METHODS</div>
-    <a href="#/formal-methods" class="nav-item ${active('/formal-methods')?'active':''}">${icon('home')} Overview</a>
-    <a href="#/papers" class="nav-item ${active('/papers')?'active':''}">${icon('file')} Revision papers <span class="nav-count">05</span></a>
-    <a href="#/syllabus" class="nav-item ${active('/syllabus')?'active':''}">${icon('book')} Syllabus map</a>
-    <a href="#/guide" class="nav-item ${active('/guide')?'active':''}">${icon('info')} How it works</a>`;
+ const campus=route==='/' || route==='/modules';
+ if(campus)return '';
+ const active=(path)=>route===path || (path==='/papers' && route.startsWith('/paper/'));
+ const links=[
+  ['/formal-methods','Overview'],
+  ['/papers','Revision papers'],
+  ['/syllabus','Syllabus map'],
+  ['/guide','How it works']
+ ];
  return `<aside class="sidebar ${mobileNavOpen?'open':''}" id="sidebar">
-   <a class="brand" href="#/" aria-label="StudyHub learning centre"><span class="brand-mark">✳</span><span class="brand-copy"><b>STUDY<span>HUB</span></b><small>LEARNING CENTRE</small></span></a>
-   <div class="nav-title">${campus?'YOUR CAMPUS':'BACK TO LEARNING'}</div>
-   <nav class="main-nav" aria-label="Main navigation">${links}</nav>
-   <div class="sidebar-bottom"><div class="sidebar-note"><span class="note-icon">${icon(campus?'graduation':'shield',17)}</span><b>${campus?'Learn together, at your pace':'Lecture-verified content'}</b><p>${campus?'One open module today. More courses will appear as they are prepared.':'Formal Methods papers cover Lectures 1 and 2 only.'}</p></div><span class="sidebar-version">STUDYHUB <span>•</span> PROGRESS ON THIS DEVICE</span></div>
- </aside>`;
+    <a class="brand minimalist-brand" href="#/" aria-label="StudyHub home">Study<span>Hub</span><small>Learning centre</small></a>
+    <nav class="main-nav" aria-label="Formal Methods navigation">
+      <a href="#/" class="nav-item nav-back">${icon('left',15)} All modules</a>
+      <p class="sidebar-group-title">FORMAL METHODS</p>
+      ${links.map(([path,title])=>`<a href="#${path}" class="nav-item ${active(path)?'active':''}" ${active(path)?'aria-current="page"':''}>${title}</a>`).join('')}
+    </nav>
+    <p class="minimal-sidebar-foot">Progress is saved on this device.</p>
+  </aside>`;
 }
 function chrome(route, body){
  const dark=document.documentElement.dataset.theme==='dark';
  const isPrint=route.includes('/print');
  const campus=route==='/' || route==='/modules';
- app.innerHTML=`<div class="layout ${isPrint?'printing':''}">
-  ${sidebar(route)}
-  <div class="workspace"><header class="topbar"><div class="topbar-left"><button class="icon-button mobile-menu" data-action="mobile-menu" aria-label="Open navigation">${icon('menu')}</button><div class="breadcrumb"><span>${campus?'STUDYHUB':'FORMAL METHODS'}</span><span class="slash">/</span><strong>${html(routeLabel(route))}</strong></div></div><div class="header-actions"><span class="topbar-scope"><span class="scope-dot"></span> ${campus?'1 MODULE AVAILABLE':'LECTURES 01 &amp; 02'}</span><button class="icon-button" data-action="theme" title="Toggle light/dark mode" aria-label="Toggle light or dark theme">${icon(dark?'sun':'moon')}</button></div></header>
-  <main class="main" id="main-content">${body}</main>
-  </div><div class="mobile-scrim ${mobileNavOpen?'show':''}" data-action="close-menu"></div>
+ const header=campus
+  ? `<a href="#/" class="campus-brand" aria-label="StudyHub home">Study<span>Hub</span></a>
+     <div class="header-actions"><a href="#/modules" class="campus-nav ${route==='/modules'?'is-active':''}" ${route==='/modules'?'aria-current="page"':''}>Modules</a><button class="icon-button" data-action="theme" title="Toggle light/dark mode" aria-label="Toggle light or dark theme">${icon(dark?'sun':'moon',18)}</button></div>`
+  : `<div class="topbar-left"><button class="icon-button mobile-menu" data-action="mobile-menu" aria-label="Open navigation">${icon('menu')}</button><div class="breadcrumb"><span>FORMAL METHODS</span><span class="slash">/</span><strong>${html(routeLabel(route))}</strong></div></div>
+     <div class="header-actions"><button class="icon-button" data-action="theme" title="Toggle light/dark mode" aria-label="Toggle light or dark theme">${icon(dark?'sun':'moon',18)}</button></div>`;
+ app.innerHTML=`<div class="layout ${campus?'campus-layout':''} ${isPrint?'printing':''}">
+   ${sidebar(route)}
+   <div class="workspace"><header class="topbar">${header}</header>
+   <main class="main" id="main-content">${body}</main>
+   </div><div class="mobile-scrim ${mobileNavOpen?'show':''}" data-action="close-menu"></div>
  </div><div id="toast" class="toast" role="status" aria-live="polite"></div>`;
  mobileNavOpen=false;
  window.scrollTo(0,0);
@@ -108,45 +112,67 @@ function chrome(route, body){
 function routeLabel(route){if(route==='/' )return 'Learning centre';if(route==='/modules')return 'Modules';if(route==='/formal-methods')return 'Formal Methods';if(route==='/papers')return 'Paper library';if(route==='/syllabus')return 'Syllabus map';if(route==='/guide')return 'Guide';if(route.includes('/review/'))return 'Answer review';if(route.includes('/results'))return 'Results';if(route.includes('/print'))return 'Print paper';if(route.includes('/q/'))return 'Examination';return 'Paper details';}
 function getStats(){let done=0,active=0,best=[];for(const p of db.papers){const a=attemptFor(p);if(a?.submittedAt){done++;const scores=getScores(currentPaperQuestions(p),answerMap,a);if(scores.fullyGraded)best.push(scores.awarded);}else if(a)active++;}return {done,active,highest:best.length?Math.max(...best):null};}
 function paperCard(p){
- const state=paperStatus(p), a=attemptFor(p), questions=currentPaperQuestions(p), prog=getProgress(questions,a);
+ const state=paperStatus(p),a=attemptFor(p),questions=currentPaperQuestions(p),progress=getProgress(questions,a);
  const status=state==='completed'?'Completed':state==='in-progress'?'In progress':'Not started';
  const dest=state==='completed'?`#/paper/${p.number}/results`:state==='in-progress'?`#/paper/${p.number}/q/${a.lastQuestion??1}`:`#/paper/${p.number}`;
- return `<a class="paper-card" href="${dest}"><div class="paper-card-top"><span class="paper-number">PAPER <b>${two(p.number)}</b></span><span class="status-pill ${state}">${state==='completed'?icon('check',13):''}${status}</span></div><div class="paper-card-art"><div class="glyph glyph-${p.number}">${['','∈','⊆','∀','∪','∅'][p.number]}</div><div class="shape-bg"></div></div><h3>${html(p.title)}</h3><p class="paper-description">An independent university-style assessment of the core Lecture 1–2 concepts.</p><div class="paper-meta"><span>${icon('file',15)} 15 questions</span><span>${icon('clock',15)} 150 min</span><span>${icon('target',15)} 100 marks</span></div>${a?`${progressBar(prog.answered,15)}<p class="card-progress">${prog.answered} of 15 questions answered</p>`:''}<div class="card-link">${state==='completed'?'View results':state==='in-progress'?'Resume paper':'Open paper'} ${icon('arrow',17)}</div></a>`;
+ const label=state==='completed'?'View results':state==='in-progress'?'Resume paper':'Open paper';
+ return `<a class="paper-card minimal-paper" href="${dest}">
+    <div class="paper-card-top"><span class="paper-number">PAPER ${two(p.number)}</span><span class="status-pill ${state}">${status}</span></div>
+    <h3>${html(p.title)}</h3>
+    <p class="paper-description">15 questions · 100 marks · ${p.suggestedMinutes} minutes</p>
+    ${a?`<div class="paper-progress">${progressBar(progress.answered,15)}<span>${progress.answered} of 15 answered</span></div>`:''}
+    <div class="card-link">${label} <span aria-hidden="true">→</span></div>
+  </a>`;
 }
 function moduleCard(module){
  const open=module.status==='available';
- const symbols={'formal-methods':'∈','concurrent-programming':icon('cpu',31),'cyber-security':icon('shield',31),'iot':icon('wifi',31)};
- const counts = open ? `<span>${icon('file',14)} ${db.papers.length} exam papers</span><span>${icon('layers',14)} ${db.questions.length} questions</span>` : `<span>${icon('clock',14)} Resources not published yet</span>`;
- const body = `<div class="course-card-head"><span class="course-symbol">${symbols[module.id] ?? icon('book',29)}</span><span class="course-state ${open?'course-state-open':module.status==='planned'?'course-state-planned':'course-state-locked'}">${open?'<span class="course-state-dot"></span> Available':icon('lock',12)+' '+(module.status==='planned'?'Coming soon':'Locked')}</span></div>
- <span class="course-number">MODULE ${html(module.number)}</span><h3>${html(module.title)}</h3><p>${html(module.description)}</p><div class="course-details">${counts}</div>
- <div class="course-card-footer"><span>${open?'Enter classroom':'Content coming later'}</span>${open?icon('arrow',18):icon('lock',16)}</div>`;
- return open ? `<a class="course-card course-${html(module.id)} open" href="#/formal-methods" aria-label="Open ${html(module.title)} module">${body}</a>` : `<article class="course-card course-${html(module.id)} unavailable" aria-disabled="true">${body}</article>`;
+ const badge=open?'Available':module.status==='planned'?'Coming soon':'Locked';
+ const description=open?'Five practice papers covering Lectures 1 and 2, with guided solutions.':
+   'Study papers will be added in a future update.';
+ const card=`<div class="course-card-head"><span class="course-number">MODULE ${html(module.number)}</span><span class="course-state ${open?'course-state-open':'course-state-pending'}">${badge}</span></div>
+   <h3>${html(module.title)}</h3><p>${description}</p>
+   <div class="course-card-footer">${open?`<span>5 papers · 75 questions</span><strong>Enter module <span aria-hidden="true">→</span></strong>`:'<span>Not available yet</span>'}</div>`;
+ return open?`<a class="course-card open" href="#/formal-methods" aria-label="Open ${html(module.title)} module">${card}</a>`:
+   `<article class="course-card unavailable" aria-label="${html(module.title)} — ${badge}">${card}</article>`;
 }
 function moduleCatalogue(){
- return `<section class="catalogue-section" id="module-catalogue"><div class="catalogue-head"><div><span class="section-kicker">CHOOSE YOUR SUBJECT</span><h2>Explore your modules<span class="heading-period">.</span></h2><p>Start with Formal Methods. The other classrooms will open when their materials are ready.</p></div><div class="course-filters" role="group" aria-label="Filter modules"><button class="course-filter selected" type="button" data-module-filter="all" aria-pressed="true">All modules</button><button class="course-filter" type="button" data-module-filter="available" aria-pressed="false">Available</button><button class="course-filter" type="button" data-module-filter="soon" aria-pressed="false">Coming soon</button></div></div><div class="course-grid" id="course-grid">${db.modules.map(moduleCard).join('')}</div></section>`;
+ return `<section class="catalogue-section" id="module-catalogue">
+   <div class="catalogue-head"><div><h2>Modules</h2><p>One module available now. More are on the way.</p></div><span class="module-count">01 available / 04 total</span></div>
+   <div class="course-grid" id="course-grid">${db.modules.map(moduleCard).join('')}</div>
+ </section>`;
 }
 function centerHome(catalogueOnly=false){
  const stats=getStats();
- const inProgress=db.papers.find(p=>paperStatus(p)==='in-progress');
- const continueLink=inProgress ? `#/paper/${inProgress.number}/q/${attemptFor(inProgress)?.lastQuestion??1}` : '#/formal-methods';
- const continueText=inProgress?`Resume Paper ${two(inProgress.number)}`:'Go to Formal Methods';
- const hero=catalogueOnly?`<div class="centre-page-heading"><span class="centre-overline">SUBJECT LIBRARY <span> / </span> 2026</span><h1>All your modules, <em>one place.</em></h1><p>Currently open: Formal Methods. Future modules are clearly marked until their revision content is published.</p></div>`:`<section class="centre-hero"><div class="centre-hero-copy"><span class="centre-hero-tag">${icon('sparkles',14)} YOUR VIRTUAL EDUCATION CENTRE</span><h1>One place to<br><em>learn, practise<br>&amp; grow.</em></h1><p>Your learning space, built for revision with friends. Choose a module, pick a paper, and make real progress—one question at a time.</p><div class="centre-hero-actions"><a class="btn centre-hero-button" href="#/formal-methods">Start learning ${icon('arrow',18)}</a><a class="centre-hero-link" href="#/modules">Browse all modules ${icon('arrow',15)}</a></div></div><div class="centre-hero-visual" aria-hidden="true"><div class="centre-orbit orbit-outer"></div><div class="centre-orbit orbit-inner"></div><div class="centre-visual-core"><span>∈</span><small>FORMAL<br>METHODS</small></div><div class="centre-floating-card fc-one">${icon('check',15)} MODULE UNLOCKED</div><div class="centre-floating-card fc-two"><span class="fc-circle">✦</span> YOUR LEARNING SPACE</div><span class="orbit-star star-one">✦</span><span class="orbit-star star-two">✳</span></div></section>`;
- const studyBand=catalogueOnly?'':`<div class="centre-metrics"><div><span class="metric-icon">${icon('layers',19)}</span><b>${two(db.modules.length)}</b><span>University modules</span></div><div><span class="metric-icon">${icon('check',19)}</span><b>01</b><span>Ready to explore</span></div><div><span class="metric-icon">${icon('file',19)}</span><b>05</b><span>Revision papers</span></div><div><span class="metric-icon">${icon('target',19)}</span><b>500</b><span>Practice marks</span></div></div>
- <div class="continue-head"><div><span class="section-kicker">PICK UP WHERE YOU LEFT OFF</span><h2>Your classroom</h2></div><a href="#/formal-methods" class="text-link">Open module ${icon('arrow',15)}</a></div>
- <a class="centre-continue" href="${continueLink}"><div class="continue-course-icon">∈</div><div class="continue-info"><div class="continue-kicker"><span class="continue-dot"></span> AVAILABLE NOW · LECTURES 1 &amp; 2</div><h3>Formal Methods</h3><p>${stats.done} of 5 papers submitted · ${stats.active} in progress</p></div><div class="continue-progress">${progressBar(stats.done,5)}<small>${stats.done*20}% papers submitted</small></div><span class="continue-button">${continueText} ${icon('arrow',16)}</span></a>`;
- return `<div class="page-container centre-page">${hero}${studyBand}${moduleCatalogue()}<section class="centre-note"><div class="centre-note-icon">${icon('info',20)}</div><div><strong>Built for sharing and studying together</strong><p>Each friend's answers and progress are saved locally in their own browser, not shared between devices. You can share the published website link, and everyone can use the available Formal Methods papers.</p></div></section><div class="centre-footer">STUDYHUB <span>✳</span> MADE FOR LEARNING, ONE MODULE AT A TIME</div></div>`;
+ const headline=catalogueOnly?'All your modules.':'A calmer way to study.';
+ return `<div class="page-container centre-page">
+   <section class="centre-intro">
+     <div class="centre-intro-label">YOUR VIRTUAL EDUCATION CENTRE</div>
+     <h1>${headline}</h1>
+     <p>Choose a subject, practise with purpose, and keep your revision in one place.</p>
+   </section>
+   ${moduleCatalogue()}
+   <footer class="centre-footer">${stats.active||stats.done?`${stats.active} paper${stats.active===1?'':'s'} in progress · ${stats.done} completed. `:''}Your answers and progress stay in this browser. No account required.</footer>
+  </div>`;
 }
 function dashboard(){
- const stats=getStats();const started=db.papers.filter((p)=>paperStatus(p)==='in-progress');
- const summary=`<div class="summary-grid"><div class="stat"><div class="stat-icon lavender">${icon('layers')}</div><b>05</b><span>Revision papers</span></div><div class="stat"><div class="stat-icon blue">${icon('file')}</div><b>75</b><span>Total questions</span></div><div class="stat"><div class="stat-icon green">${icon('check')}</div><b>${two(stats.done)}</b><span>Papers submitted</span></div><div class="stat"><div class="stat-icon peach">${icon('chart')}</div><b>${stats.highest===null?'—':stats.highest+'%'}</b><span>Highest fully marked score</span></div></div>`;
- return `<div class="page-container"><div class="eyebrow">YOUR REVISION WORKSPACE <span class="eyebrow-line"></span> 2026 EDITION</div>
- <section class="hero"><div class="hero-content"><span class="hero-label"><span class="label-spark">✦</span> UNIVERSITY REVISION SERIES</span><h1>Think precisely.<br/><em>Prove confidently.</em></h1><p>Five full-length revision papers for Formal Methods. Work through B notation, sets, abstract machines and invariant reasoning at your own pace.</p><div class="hero-buttons"><a class="btn btn-white" href="#/papers">Explore all papers ${icon('arrow',17)}</a><a class="hero-text-link" href="#/syllabus">View syllabus ${icon('arrow',15)}</a></div></div><div class="hero-visual" aria-hidden="true"><div class="visual-chip chip-top">INVARIANT&nbsp; <span>✓</span></div><div class="visual-orbit"><div class="visual-inner"><div class="visual-symbol">⊆</div><span>Sets • Logic • B</span></div></div><div class="visual-chip chip-bottom"><span class="chip-dot"></span> VALID STATE</div></div></section>
- ${summary}
- <div class="section-heading"><div><span class="section-kicker">STUDY COLLECTION</span><h2>Pick up where you left off</h2><p>Five papers. Four sections each. One clear path to exam confidence.</p></div><a class="text-link" href="#/papers">See all papers ${icon('arrow',17)}</a></div>
- <div class="paper-grid">${db.papers.slice(0,3).map(paperCard).join('')}</div>
- <section class="bottom-banner"><div class="banner-icon">${icon('book',23)}</div><div><strong>Not sure where to begin?</strong><p>Review the topic-by-topic coverage from the uploaded lectures before attempting a full paper.</p></div><a class="btn btn-soft" href="#/syllabus">Explore syllabus ${icon('arrow',17)}</a></section></div>`;
+ const stats=getStats();
+ return `<div class="page-container formal-home">
+   <div class="formal-intro"><span class="centre-intro-label">FORMAL METHODS · LECTURES 1 &amp; 2</span>
+   <h1>Think precisely.</h1>
+   <p>Work through five revision papers using the concepts from your lectures. Choose any paper to begin or pick up where you left off.</p>
+   <div class="formal-summary"><span>5 papers</span><span>75 questions</span><span>500 marks</span><span>${stats.done} submitted</span></div></div>
+   <div class="section-heading minimal-section-heading"><div><h2>Revision papers</h2><p>Practice at your own pace or try a timed paper.</p></div><a class="text-link" href="#/syllabus">View syllabus <span aria-hidden="true">→</span></a></div>
+   <div class="paper-grid">${db.papers.map(paperCard).join('')}</div>
+   <p class="simple-footnote">MCQs are marked automatically after submission. Written answers use guided self-marking.</p>
+ </div>`;
 }
-function paperLibrary(){const states=['not-started','in-progress','completed'];return `<div class="page-container"><div class="page-intro"><div><span class="section-kicker">THE PAPER LIBRARY</span><h1>Five papers. <em>One syllabus.</em></h1><p>Every examination covers Lecture 1 and Lecture 2 only, with independent questions and detailed marking keys.</p></div><div class="total-bubble">500<span>total marks</span></div></div><div class="filter-row"><span>${icon('layers',16)} Filter your papers</span><div class="filters" role="group" aria-label="Filter papers"><button data-filter="all" class="chip active">All papers</button><button data-filter="not-started" class="chip">Not started</button><button data-filter="in-progress" class="chip">In progress</button><button data-filter="completed" class="chip">Completed</button></div></div><div class="paper-grid" id="library-grid">${db.papers.map(paperCard).join('')}</div><div class="paper-footnote">${icon('info',16)} Answers are revealed only after you submit a paper. Written responses require your own rubric-based marking.</div></div>`;}
+function paperLibrary(){
+ return `<div class="page-container">
+ <div class="page-intro"><div><span class="section-kicker">FORMAL METHODS</span><h1>Revision papers</h1><p>Five independent 100-mark papers covering Lectures 1 and 2.</p></div></div>
+ <div class="filter-row"><div class="filters" role="group" aria-label="Filter papers"><button data-filter="all" class="chip active">All</button><button data-filter="not-started" class="chip">Not started</button><button data-filter="in-progress" class="chip">In progress</button><button data-filter="completed" class="chip">Completed</button></div></div>
+ <div class="paper-grid" id="library-grid">${db.papers.map(paperCard).join('')}</div>
+ <p class="simple-footnote">Answers appear after submission. Written responses require self-marking.</p></div>`;
+}
 function syllabusPage(){
  const groups=[1,2].map((n)=>({number:n,topics:db.topics.filter(t=>t.lecture===n)}));
  return `<div class="page-container"><div class="page-intro"><div><span class="section-kicker">YOUR VERIFIED BOUNDARIES</span><h1>The syllabus <em>map.</em></h1><p>Every question is tagged against these topics, derived from the two original lecture PDFs.</p></div><div class="total-bubble">15<span>topic clusters</span></div></div><div class="topic-groups">${groups.map(g=>`<section class="topic-group"><div class="topic-group-title"><span class="lecture-badge">LECTURE ${two(g.number)}</span><h2>${g.number===1?'Introduction & the B Method':'Sets, Constants and Variables'}</h2></div><div class="topic-list">${g.topics.map(t=>{const matches=db.questions.filter(q=>q.tags.includes(t.id)).length;return `<div class="topic-row"><span class="topic-code">${t.id}</span><div class="topic-details"><strong>${html(t.title)}</strong><p>${html(t.description)}</p><small>Lecture ${g.number} • slide${t.pages.includes('–')?'s':''} ${html(t.pages)}</small></div><span class="topic-count">${matches} tagged questions</span></div>`;}).join('')}</div></section>`).join('')}</div><div class="scope-notice">${icon('shield',19)} <div><strong>Outside the examination scope</strong><p>Advanced relations/functions, projections, inverse relations, quantifier-heavy proofs, sequences, temporal-logic formulae, Hoare logic and B refinement are deliberately excluded.</p></div></div></div>`;
