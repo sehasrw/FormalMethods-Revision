@@ -1,0 +1,30 @@
+[
+  {
+    "id": "formal-methods",
+    "number": "01",
+    "title": "Formal Methods",
+    "status": "available",
+    "description": "Explore Lecture 1 and 2 through five complete revision papers, guided marking keys and topic coverage."
+  },
+  {
+    "id": "concurrent-programming",
+    "number": "02",
+    "title": "Concurrent Programming",
+    "status": "locked",
+    "description": "A future classroom for Concurrent Programming. Revision resources will be added after the lecture materials are reviewed."
+  },
+  {
+    "id": "cyber-security",
+    "number": "03",
+    "title": "Cyber Security",
+    "status": "planned",
+    "description": "Cyber Security is in the planning queue. Papers and study material have not been published yet."
+  },
+  {
+    "id": "iot",
+    "number": "04",
+    "title": "Internet of Things (IoT)",
+    "status": "locked",
+    "description": "A dedicated IoT classroom is reserved for a future update. The module is not open yet."
+  }
+]
