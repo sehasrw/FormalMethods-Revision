@@ -13,6 +13,11 @@
       "number": 2,
       "title": "Sets, Constants and Variables",
       "source": "Lecture 2.pdf"
+    },
+    {
+      "number": 3,
+      "title": "Relations",
+      "source": "Lecture 3.pdf; Formal_Methods_-_Relations_(Lec_3).pdf (supplementary notes)"
     }
   ],
   "papers": [
@@ -400,6 +405,236 @@
       "edition": "1.0",
       "schemaVersion": "1.0",
       "source": "Original revision papers generated from uploaded Lecture 1 and Lecture 2 PDFs."
+    },
+    {
+      "id": "FM-L3-P06",
+      "number": 6,
+      "title": "Relations: Foundations and Operators",
+      "scope": [
+        3
+      ],
+      "suggestedMinutes": 150,
+      "totalMarks": 100,
+      "questionCount": 15,
+      "questionIds": [
+        "FM-L3-P06-Q01",
+        "FM-L3-P06-Q02",
+        "FM-L3-P06-Q03",
+        "FM-L3-P06-Q04",
+        "FM-L3-P06-Q05",
+        "FM-L3-P06-Q06",
+        "FM-L3-P06-Q07",
+        "FM-L3-P06-Q08",
+        "FM-L3-P06-Q09",
+        "FM-L3-P06-Q10",
+        "FM-L3-P06-Q11",
+        "FM-L3-P06-Q12",
+        "FM-L3-P06-Q13",
+        "FM-L3-P06-Q14",
+        "FM-L3-P06-Q15"
+      ],
+      "sections": [
+        {
+          "id": "A",
+          "title": "Fundamental Knowledge",
+          "marks": 20,
+          "questionIds": [
+            "FM-L3-P06-Q01",
+            "FM-L3-P06-Q02",
+            "FM-L3-P06-Q03",
+            "FM-L3-P06-Q04",
+            "FM-L3-P06-Q05"
+          ]
+        },
+        {
+          "id": "B",
+          "title": "Conceptual Understanding",
+          "marks": 28,
+          "questionIds": [
+            "FM-L3-P06-Q06",
+            "FM-L3-P06-Q07",
+            "FM-L3-P06-Q08",
+            "FM-L3-P06-Q09"
+          ]
+        },
+        {
+          "id": "C",
+          "title": "Practical Applications",
+          "marks": 32,
+          "questionIds": [
+            "FM-L3-P06-Q10",
+            "FM-L3-P06-Q11",
+            "FM-L3-P06-Q12",
+            "FM-L3-P06-Q13"
+          ]
+        },
+        {
+          "id": "D",
+          "title": "Advanced Reasoning",
+          "marks": 20,
+          "questionIds": [
+            "FM-L3-P06-Q14",
+            "FM-L3-P06-Q15"
+          ]
+        }
+      ],
+      "edition": "1.0",
+      "schemaVersion": "1.0",
+      "source": "Official Lecture 3 Relations slides, checked against supplementary student notes."
+    },
+    {
+      "id": "FM-L3-P07",
+      "number": 7,
+      "title": "Relations: Interpretation and Modelling",
+      "scope": [
+        3
+      ],
+      "suggestedMinutes": 150,
+      "totalMarks": 100,
+      "questionCount": 15,
+      "questionIds": [
+        "FM-L3-P07-Q01",
+        "FM-L3-P07-Q02",
+        "FM-L3-P07-Q03",
+        "FM-L3-P07-Q04",
+        "FM-L3-P07-Q05",
+        "FM-L3-P07-Q06",
+        "FM-L3-P07-Q07",
+        "FM-L3-P07-Q08",
+        "FM-L3-P07-Q09",
+        "FM-L3-P07-Q10",
+        "FM-L3-P07-Q11",
+        "FM-L3-P07-Q12",
+        "FM-L3-P07-Q13",
+        "FM-L3-P07-Q14",
+        "FM-L3-P07-Q15"
+      ],
+      "sections": [
+        {
+          "id": "A",
+          "title": "Fundamental Knowledge",
+          "marks": 20,
+          "questionIds": [
+            "FM-L3-P07-Q01",
+            "FM-L3-P07-Q02",
+            "FM-L3-P07-Q03",
+            "FM-L3-P07-Q04",
+            "FM-L3-P07-Q05"
+          ]
+        },
+        {
+          "id": "B",
+          "title": "Conceptual Understanding",
+          "marks": 28,
+          "questionIds": [
+            "FM-L3-P07-Q06",
+            "FM-L3-P07-Q07",
+            "FM-L3-P07-Q08",
+            "FM-L3-P07-Q09"
+          ]
+        },
+        {
+          "id": "C",
+          "title": "Practical Applications",
+          "marks": 32,
+          "questionIds": [
+            "FM-L3-P07-Q10",
+            "FM-L3-P07-Q11",
+            "FM-L3-P07-Q12",
+            "FM-L3-P07-Q13"
+          ]
+        },
+        {
+          "id": "D",
+          "title": "Advanced Reasoning",
+          "marks": 20,
+          "questionIds": [
+            "FM-L3-P07-Q14",
+            "FM-L3-P07-Q15"
+          ]
+        }
+      ],
+      "edition": "1.0",
+      "schemaVersion": "1.0",
+      "source": "Official Lecture 3 Relations slides, with supplementary worked notes used for cross-checking."
+    },
+    {
+      "id": "FM-L123-P08",
+      "number": 8,
+      "title": "Cumulative Revision: Sets, States and Relations",
+      "scope": [
+        1,
+        2,
+        3
+      ],
+      "suggestedMinutes": 150,
+      "totalMarks": 100,
+      "questionCount": 15,
+      "questionIds": [
+        "FM-L123-P08-Q01",
+        "FM-L123-P08-Q02",
+        "FM-L123-P08-Q03",
+        "FM-L123-P08-Q04",
+        "FM-L123-P08-Q05",
+        "FM-L123-P08-Q06",
+        "FM-L123-P08-Q07",
+        "FM-L123-P08-Q08",
+        "FM-L123-P08-Q09",
+        "FM-L123-P08-Q10",
+        "FM-L123-P08-Q11",
+        "FM-L123-P08-Q12",
+        "FM-L123-P08-Q13",
+        "FM-L123-P08-Q14",
+        "FM-L123-P08-Q15"
+      ],
+      "sections": [
+        {
+          "id": "A",
+          "title": "Fundamental Knowledge",
+          "marks": 20,
+          "questionIds": [
+            "FM-L123-P08-Q01",
+            "FM-L123-P08-Q02",
+            "FM-L123-P08-Q03",
+            "FM-L123-P08-Q04",
+            "FM-L123-P08-Q05"
+          ]
+        },
+        {
+          "id": "B",
+          "title": "Conceptual Understanding",
+          "marks": 28,
+          "questionIds": [
+            "FM-L123-P08-Q06",
+            "FM-L123-P08-Q07",
+            "FM-L123-P08-Q08",
+            "FM-L123-P08-Q09"
+          ]
+        },
+        {
+          "id": "C",
+          "title": "Practical Applications",
+          "marks": 32,
+          "questionIds": [
+            "FM-L123-P08-Q10",
+            "FM-L123-P08-Q11",
+            "FM-L123-P08-Q12",
+            "FM-L123-P08-Q13"
+          ]
+        },
+        {
+          "id": "D",
+          "title": "Advanced Reasoning",
+          "marks": 20,
+          "questionIds": [
+            "FM-L123-P08-Q14",
+            "FM-L123-P08-Q15"
+          ]
+        }
+      ],
+      "edition": "1.0",
+      "schemaVersion": "1.0",
+      "source": "Combined material from official Lecture 1, 2 and 3 PDFs, with Lecture 3 supplementary notes used for cross-checks."
     }
   ],
   "questions": [
@@ -2793,6 +3028,1363 @@
       ],
       "options": [],
       "workingGuidance": "Show working and justify reasoning."
+    },
+    {
+      "id": "FM-L3-P06-Q01",
+      "paperId": "FM-L3-P06",
+      "number": 1,
+      "section": "A",
+      "type": "single_choice",
+      "difficulty": "foundational",
+      "marks": 4,
+      "tags": [
+        "L3.1"
+      ],
+      "topicTagSource": "L3.1",
+      "promptMarkdown": "Which statement correctly describes `R : People <-> Colours`?",
+      "parts": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Every colour must appear as the first component of a maplet."
+        },
+        {
+          "id": "B",
+          "text": "Every person must relate to exactly one colour."
+        },
+        {
+          "id": "C",
+          "text": "`R` is a subset of `People*Colours`."
+        },
+        {
+          "id": "D",
+          "text": "`R` must contain all pairs in `People*Colours`."
+        }
+      ],
+      "workingGuidance": ""
+    },
+    {
+      "id": "FM-L3-P06-Q02",
+      "paperId": "FM-L3-P06",
+      "number": 2,
+      "section": "A",
+      "type": "written",
+      "difficulty": "foundational",
+      "marks": 4,
+      "tags": [
+        "L3.1",
+        "L3.2"
+      ],
+      "topicTagSource": "L3.1, L3.2",
+      "promptMarkdown": "Let `People={Ada, Ben, Cal}` and `Colours={Red, Blue, Green}`. For `R={Ada |-> Red, Ada |-> Blue, Cal |-> Red}`, identify the **source set** and **domain**.",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "State the source set. **(2 marks)**",
+          "marks": 2
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "State `dom(R)` and why it differs from the source set. **(2 marks)**",
+          "marks": 2
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show calculations and justify each step where appropriate."
+    },
+    {
+      "id": "FM-L3-P06-Q03",
+      "paperId": "FM-L3-P06",
+      "number": 3,
+      "section": "A",
+      "type": "single_choice",
+      "difficulty": "foundational",
+      "marks": 4,
+      "tags": [
+        "L3.7"
+      ],
+      "topicTagSource": "L3.7",
+      "promptMarkdown": "For `R={1 |-> a, 2 |-> b}` choose `R~`.",
+      "parts": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "`{a |-> 1, b |-> 2}`"
+        },
+        {
+          "id": "B",
+          "text": "`{1 |-> a, 2 |-> b}`"
+        },
+        {
+          "id": "C",
+          "text": "`{a |-> 2, b |-> 1}`"
+        },
+        {
+          "id": "D",
+          "text": "`{a |-> 1}`"
+        }
+      ],
+      "workingGuidance": ""
+    },
+    {
+      "id": "FM-L3-P06-Q04",
+      "paperId": "FM-L3-P06",
+      "number": 4,
+      "section": "A",
+      "type": "written",
+      "difficulty": "foundational",
+      "marks": 4,
+      "tags": [
+        "L3.2"
+      ],
+      "topicTagSource": "L3.2",
+      "promptMarkdown": "Take `X={p,q}`, `Y={4,5}` and `m=p |-> 5`. Evaluate both projection functions on `m`.",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "Evaluate `prj1(X,Y)(m)`. **(2 marks)**",
+          "marks": 2
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Evaluate `prj2(X,Y)(m)`. **(2 marks)**",
+          "marks": 2
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show calculations and justify each step where appropriate."
+    },
+    {
+      "id": "FM-L3-P06-Q05",
+      "paperId": "FM-L3-P06",
+      "number": 5,
+      "section": "A",
+      "type": "single_choice",
+      "difficulty": "foundational",
+      "marks": 4,
+      "tags": [
+        "L3.4"
+      ],
+      "topicTagSource": "L3.4",
+      "promptMarkdown": "If `R={p |-> 1, p |-> 2, q |-> 3}`, what is the relational image `R[{p}]`?",
+      "parts": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "`{p |-> 1, p |-> 2}`"
+        },
+        {
+          "id": "B",
+          "text": "`{1}`"
+        },
+        {
+          "id": "C",
+          "text": "`{p}`"
+        },
+        {
+          "id": "D",
+          "text": "`{1,2}`"
+        }
+      ],
+      "workingGuidance": ""
+    },
+    {
+      "id": "FM-L3-P06-Q06",
+      "paperId": "FM-L3-P06",
+      "number": 6,
+      "section": "B",
+      "type": "written",
+      "difficulty": "intermediate",
+      "marks": 7,
+      "tags": [
+        "L3.2"
+      ],
+      "topicTagSource": "L3.2",
+      "promptMarkdown": "Let `U={a,b,c,d}`, `V={1,2,3,4}` and `R={a |-> 2, b |-> 2, b |-> 4, d |-> 1}`.",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "Find `dom(R)` and `ran(R)`. **(4 marks)**",
+          "marks": 4
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Explain why `c` and `3` are absent from those results. **(3 marks)**",
+          "marks": 3
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show calculations and justify each step where appropriate."
+    },
+    {
+      "id": "FM-L3-P06-Q07",
+      "paperId": "FM-L3-P06",
+      "number": 7,
+      "section": "B",
+      "type": "written",
+      "difficulty": "intermediate",
+      "marks": 7,
+      "tags": [
+        "L3.4",
+        "L3.5"
+      ],
+      "topicTagSource": "L3.4, L3.5",
+      "promptMarkdown": "Let `R={a |-> x, a |-> y, b |-> y, c |-> z}`.",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "Evaluate `{a,c} <| R`. **(3 marks)**",
+          "marks": 3
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Evaluate `{a,c} <<| R` and explain the selection rule. **(4 marks)**",
+          "marks": 4
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show calculations and justify each step where appropriate."
+    },
+    {
+      "id": "FM-L3-P06-Q08",
+      "paperId": "FM-L3-P06",
+      "number": 8,
+      "section": "B",
+      "type": "written",
+      "difficulty": "intermediate",
+      "marks": 7,
+      "tags": [
+        "L3.3",
+        "L3.4"
+      ],
+      "topicTagSource": "L3.3, L3.4",
+      "promptMarkdown": "Let `Grid=(1..3)*(1..3)`. Define the main diagonal relation and the pairs whose second component is 2.",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "List `identity(1..3)`. **(3 marks)**",
+          "marks": 3
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "List `Grid |> {2}`. **(3 marks)**",
+          "marks": 3
+        },
+        {
+          "id": "c",
+          "promptMarkdown": "Explain which component is filtered in part (b). **(1 mark)**",
+          "marks": 1
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show calculations and justify each step where appropriate."
+    },
+    {
+      "id": "FM-L3-P06-Q09",
+      "paperId": "FM-L3-P06",
+      "number": 9,
+      "section": "B",
+      "type": "written",
+      "difficulty": "intermediate",
+      "marks": 7,
+      "tags": [
+        "L3.1",
+        "L3.6"
+      ],
+      "topicTagSource": "L3.1, L3.6",
+      "promptMarkdown": "Suppose `Favourite : Person <-> Colour` is a variable. Explain the effect of the replacement `Favourite := Favourite <+ {Ben |-> Blue}`.",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "What happens to old maplets for `Ben`? **(3 marks)**",
+          "marks": 3
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "What happens to the new maplet and maplets for other people? **(3 marks)**",
+          "marks": 3
+        },
+        {
+          "id": "c",
+          "promptMarkdown": "Why is the assignment required? **(1 mark)**",
+          "marks": 1
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show calculations and justify each step where appropriate."
+    },
+    {
+      "id": "FM-L3-P06-Q10",
+      "paperId": "FM-L3-P06",
+      "number": 10,
+      "section": "C",
+      "type": "written",
+      "difficulty": "intermediate",
+      "marks": 8,
+      "tags": [
+        "L3.4"
+      ],
+      "topicTagSource": "L3.4",
+      "promptMarkdown": "Given `R={a |-> 1,a |-> 2,b |-> 2,c |-> 3,c |-> 4}` compute a relation restriction and a relational image.",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "Evaluate `{a,c} <| R`. **(4 marks)**",
+          "marks": 4
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Evaluate `R[{a,c}]`. **(4 marks)**",
+          "marks": 4
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show calculations and justify each step where appropriate."
+    },
+    {
+      "id": "FM-L3-P06-Q11",
+      "paperId": "FM-L3-P06",
+      "number": 11,
+      "section": "C",
+      "type": "written",
+      "difficulty": "intermediate",
+      "marks": 8,
+      "tags": [
+        "L3.6"
+      ],
+      "topicTagSource": "L3.6",
+      "promptMarkdown": "Start with `R={a |-> red,a |-> blue,b |-> blue,c |-> green}`. Evaluate `R <+ {a |-> green,d |-> red}`.",
+      "parts": [],
+      "options": [],
+      "workingGuidance": "Show calculations and justify each step where appropriate."
+    },
+    {
+      "id": "FM-L3-P06-Q12",
+      "paperId": "FM-L3-P06",
+      "number": 12,
+      "section": "C",
+      "type": "written",
+      "difficulty": "challenging",
+      "marks": 8,
+      "tags": [
+        "L3.7"
+      ],
+      "topicTagSource": "L3.7",
+      "promptMarkdown": "Let `R={A |-> 1,A |-> 2,B |-> 2,C |-> 4}` and `S={1 |-> red,2 |-> blue,2 |-> green,3 |-> gold,4 |-> red}`. Calculate `R;S`.",
+      "parts": [],
+      "options": [],
+      "workingGuidance": "Show calculations and justify each step where appropriate."
+    },
+    {
+      "id": "FM-L3-P06-Q13",
+      "paperId": "FM-L3-P06",
+      "number": 13,
+      "section": "C",
+      "type": "written",
+      "difficulty": "challenging",
+      "marks": 8,
+      "tags": [
+        "L3.7",
+        "L3.8"
+      ],
+      "topicTagSource": "L3.7, L3.8",
+      "promptMarkdown": "For `R={a |-> x,b |-> x,b |-> y,c |-> z}`, calculate `R~` and `R;R~`.",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "Calculate `R~`. **(3 marks)**",
+          "marks": 3
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Calculate `R;R~` and explain why `a |-> b` occurs. **(5 marks)**",
+          "marks": 5
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show calculations and justify each step where appropriate."
+    },
+    {
+      "id": "FM-L3-P06-Q14",
+      "paperId": "FM-L3-P06",
+      "number": 14,
+      "section": "D",
+      "type": "written",
+      "difficulty": "challenging",
+      "marks": 10,
+      "tags": [
+        "L3.8",
+        "L3.1"
+      ],
+      "topicTagSource": "L3.8, L3.1",
+      "promptMarkdown": "A library has `Borrowed : Loan <-> Member` and `Flagged : Loan <-> Member`. Both have the same source and target types. A rule says *no exact loan-to-member pair may appear in both relations*. Let `Borrowed={L1 |-> M1,L2 |-> M2,L3 |-> M1}` and `Flagged={L2 |-> M2,L3 |-> M2}`.",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "Write the rule using a B set/relation expression. **(3 marks)**",
+          "marks": 3
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Evaluate the relevant expression and decide whether the rule holds. **(4 marks)**",
+          "marks": 4
+        },
+        {
+          "id": "c",
+          "promptMarkdown": "Describe one minimal repair. **(3 marks)**",
+          "marks": 3
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show calculations and justify each step where appropriate."
+    },
+    {
+      "id": "FM-L3-P06-Q15",
+      "paperId": "FM-L3-P06",
+      "number": 15,
+      "section": "D",
+      "type": "written",
+      "difficulty": "challenging",
+      "marks": 10,
+      "tags": [
+        "L3.1",
+        "L3.4"
+      ],
+      "topicTagSource": "L3.1, L3.4",
+      "promptMarkdown": "A relation `R={a |-> 1,a |-> 2,b |-> 2,c |-> 3}` is declared between `X={a,b,c,d}` and `Y={1,2,3,4}`. A student claims `{a,b} <| R = R[{a,b}]` because both operations “look up a and b”. Analyse the claim.",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "Calculate both sides. **(7 marks)**",
+          "marks": 7
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Explain precisely why they are not equal. **(3 marks)**",
+          "marks": 3
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show calculations and justify each step where appropriate."
+    },
+    {
+      "id": "FM-L3-P07-Q01",
+      "paperId": "FM-L3-P07",
+      "number": 1,
+      "section": "A",
+      "type": "single_choice",
+      "difficulty": "foundational",
+      "marks": 4,
+      "tags": [
+        "L3.1"
+      ],
+      "topicTagSource": "L3.1",
+      "promptMarkdown": "If a relation contains `{Uma |-> Math, Uma |-> Physics}`, which statement must be true?",
+      "parts": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It is invalid because `Uma` appears twice."
+        },
+        {
+          "id": "B",
+          "text": "A source element can relate to more than one target element."
+        },
+        {
+          "id": "C",
+          "text": "`Math` must belong to the source set."
+        },
+        {
+          "id": "D",
+          "text": "The collection is a list rather than a relation."
+        }
+      ],
+      "workingGuidance": ""
+    },
+    {
+      "id": "FM-L3-P07-Q02",
+      "paperId": "FM-L3-P07",
+      "number": 2,
+      "section": "A",
+      "type": "written",
+      "difficulty": "foundational",
+      "marks": 4,
+      "tags": [
+        "L3.1",
+        "L3.2"
+      ],
+      "topicTagSource": "L3.1, L3.2",
+      "promptMarkdown": "Let `Students={Ana, Bo, Cy}` and `Courses={FM, CS}`. Write the two maplets representing “Ana studies FM and Cy studies CS” and state the domain.",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "Write the relation `R` in maplet notation. **(2 marks)**",
+          "marks": 2
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "State `dom(R)`. **(2 marks)**",
+          "marks": 2
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show calculations and justify each step where appropriate."
+    },
+    {
+      "id": "FM-L3-P07-Q03",
+      "paperId": "FM-L3-P07",
+      "number": 3,
+      "section": "A",
+      "type": "single_choice",
+      "difficulty": "foundational",
+      "marks": 4,
+      "tags": [
+        "L3.5"
+      ],
+      "topicTagSource": "L3.5",
+      "promptMarkdown": "Given `R={a |-> 1,b |-> 2,b |-> 3}`, which expression removes every maplet whose source is `b`?",
+      "parts": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "`{b} <| R`"
+        },
+        {
+          "id": "B",
+          "text": "`R |> {b}`"
+        },
+        {
+          "id": "C",
+          "text": "`{b} <<| R`"
+        },
+        {
+          "id": "D",
+          "text": "`R[{b}]`"
+        }
+      ],
+      "workingGuidance": ""
+    },
+    {
+      "id": "FM-L3-P07-Q04",
+      "paperId": "FM-L3-P07",
+      "number": 4,
+      "section": "A",
+      "type": "written",
+      "difficulty": "foundational",
+      "marks": 4,
+      "tags": [
+        "L3.3"
+      ],
+      "topicTagSource": "L3.3",
+      "promptMarkdown": "For `D={2,3,5}`, list `identity(D)` and state its domain.",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "List `identity(D)`. **(3 marks)**",
+          "marks": 3
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Find `dom(identity(D))`. **(1 mark)**",
+          "marks": 1
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show calculations and justify each step where appropriate."
+    },
+    {
+      "id": "FM-L3-P07-Q05",
+      "paperId": "FM-L3-P07",
+      "number": 5,
+      "section": "A",
+      "type": "single_choice",
+      "difficulty": "foundational",
+      "marks": 4,
+      "tags": [
+        "L3.7"
+      ],
+      "topicTagSource": "L3.7",
+      "promptMarkdown": "Suppose `R : Animals <-> Traits` and `S : Traits <-> Awards`. Which composition goes from `Animals` to `Awards`?",
+      "parts": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "`R;S`"
+        },
+        {
+          "id": "B",
+          "text": "`S;R`"
+        },
+        {
+          "id": "C",
+          "text": "`R~;S`"
+        },
+        {
+          "id": "D",
+          "text": "`S~;R`"
+        }
+      ],
+      "workingGuidance": ""
+    },
+    {
+      "id": "FM-L3-P07-Q06",
+      "paperId": "FM-L3-P07",
+      "number": 6,
+      "section": "B",
+      "type": "written",
+      "difficulty": "intermediate",
+      "marks": 7,
+      "tags": [
+        "L3.1",
+        "L3.2"
+      ],
+      "topicTagSource": "L3.1, L3.2",
+      "promptMarkdown": "Let `Rooms={Lab,Hall,Studio,Office}`, `Devices={PC,Projector,Sensor}` and `uses={Lab |-> PC,Lab |-> Sensor,Hall |-> Projector,Studio |-> PC}`.",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "Evaluate `dom(uses)` and `ran(uses)`. **(4 marks)**",
+          "marks": 4
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Explain `Office` and source-versus-domain. **(3 marks)**",
+          "marks": 3
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show calculations and justify each step where appropriate."
+    },
+    {
+      "id": "FM-L3-P07-Q07",
+      "paperId": "FM-L3-P07",
+      "number": 7,
+      "section": "B",
+      "type": "written",
+      "difficulty": "intermediate",
+      "marks": 7,
+      "tags": [
+        "L3.2",
+        "L3.3"
+      ],
+      "topicTagSource": "L3.2, L3.3",
+      "promptMarkdown": "Let `Grid=(1..3)*(1..3)`. Define two relations by comprehension: `Diag` containing pairs with equal first and second components, and `Off` containing pairs where their components sum to 4.",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "Give a comprehension and list all members of `Diag`. **(4 marks)**",
+          "marks": 4
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Give a comprehension and list all members of `Off`. **(3 marks)**",
+          "marks": 3
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show calculations and justify each step where appropriate."
+    },
+    {
+      "id": "FM-L3-P07-Q08",
+      "paperId": "FM-L3-P07",
+      "number": 8,
+      "section": "B",
+      "type": "written",
+      "difficulty": "intermediate",
+      "marks": 7,
+      "tags": [
+        "L3.7",
+        "L3.4"
+      ],
+      "topicTagSource": "L3.7, L3.4",
+      "promptMarkdown": "Let `enrols={Ali |-> FM,Bee |-> FM,Bee |-> CP,Cam |-> CS}`. Compare the inverse relation with a single inverse lookup.",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "Find `enrols~`. **(4 marks)**",
+          "marks": 4
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Calculate `enrols~[{FM}]` and interpret it. **(3 marks)**",
+          "marks": 3
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show calculations and justify each step where appropriate."
+    },
+    {
+      "id": "FM-L3-P07-Q09",
+      "paperId": "FM-L3-P07",
+      "number": 9,
+      "section": "B",
+      "type": "written",
+      "difficulty": "intermediate",
+      "marks": 7,
+      "tags": [
+        "L3.1"
+      ],
+      "topicTagSource": "L3.1",
+      "promptMarkdown": "A machine models changing seat allocations with `seated : Passenger <-> Seat`. Another relation `authorised : Passenger <-> Seat` describes permanently approved passenger-seat pairs. Explain whether each should be a variable or a constant, and justify the distinction.",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "Classify `seated` with justification. **(3 marks)**",
+          "marks": 3
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Classify `authorised` and explain what determines the choice. **(4 marks)**",
+          "marks": 4
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show calculations and justify each step where appropriate."
+    },
+    {
+      "id": "FM-L3-P07-Q10",
+      "paperId": "FM-L3-P07",
+      "number": 10,
+      "section": "C",
+      "type": "written",
+      "difficulty": "intermediate",
+      "marks": 8,
+      "tags": [
+        "L3.4"
+      ],
+      "topicTagSource": "L3.4",
+      "promptMarkdown": "Given `R={Ann |-> Red,Ann |-> Blue,Ben |-> Blue,Cat |-> Green,Don |-> Red}` compute `R |> {Blue,Green}` and `R[{Ann,Cat}]`.",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "Evaluate the range restriction. **(4 marks)**",
+          "marks": 4
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Evaluate the relational image. **(4 marks)**",
+          "marks": 4
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show calculations and justify each step where appropriate."
+    },
+    {
+      "id": "FM-L3-P07-Q11",
+      "paperId": "FM-L3-P07",
+      "number": 11,
+      "section": "C",
+      "type": "written",
+      "difficulty": "intermediate",
+      "marks": 8,
+      "tags": [
+        "L3.5"
+      ],
+      "topicTagSource": "L3.5",
+      "promptMarkdown": "Let `R={p |-> 1,p |-> 3,q |-> 1,r |-> 2,s |-> 3}`. Find `{p,r} <<| R` and `R |>> {1,3}`.",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "Evaluate domain anti-restriction. **(4 marks)**",
+          "marks": 4
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Evaluate range anti-restriction. **(4 marks)**",
+          "marks": 4
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show calculations and justify each step where appropriate."
+    },
+    {
+      "id": "FM-L3-P07-Q12",
+      "paperId": "FM-L3-P07",
+      "number": 12,
+      "section": "C",
+      "type": "written",
+      "difficulty": "challenging",
+      "marks": 8,
+      "tags": [
+        "L3.6",
+        "L3.2"
+      ],
+      "topicTagSource": "L3.6, L3.2",
+      "promptMarkdown": "Current `R={a |-> 1,a |-> 2,b |-> 2,c |-> 3,d |-> 4}`. Let `S={a |-> 4,a |-> 5,c |-> 1}`. Evaluate `R <+ S` and its range.",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "Compute `R <+ S`. **(6 marks)**",
+          "marks": 6
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Calculate `ran(R <+ S)`. **(2 marks)**",
+          "marks": 2
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show calculations and justify each step where appropriate."
+    },
+    {
+      "id": "FM-L3-P07-Q13",
+      "paperId": "FM-L3-P07",
+      "number": 13,
+      "section": "C",
+      "type": "written",
+      "difficulty": "challenging",
+      "marks": 8,
+      "tags": [
+        "L3.7",
+        "L3.4"
+      ],
+      "topicTagSource": "L3.7, L3.4",
+      "promptMarkdown": "A two-stage mapping is given by `studentLab={Eve |-> L1,Eve |-> L2,Fin |-> L2,Gia |-> L3}` and `labTools={L1 |-> Mic,L1 |-> PC,L2 |-> PC,L3 |-> Camera}`. Compute `studentLab;labTools` and its image at `{Eve}`.",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "Calculate the composed relation. **(6 marks)**",
+          "marks": 6
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Calculate its image at `{Eve}`. **(2 marks)**",
+          "marks": 2
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show calculations and justify each step where appropriate."
+    },
+    {
+      "id": "FM-L3-P07-Q14",
+      "paperId": "FM-L3-P07",
+      "number": 14,
+      "section": "D",
+      "type": "written",
+      "difficulty": "challenging",
+      "marks": 10,
+      "tags": [
+        "L3.6",
+        "L3.7",
+        "L3.4"
+      ],
+      "topicTagSource": "L3.6, L3.7, L3.4",
+      "promptMarkdown": "Let `R={a |-> 1,a |-> 2,b |-> 2,c |-> 3}` and `T={1 |-> x,2 |-> y,3 |-> z,4 |-> w}`. A change `S={a |-> 3,d |-> 1}` is applied as `R2=R <+ S`. Compare the target values reachable from `a` in `R;T` versus `R2;T`.",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "Compute `(R;T)[{a}]`. **(3 marks)**",
+          "marks": 3
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Compute `R2`. **(3 marks)**",
+          "marks": 3
+        },
+        {
+          "id": "c",
+          "promptMarkdown": "Compute `(R2;T)[{a}]` and explain the difference. **(4 marks)**",
+          "marks": 4
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show calculations and justify each step where appropriate."
+    },
+    {
+      "id": "FM-L3-P07-Q15",
+      "paperId": "FM-L3-P07",
+      "number": 15,
+      "section": "D",
+      "type": "written",
+      "difficulty": "challenging",
+      "marks": 10,
+      "tags": [
+        "L3.3",
+        "L3.7",
+        "L3.8"
+      ],
+      "topicTagSource": "L3.3, L3.7, L3.8",
+      "promptMarkdown": "Set `X={A,B,C,D}`, `Y={1,2,3}` and `R={A |-> 1,A |-> 2,B |-> 2,C |-> 3}`. Define `P=R;R~`. Is `identity(X) <: P` true? Determine `P` and justify.",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "Determine `P` (show paths or inverse). **(7 marks)**",
+          "marks": 7
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Decide whether `identity(X) <: P` and explain. **(3 marks)**",
+          "marks": 3
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show calculations and justify each step where appropriate."
+    },
+    {
+      "id": "FM-L123-P08-Q01",
+      "paperId": "FM-L123-P08",
+      "number": 1,
+      "section": "A",
+      "type": "single_choice",
+      "difficulty": "foundational",
+      "marks": 4,
+      "tags": [
+        "L1.6"
+      ],
+      "topicTagSource": "L1.6",
+      "promptMarkdown": "For `A={1,2,3}` and `B={2,4}`, what is `A /\\ B`?",
+      "parts": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "`{2}`"
+        },
+        {
+          "id": "B",
+          "text": "`{1,2,3,4}`"
+        },
+        {
+          "id": "C",
+          "text": "`{1,3}`"
+        },
+        {
+          "id": "D",
+          "text": "`{2,4}`"
+        }
+      ],
+      "workingGuidance": ""
+    },
+    {
+      "id": "FM-L123-P08-Q02",
+      "paperId": "FM-L123-P08",
+      "number": 2,
+      "section": "A",
+      "type": "single_choice",
+      "difficulty": "foundational",
+      "marks": 4,
+      "tags": [
+        "L1.3"
+      ],
+      "topicTagSource": "L1.3",
+      "promptMarkdown": "Which feature best distinguishes a formal specification from ordinary natural-language requirements?",
+      "parts": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It eliminates all need for tests."
+        },
+        {
+          "id": "B",
+          "text": "It must be executable machine code."
+        },
+        {
+          "id": "C",
+          "text": "It must contain a UML class diagram."
+        },
+        {
+          "id": "D",
+          "text": "It precisely describes required properties and behaviour abstractly."
+        }
+      ],
+      "workingGuidance": ""
+    },
+    {
+      "id": "FM-L123-P08-Q03",
+      "paperId": "FM-L123-P08",
+      "number": 3,
+      "section": "A",
+      "type": "written",
+      "difficulty": "foundational",
+      "marks": 4,
+      "tags": [
+        "L1.7"
+      ],
+      "topicTagSource": "L1.7",
+      "promptMarkdown": "Let `A={p,q}`. Determine `POW(A)` and its cardinality.",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "List `POW(A)`. **(3 marks)**",
+          "marks": 3
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Find `card(POW(A))`. **(1 mark)**",
+          "marks": 1
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show calculations and justify each step where appropriate."
+    },
+    {
+      "id": "FM-L123-P08-Q04",
+      "paperId": "FM-L123-P08",
+      "number": 4,
+      "section": "A",
+      "type": "written",
+      "difficulty": "foundational",
+      "marks": 4,
+      "tags": [
+        "L2.1"
+      ],
+      "topicTagSource": "L2.1",
+      "promptMarkdown": "Describe how an **enumerated** set differs from a **deferred** set in the B Method.",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "Define and give an example of enumerated set. **(2 marks)**",
+          "marks": 2
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Define and give an example of deferred set. **(2 marks)**",
+          "marks": 2
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show calculations and justify each step where appropriate."
+    },
+    {
+      "id": "FM-L123-P08-Q05",
+      "paperId": "FM-L123-P08",
+      "number": 5,
+      "section": "A",
+      "type": "single_choice",
+      "difficulty": "foundational",
+      "marks": 4,
+      "tags": [
+        "L3.4"
+      ],
+      "topicTagSource": "L3.4",
+      "promptMarkdown": "For `R : Student <-> Course`, which expression returns the target values related to students in `S <: Student`?",
+      "parts": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "`S <| R`"
+        },
+        {
+          "id": "B",
+          "text": "`R[S]`"
+        },
+        {
+          "id": "C",
+          "text": "`S <<| R`"
+        },
+        {
+          "id": "D",
+          "text": "`R |> S`"
+        }
+      ],
+      "workingGuidance": ""
+    },
+    {
+      "id": "FM-L123-P08-Q06",
+      "paperId": "FM-L123-P08",
+      "number": 6,
+      "section": "B",
+      "type": "written",
+      "difficulty": "intermediate",
+      "marks": 7,
+      "tags": [
+        "L2.3",
+        "L2.4",
+        "L2.5"
+      ],
+      "topicTagSource": "L2.3, L2.4, L2.5",
+      "promptMarkdown": "A bounded counter has `count : NAT & count <= 4` and initialisation `count := 0`. Consider a proposed increment that changes `count` to `count+1`.",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "Show initial validity. **(2 marks)**",
+          "marks": 2
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Show why increment is unsafe at 4. **(2 marks)**",
+          "marks": 2
+        },
+        {
+          "id": "c",
+          "promptMarkdown": "Give a suitable precondition and explain its purpose. **(3 marks)**",
+          "marks": 3
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show calculations and justify each step where appropriate."
+    },
+    {
+      "id": "FM-L123-P08-Q07",
+      "paperId": "FM-L123-P08",
+      "number": 7,
+      "section": "B",
+      "type": "written",
+      "difficulty": "intermediate",
+      "marks": 7,
+      "tags": [
+        "L2.3",
+        "L2.4"
+      ],
+      "topicTagSource": "L2.3, L2.4",
+      "promptMarkdown": "In a B machine, `VARIABLES balance,limit` with `INVARIANT balance : NAT & limit : NAT & balance <= limit`. The proposed initialisation is `balance := 8 || limit := 5`.",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "Evaluate the proposed initialisation against every invariant condition. **(4 marks)**",
+          "marks": 4
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Give a corrected parallel initialisation and justify it. **(3 marks)**",
+          "marks": 3
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show calculations and justify each step where appropriate."
+    },
+    {
+      "id": "FM-L123-P08-Q08",
+      "paperId": "FM-L123-P08",
+      "number": 8,
+      "section": "B",
+      "type": "written",
+      "difficulty": "intermediate",
+      "marks": 7,
+      "tags": [
+        "L3.2",
+        "L3.4"
+      ],
+      "topicTagSource": "L3.2, L3.4",
+      "promptMarkdown": "Let `Person={Ana,Ben,Cal,Don}`, `Colour={Red,Blue,Green}`, and `likes={Ana |-> Red,Ana |-> Blue,Ben |-> Blue,Don |-> Green}`.",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "Calculate domain and range. **(4 marks)**",
+          "marks": 4
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Evaluate `{Ana,Ben} <| likes`. **(3 marks)**",
+          "marks": 3
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show calculations and justify each step where appropriate."
+    },
+    {
+      "id": "FM-L123-P08-Q09",
+      "paperId": "FM-L123-P08",
+      "number": 9,
+      "section": "B",
+      "type": "written",
+      "difficulty": "intermediate",
+      "marks": 7,
+      "tags": [
+        "L2.6"
+      ],
+      "topicTagSource": "L2.6",
+      "promptMarkdown": "Initial state: `x=4`, `y=9`. A B substitution executes `x,y := y,x` (equivalent to `x := y || y := x`). Explain the final state and why order does not produce `(9,9)`.",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "State the final x and y values. **(3 marks)**",
+          "marks": 3
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Explain parallel assignment semantics. **(4 marks)**",
+          "marks": 4
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show calculations and justify each step where appropriate."
+    },
+    {
+      "id": "FM-L123-P08-Q10",
+      "paperId": "FM-L123-P08",
+      "number": 10,
+      "section": "C",
+      "type": "written",
+      "difficulty": "intermediate",
+      "marks": 8,
+      "tags": [
+        "L1.7",
+        "L3.1"
+      ],
+      "topicTagSource": "L1.7, L3.1",
+      "promptMarkdown": "Take `X={1,2}`, `Y={red,blue}`. A relation `R` is defined by `R={1 |-> red,2 |-> blue}`.",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "List `X*Y` in maplet notation. **(4 marks)**",
+          "marks": 4
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Check `R <: X*Y` and calculate `card(R)`. **(4 marks)**",
+          "marks": 4
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show calculations and justify each step where appropriate."
+    },
+    {
+      "id": "FM-L123-P08-Q11",
+      "paperId": "FM-L123-P08",
+      "number": 11,
+      "section": "C",
+      "type": "written",
+      "difficulty": "intermediate",
+      "marks": 8,
+      "tags": [
+        "L1.6",
+        "L2.3",
+        "L2.5"
+      ],
+      "topicTagSource": "L1.6, L2.3, L2.5",
+      "promptMarkdown": "A machine tracks `occupied <: Seats` where `Seats={S1,S2,S3}` and initially `occupied:={}`. A proposed operation adds seat `s` by `occupied := occupied \\/ {s}`.",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "Give a suitable input precondition. **(2 marks)**",
+          "marks": 2
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Justify initialisation and invariant preservation. **(6 marks)**",
+          "marks": 6
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show calculations and justify each step where appropriate."
+    },
+    {
+      "id": "FM-L123-P08-Q12",
+      "paperId": "FM-L123-P08",
+      "number": 12,
+      "section": "C",
+      "type": "written",
+      "difficulty": "challenging",
+      "marks": 8,
+      "tags": [
+        "L3.6",
+        "L3.4"
+      ],
+      "topicTagSource": "L3.6, L3.4",
+      "promptMarkdown": "Let `R={Ada |-> Red,Ada |-> Blue,Ben |-> Blue,Cal |-> Green}` and `S={Ada |-> Green,Don |-> Red}`. Define `R2=R <+ S`.",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "Calculate the override `R2`. **(6 marks)**",
+          "marks": 6
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Find `R2[{Ada,Cal}]`. **(2 marks)**",
+          "marks": 2
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show calculations and justify each step where appropriate."
+    },
+    {
+      "id": "FM-L123-P08-Q13",
+      "paperId": "FM-L123-P08",
+      "number": 13,
+      "section": "C",
+      "type": "written",
+      "difficulty": "challenging",
+      "marks": 8,
+      "tags": [
+        "L3.7"
+      ],
+      "topicTagSource": "L3.7",
+      "promptMarkdown": "Let `assign={Ann |-> Lab1,Bob |-> Lab2,Cid |-> Lab1}` and `equipment={Lab1 |-> PC,Lab1 |-> Scope,Lab2 |-> Sensor}`.",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "Calculate `assign;equipment`. **(5 marks)**",
+          "marks": 5
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Calculate `(assign;equipment)~`. **(3 marks)**",
+          "marks": 3
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show calculations and justify each step where appropriate."
+    },
+    {
+      "id": "FM-L123-P08-Q14",
+      "paperId": "FM-L123-P08",
+      "number": 14,
+      "section": "D",
+      "type": "written",
+      "difficulty": "challenging",
+      "marks": 10,
+      "tags": [
+        "L2.3",
+        "L2.5",
+        "L3.1"
+      ],
+      "topicTagSource": "L2.3, L2.5, L3.1",
+      "promptMarkdown": "A B machine tracks a relation `chosen : Student <-> Course` and initially `chosen := {}`. A proposed operation `choose(s,c)` executes `chosen := chosen \\/ {s |-> c}`. Assume `Student={A,B}`, `Course={FM,CP}`, and the intended invariant is `chosen : Student <-> Course`.",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "Explain why initialisation satisfies the invariant. **(2 marks)**",
+          "marks": 2
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Give a suitable precondition for `choose`. **(3 marks)**",
+          "marks": 3
+        },
+        {
+          "id": "c",
+          "promptMarkdown": "Explain preservation and show two updates for A. **(5 marks)**",
+          "marks": 5
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show calculations and justify each step where appropriate."
+    },
+    {
+      "id": "FM-L123-P08-Q15",
+      "paperId": "FM-L123-P08",
+      "number": 15,
+      "section": "D",
+      "type": "written",
+      "difficulty": "challenging",
+      "marks": 10,
+      "tags": [
+        "L3.4",
+        "L3.7",
+        "L3.8",
+        "L2.4"
+      ],
+      "topicTagSource": "L3.4, L3.7, L3.8, L2.4",
+      "promptMarkdown": "A service has `enrol : Student <-> Course` and `heldIn : Course <-> Room`. `ClosedRoom={R2}`. Let `enrol={A |-> FM,B |-> CP,C |-> FM}` and `heldIn={FM |-> R1,CP |-> R2}`. The safety rule is: “No enrolled student is associated with a closed room.”",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "Compose the relations. **(3 marks)**",
+          "marks": 3
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Write a formal condition and evaluate it. **(5 marks)**",
+          "marks": 5
+        },
+        {
+          "id": "c",
+          "promptMarkdown": "Suggest one change that makes the rule true. **(2 marks)**",
+          "marks": 2
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show calculations and justify each step where appropriate."
     }
   ],
   "answers": [
@@ -3320,6 +4912,321 @@
       "modelAnswerMarkdown": "(a) Both variables are empty sets, so `registered <: Students` and `arrived <: registered` are both true **(2)**. (b) After the registrations, `registered={Ada,Cy}`; after `checkIn(Cy)`, `arrived={Cy}` **(3)**. (c) `register(s)` adds a member of Students to `registered`, so that set remains a subset of Students; it leaves `arrived` unchanged, and thus still a subset of the enlarged `registered` **(2)**. `checkIn(s)` requires `s : registered`, so adding `{s}` to `arrived` keeps `arrived <: registered` while `registered` stays unchanged **(1)**. (d) `checkIn(Bo)` is **not permitted** because `Bo /: registered` in the final state, so its precondition is false **(2)**. Repeated check-ins of registered students are allowed but have no additional set effect; distinctness was not required.",
       "maxMarks": 10,
       "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L3-P06-Q01",
+      "correctOptionId": "C",
+      "modelAnswerMarkdown": "**Correct: C.** A relation is a set of ordered maplets selected from `People*Colours`. It need not relate every person and need not map each person to just one colour. A reverses the type, B incorrectly demands exactly one mapping, and D incorrectly demands every possible maplet. **(4 marks)**",
+      "maxMarks": 4,
+      "gradingMode": "auto_single_choice"
+    },
+    {
+      "questionId": "FM-L3-P06-Q02",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "**Source set:** `People={Ada,Ben,Cal}` (2). **Domain:** `dom(R)={Ada,Cal}` (2). `Ben` belongs to the declared source set but occurs in no maplet. **(4 marks)**",
+      "maxMarks": 4,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L3-P06-Q03",
+      "correctOptionId": "A",
+      "modelAnswerMarkdown": "**Correct: A.** Inverting a relation swaps the components of **every** maplet: `{a |-> 1, b |-> 2}`. B changes neither, C swaps values incorrectly and D supplies only one inverted maplet. **(4 marks)**",
+      "maxMarks": 4,
+      "gradingMode": "auto_single_choice"
+    },
+    {
+      "questionId": "FM-L3-P06-Q04",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "`prj1(X,Y)(m)=p` (2); `prj2(X,Y)(m)=5` (2). The first projection returns the source component and the second returns the target component. **(4 marks)**",
+      "maxMarks": 4,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L3-P06-Q05",
+      "correctOptionId": "D",
+      "modelAnswerMarkdown": "**Correct: D.** The image returns target **values**, not maplets: `{1,2}`. A is a restricted relation, B omits one result, and C lists source values. **(4 marks)**",
+      "maxMarks": 4,
+      "gradingMode": "auto_single_choice"
+    },
+    {
+      "questionId": "FM-L3-P06-Q06",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "`dom(R)={a,b,d}` (2); `ran(R)={1,2,4}` (2); `c` is excluded from `dom(R)` because no maplet begins with `c`, and `3` is excluded from `ran(R)` because no maplet ends with `3` (3). **(7 marks)**",
+      "maxMarks": 7,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L3-P06-Q07",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "`{a,c} <| R={a |-> x,a |-> y,c |-> z}` (3). `{a,c} <<| R={b |-> y}` (3). The first keeps maplets whose first part **is** in `{a,c}`; the second keeps those whose first part **is not** (1). **(7 marks)**",
+      "maxMarks": 7,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L3-P06-Q08",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "`identity(1..3)={1 |-> 1,2 |-> 2,3 |-> 3}` (3). `Grid |> {2}={1 |-> 2,2 |-> 2,3 |-> 2}` (3). Equivalent set comprehension using typed projections is accepted (1): `{p | p:Grid & prj1(1..3,1..3)(p)=prj2(1..3,1..3)(p)}` for the diagonal. **(7 marks)**",
+      "maxMarks": 7,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L3-P06-Q09",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "The right operand has domain `{Ben}` (1). **All** existing maplets beginning with `Ben` are removed (2), and the new maplet `Ben |-> Blue` is included (2). Maplets for every other source person remain unchanged (1). As `Favourite` is a variable, the assignment changes the current state; evaluating the expression alone would not (1). **(7 marks)**",
+      "maxMarks": 7,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L3-P06-Q10",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "`{a,c} <| R={a |-> 1,a |-> 2,c |-> 3,c |-> 4}` (4); `R[{a,c}]={1,2,3,4}` (4). The restriction returns maplets, whereas the image returns only distinct target values. **(8 marks)**",
+      "maxMarks": 8,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L3-P06-Q11",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "The replacement relation has domain `{a,d}` (2). Remove **both** old `a` maplets (2), retain `b |-> blue` and `c |-> green` (2), and add `a |-> green` and `d |-> red` (2). **Result:** `{a |-> green,b |-> blue,c |-> green,d |-> red}`. Do not retain `a |-> red` or `a |-> blue`. **(8 marks)**",
+      "maxMarks": 8,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L3-P06-Q12",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "Follow every two-step path. `A` reaches 1 and 2, giving `A |-> red`, `A |-> blue`, `A |-> green` (3); `B` reaches 2 giving `B |-> blue`, `B |-> green` (2); `C` reaches 4 giving `C |-> red` (1). **Result:** `{A |-> red,A |-> blue,A |-> green,B |-> blue,B |-> green,C |-> red}` (2). `3 |-> gold` contributes nothing: no maplet in `R` ends at 3. **(8 marks)**",
+      "maxMarks": 8,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L3-P06-Q13",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "`R~={x |-> a,x |-> b,y |-> b,z |-> c}` (3). Two source elements are related by `R;R~` precisely when they share a target in `R` (2). **Result:** `{a |-> a,a |-> b,b |-> a,b |-> b,c |-> c}` (3). `a` and `b` share target `x`; `c` shares none with them. **(8 marks)**",
+      "maxMarks": 8,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L3-P06-Q14",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "Express the rule as `Borrowed /\\ Flagged = {}` (3). Current intersection is `{L2 |-> M2}` (3), so the rule is violated (1). Removing `L2 |-> M2` from either relation would make the intersection empty, assuming no other overlapping maplets are introduced (3). An alternative formal equivalent using `Borrowed - Flagged = Borrowed` is accepted. **(10 marks)**",
+      "maxMarks": 10,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L3-P06-Q15",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "**False.** Domain restriction retains **maplets**: `{a,b} <| R={a |-> 1,a |-> 2,b |-> 2}` (4). Image retains **target values**: `R[{a,b}]={1,2}` (3). These are different types of elements and sets, even though they arise from the same selected source elements (3). **(10 marks)**",
+      "maxMarks": 10,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L3-P07-Q01",
+      "correctOptionId": "B",
+      "modelAnswerMarkdown": "**Correct: B.** Relations may include multiple maplets with the same source but different targets. A wrongly imposes a one-to-one correspondence; C reverses domain/range; D is false because a relation is a set of pairs. **(4 marks)**",
+      "maxMarks": 4,
+      "gradingMode": "auto_single_choice"
+    },
+    {
+      "questionId": "FM-L3-P07-Q02",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "`{Ana |-> FM,Cy |-> CS}` (2), with maplets oriented student-to-course. `dom(R)={Ana,Cy}` (2), because `Bo` is not related to a course. **(4 marks)**",
+      "maxMarks": 4,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L3-P07-Q03",
+      "correctOptionId": "C",
+      "modelAnswerMarkdown": "**Correct: C.** `{b} <<| R` is domain **anti**-restriction; its result is `{a |-> 1}`. A keeps only the `b` maplets, B filters target values, and D gives target values rather than the complement relation. **(4 marks)**",
+      "maxMarks": 4,
+      "gradingMode": "auto_single_choice"
+    },
+    {
+      "questionId": "FM-L3-P07-Q04",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "`identity(D)={2 |-> 2,3 |-> 3,5 |-> 5}` (3). Its domain is `{2,3,5}` (1), as each source value appears paired with itself. **(4 marks)**",
+      "maxMarks": 4,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L3-P07-Q05",
+      "correctOptionId": "A",
+      "modelAnswerMarkdown": "**Correct: A.** `R;S` follows first an `Animals`-to-`Traits` maplet and then a `Traits`-to-`Awards` maplet. `S;R` reverses the required type order and is not type-correct for the stated types. `R~;S` and `S~;R` also have incompatible intermediate sets here. **(4 marks)**",
+      "maxMarks": 4,
+      "gradingMode": "auto_single_choice"
+    },
+    {
+      "questionId": "FM-L3-P07-Q06",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "`dom(uses)={Lab,Hall,Studio}` (2). `ran(uses)={PC,Sensor,Projector}` (2). `Office` is outside the domain even though it is a member of the source set (2). A source or target set specifies allowed types; domain/range record values occurring in the actual maplets (1). **(7 marks)**",
+      "maxMarks": 7,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L3-P07-Q07",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "`Diag={1 |-> 1,2 |-> 2,3 |-> 3}` (2). A correct comprehension is `{p | p:Grid & prj1(1..3,1..3)(p)=prj2(1..3,1..3)(p)}` (2). `Off={1 |-> 3,2 |-> 2,3 |-> 1}` (2), defined by `{p | p:Grid & prj1(1..3,1..3)(p)+prj2(1..3,1..3)(p)=4}` (1). Correct ProB shorthand projections are also accepted when explicitly stated as ProB notation. **(7 marks)**",
+      "maxMarks": 7,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L3-P07-Q08",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "`enrols~={FM |-> Ali,FM |-> Bee,CP |-> Bee,CS |-> Cam}` (4). `enrols~[{FM}]={Ali,Bee}` (2). The inverse swaps input and output positions so the image asks which students enrol in FM (1). **(7 marks)**",
+      "maxMarks": 7,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L3-P07-Q09",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "`seated` should be a **VARIABLE** because seat assignments can change during system operation (3). `authorised` should be a **CONSTANT** if approval pairs are fixed for the lifetime of a machine state model (3). Both still have relation types; being a relation alone does not determine whether a declaration belongs to VARIABLES or CONSTANTS (1). If approvals also change under the stated requirements, `authorised` could instead be a variable; the requirement controls the choice. **(7 marks)**",
+      "maxMarks": 7,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L3-P07-Q10",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "`R |> {Blue,Green}={Ann |-> Blue,Ben |-> Blue,Cat |-> Green}` (4). `R[{Ann,Cat}]={Red,Blue,Green}` (4). The first filters target colours but keeps maplets; the second selects the targets of maplets with specified source people. **(8 marks)**",
+      "maxMarks": 8,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L3-P07-Q11",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "`{p,r} <<| R={q |-> 1,s |-> 3}` (4); it removes maplets whose source is `p` or `r`. `R |>> {1,3}={r |-> 2}` (4); it removes maplets whose **target** is 1 or 3. **(8 marks)**",
+      "maxMarks": 8,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L3-P07-Q12",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "Since `dom(S)={a,c}`, delete `a |-> 1`, `a |-> 2`, and `c |-> 3` from `R` (3). Add both new `a` maplets and the new `c` maplet, keeping `b` and `d`: `R <+ S={a |-> 4,a |-> 5,b |-> 2,c |-> 1,d |-> 4}` (3). The range is `{1,2,4,5}` (2). Notice `a` still has two targets: override does not force the result to be a function. **(8 marks)**",
+      "maxMarks": 8,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L3-P07-Q13",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "From `Eve`, L1 gives Mic and PC, and L2 gives PC; from `Fin`, L2 gives PC; from `Gia`, L3 gives Camera (3). Remove duplicate maplets: `studentLab;labTools={Eve |-> Mic,Eve |-> PC,Fin |-> PC,Gia |-> Camera}` (3). Image at `{Eve}` is `{Mic,PC}` (2). **(8 marks)**",
+      "maxMarks": 8,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L3-P07-Q14",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "`(R;T)[{a}]={x,y}` because a had intermediate targets 1 and 2 (3). `R2={a |-> 3,b |-> 2,c |-> 3,d |-> 1}` (3). Then `(R2;T)[{a}]={z}` (2). The original paths through 1 and 2 for a are removed because override replaces **all** old a-maplets, not just one (2). **(10 marks)**",
+      "maxMarks": 10,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L3-P07-Q15",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "`R~={1 |-> A,2 |-> A,2 |-> B,3 |-> C}` (2). Elements share a target exactly when related in `P=R;R~` (1). Hence `P={A |-> A,A |-> B,B |-> A,B |-> B,C |-> C}` (4). `identity(X)` additionally contains `D |-> D`, which is absent because `D` has no maplet in `R`. Thus `identity(X) <: P` is **false** (3). However, `identity(dom(R)) <: P` is true for this and every binary relation. **(10 marks)**",
+      "maxMarks": 10,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L123-P08-Q01",
+      "correctOptionId": "A",
+      "modelAnswerMarkdown": "**Correct: A.** Intersection keeps elements found in both sets, so `A /\\ B={2}`. B is union, C is difference `A-B`, and D incorrectly adds 4. **(4 marks)**",
+      "maxMarks": 4,
+      "gradingMode": "auto_single_choice"
+    },
+    {
+      "questionId": "FM-L123-P08-Q02",
+      "correctOptionId": "D",
+      "modelAnswerMarkdown": "**Correct: D.** Formal specification uses precise logical or mathematical descriptions of required properties and operations, avoiding some natural-language ambiguity. A is a testing result, B is implementation, and C is not a requirement of the B Method. **(4 marks)**",
+      "maxMarks": 4,
+      "gradingMode": "auto_single_choice"
+    },
+    {
+      "questionId": "FM-L123-P08-Q03",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "`POW(A)={{},{p},{q},{p,q}}` (3); `card(POW(A))=4` (1). Every subset is represented, including the empty and full sets. **(4 marks)**",
+      "maxMarks": 4,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L123-P08-Q04",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "An **enumerated set** explicitly lists its distinct symbolic elements, e.g. `Status={Open,Closed}` (2). A **deferred set** declares a type name such as `MEMBER` without listing all its elements at the specification stage (2). **(4 marks)**",
+      "maxMarks": 4,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L123-P08-Q05",
+      "correctOptionId": "B",
+      "modelAnswerMarkdown": "**Correct: B.** Relational image `R[S]` returns the distinct course values associated with sources in `S`. A returns a relation of maplets; C and D are anti-restriction and range filtering. **(4 marks)**",
+      "maxMarks": 4,
+      "gradingMode": "auto_single_choice"
+    },
+    {
+      "questionId": "FM-L123-P08-Q06",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "The initial state `count=0` is valid because `0:NAT` and `0<=4` (2). From valid `count=4`, incrementing would produce 5 and violate the upper bound (2). A sufficient precondition for an increment is `count<4` in addition to the invariant and any typing assumptions (2). The precondition prevents an invalid transition (1). **(7 marks)**",
+      "maxMarks": 7,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L123-P08-Q07",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "`balance=8` and `limit=5` satisfy both NAT typing requirements (2) but **violate** `balance <= limit` because `8<=5` is false (2). For example, `balance := 0 || limit := 5` makes a valid initial state (3). Other non-negative initial values satisfying the inequality also earn full credit. **(7 marks)**",
+      "maxMarks": 7,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L123-P08-Q08",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "`dom(likes)={Ana,Ben,Don}` (2); `ran(likes)={Red,Blue,Green}` (2). `{Ana,Ben} <| likes={Ana |-> Red,Ana |-> Blue,Ben |-> Blue}` (3). `Cal` is in the source set but not in the domain. **(7 marks)**",
+      "maxMarks": 7,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L123-P08-Q09",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "Both assignments use the **pre-state** values (2). Final state: `x=9`, `y=4` (3). The assignments are simultaneous/parallel, not sequential, so the updated value of x is not used to compute y (2). **(7 marks)**",
+      "maxMarks": 7,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L123-P08-Q10",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "`X*Y={1 |-> red,1 |-> blue,2 |-> red,2 |-> blue}` (4). `R <: X*Y` is true because both maplets of R belong to that product (2). `card(R)=2` (2). In the B notation used here, ordered pairs are written with `|->`; a set of maplets is a relation. **(8 marks)**",
+      "maxMarks": 8,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L123-P08-Q11",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "For a well-typed operation, require `s : Seats` (2). With invariant `occupied <: Seats`, the update preserves the invariant because union of two subsets of Seats remains a subset (3). Initially `{}` is a subset of Seats (1). If `s` is not in Seats and is inserted, the invariant can fail (2). No additional uniqueness precondition is required to preserve this *set* invariant: adding an already occupied seat leaves the set unchanged. **(8 marks)**",
+      "maxMarks": 8,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L123-P08-Q12",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "The override removes both original Ada maplets, then inserts the new Ada maplet plus Don (3). `R2={Ada |-> Green,Ben |-> Blue,Cal |-> Green,Don |-> Red}` (3). `R2[{Ada,Cal}]={Green}` (2), because relational images are sets and duplicate target values occur only once. **(8 marks)**",
+      "maxMarks": 8,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L123-P08-Q13",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "`assign;equipment={Ann |-> PC,Ann |-> Scope,Bob |-> Sensor,Cid |-> PC,Cid |-> Scope}` (5). Inverse composition or simply inverse of result is `{PC |-> Ann,Scope |-> Ann,Sensor |-> Bob,PC |-> Cid,Scope |-> Cid}` (3). Either order of maplets in the answer is fine. **(8 marks)**",
+      "maxMarks": 8,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L123-P08-Q14",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "`{}` is a relation from Student to Course because it is a subset of `Student*Course` (2). Require `s : Student & c : Course` (3). Under those conditions, the singleton `{s |-> c}` is a subset of `Student*Course`, so its union with `chosen` remains a relation of the specified type (3). Example after `choose(A,FM)`: `chosen={A |-> FM}`; a second `choose(A,CP)` gives `{A |-> FM,A |-> CP}` since relations need not be functions (2). **(10 marks)**",
+      "maxMarks": 10,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L123-P08-Q15",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "`enrol;heldIn={A |-> R1,B |-> R2,C |-> R1}` (3). A suitable rule is `(enrol;heldIn) |> ClosedRoom = {}` (3), equivalent here to `(enrol;heldIn)[Student] /\\ ClosedRoom={}`, given the defined `Student` source. It fails: the range restriction is `{B |-> R2}` (2). One valid repair is to remove `B |-> CP` from `enrol`, change the course-room relation so `CP` no longer maps to R2, or make R2 not closed, subject to requirements (2). **(10 marks)**",
+      "maxMarks": 10,
+      "gradingMode": "guided_self_assessment"
     }
   ],
   "topics": [
@@ -3427,6 +5334,62 @@
       "title": "Safety, liveness, responsiveness",
       "pages": "24",
       "description": "Conceptual system properties; no temporal formulae required."
+    },
+    {
+      "id": "L3.1",
+      "lecture": 3,
+      "title": "Binary relations and maplet notation",
+      "pages": "2–5",
+      "description": "Relations as subsets of Cartesian products; X <-> Y, source/target, constants vs variables, ordered maplets."
+    },
+    {
+      "id": "L3.2",
+      "lecture": 3,
+      "title": "Domain, range and projections",
+      "pages": "5–8",
+      "description": "Difference between underlying sets and elements actually used, dom, ran, prj1 and prj2."
+    },
+    {
+      "id": "L3.3",
+      "lecture": 3,
+      "title": "Identity and comprehension on pairs",
+      "pages": "9–10, 19",
+      "description": "Identity(A), diagonal pairs, typed projections and comprehensions describing a relation."
+    },
+    {
+      "id": "L3.4",
+      "lecture": 3,
+      "title": "Domain/range restrictions and images",
+      "pages": "9, 11–13",
+      "description": "A <| R, R |> B and relational image R[A]."
+    },
+    {
+      "id": "L3.5",
+      "lecture": 3,
+      "title": "Domain/range anti-restrictions",
+      "pages": "14–15",
+      "description": "A <<| R and R |>> B; keeping only maplets outside selected sets."
+    },
+    {
+      "id": "L3.6",
+      "lecture": 3,
+      "title": "Relational override",
+      "pages": "16–17",
+      "description": "R <+ S replaces all maplets for source elements occurring in dom(S)."
+    },
+    {
+      "id": "L3.7",
+      "lecture": 3,
+      "title": "Composition and inverse",
+      "pages": "6, 18, 20–23",
+      "description": "Order-sensitive R;S relational composition, reverse-maplet relation R~, chaining and shared neighbours."
+    },
+    {
+      "id": "L3.8",
+      "lecture": 3,
+      "title": "Relational algebra properties",
+      "pages": "19, 23–24",
+      "description": "Using relational operators, set intersection and empty sets to express useful constraints."
     }
   ]
 }

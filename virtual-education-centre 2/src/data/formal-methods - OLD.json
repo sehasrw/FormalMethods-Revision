@@ -1,0 +1,3432 @@
+{
+  "schemaVersion": "2.0",
+  "moduleId": "formal-methods",
+  "title": "Formal Methods",
+  "description": "Revision papers and marking guides based on the uploaded lecture materials.",
+  "lectures": [
+    {
+      "number": 1,
+      "title": "Introduction; the B-Method",
+      "source": "Lecture 1.pdf"
+    },
+    {
+      "number": 2,
+      "title": "Sets, Constants and Variables",
+      "source": "Lecture 2.pdf"
+    }
+  ],
+  "papers": [
+    {
+      "id": "FM-L12-P01",
+      "number": 1,
+      "title": "Foundations to Invariant Reasoning",
+      "scope": [
+        1,
+        2
+      ],
+      "suggestedMinutes": 150,
+      "totalMarks": 100,
+      "questionCount": 15,
+      "questionIds": [
+        "FM-L12-P01-Q01",
+        "FM-L12-P01-Q02",
+        "FM-L12-P01-Q03",
+        "FM-L12-P01-Q04",
+        "FM-L12-P01-Q05",
+        "FM-L12-P01-Q06",
+        "FM-L12-P01-Q07",
+        "FM-L12-P01-Q08",
+        "FM-L12-P01-Q09",
+        "FM-L12-P01-Q10",
+        "FM-L12-P01-Q11",
+        "FM-L12-P01-Q12",
+        "FM-L12-P01-Q13",
+        "FM-L12-P01-Q14",
+        "FM-L12-P01-Q15"
+      ],
+      "sections": [
+        {
+          "id": "A",
+          "title": "Fundamental Knowledge",
+          "marks": 20,
+          "questionIds": [
+            "FM-L12-P01-Q01",
+            "FM-L12-P01-Q02",
+            "FM-L12-P01-Q03",
+            "FM-L12-P01-Q04",
+            "FM-L12-P01-Q05"
+          ]
+        },
+        {
+          "id": "B",
+          "title": "Conceptual Understanding",
+          "marks": 28,
+          "questionIds": [
+            "FM-L12-P01-Q06",
+            "FM-L12-P01-Q07",
+            "FM-L12-P01-Q08",
+            "FM-L12-P01-Q09"
+          ]
+        },
+        {
+          "id": "C",
+          "title": "Practical Applications",
+          "marks": 32,
+          "questionIds": [
+            "FM-L12-P01-Q10",
+            "FM-L12-P01-Q11",
+            "FM-L12-P01-Q12",
+            "FM-L12-P01-Q13"
+          ]
+        },
+        {
+          "id": "D",
+          "title": "Advanced Reasoning",
+          "marks": 20,
+          "questionIds": [
+            "FM-L12-P01-Q14",
+            "FM-L12-P01-Q15"
+          ]
+        }
+      ],
+      "edition": "1.0",
+      "schemaVersion": "1.0",
+      "source": "Original revision papers generated from uploaded Lecture 1 and Lecture 2 PDFs."
+    },
+    {
+      "id": "FM-L12-P02",
+      "number": 2,
+      "title": "Set Types and Operation Contracts",
+      "scope": [
+        1,
+        2
+      ],
+      "suggestedMinutes": 150,
+      "totalMarks": 100,
+      "questionCount": 15,
+      "questionIds": [
+        "FM-L12-P02-Q01",
+        "FM-L12-P02-Q02",
+        "FM-L12-P02-Q03",
+        "FM-L12-P02-Q04",
+        "FM-L12-P02-Q05",
+        "FM-L12-P02-Q06",
+        "FM-L12-P02-Q07",
+        "FM-L12-P02-Q08",
+        "FM-L12-P02-Q09",
+        "FM-L12-P02-Q10",
+        "FM-L12-P02-Q11",
+        "FM-L12-P02-Q12",
+        "FM-L12-P02-Q13",
+        "FM-L12-P02-Q14",
+        "FM-L12-P02-Q15"
+      ],
+      "sections": [
+        {
+          "id": "A",
+          "title": "Fundamental Knowledge",
+          "marks": 20,
+          "questionIds": [
+            "FM-L12-P02-Q01",
+            "FM-L12-P02-Q02",
+            "FM-L12-P02-Q03",
+            "FM-L12-P02-Q04",
+            "FM-L12-P02-Q05"
+          ]
+        },
+        {
+          "id": "B",
+          "title": "Conceptual Understanding",
+          "marks": 28,
+          "questionIds": [
+            "FM-L12-P02-Q06",
+            "FM-L12-P02-Q07",
+            "FM-L12-P02-Q08",
+            "FM-L12-P02-Q09"
+          ]
+        },
+        {
+          "id": "C",
+          "title": "Practical Applications",
+          "marks": 32,
+          "questionIds": [
+            "FM-L12-P02-Q10",
+            "FM-L12-P02-Q11",
+            "FM-L12-P02-Q12",
+            "FM-L12-P02-Q13"
+          ]
+        },
+        {
+          "id": "D",
+          "title": "Advanced Reasoning",
+          "marks": 20,
+          "questionIds": [
+            "FM-L12-P02-Q14",
+            "FM-L12-P02-Q15"
+          ]
+        }
+      ],
+      "edition": "1.0",
+      "schemaVersion": "1.0",
+      "source": "Original revision papers generated from uploaded Lecture 1 and Lecture 2 PDFs."
+    },
+    {
+      "id": "FM-L12-P03",
+      "number": 3,
+      "title": "Abstract Machine State and Set Construction",
+      "scope": [
+        1,
+        2
+      ],
+      "suggestedMinutes": 150,
+      "totalMarks": 100,
+      "questionCount": 15,
+      "questionIds": [
+        "FM-L12-P03-Q01",
+        "FM-L12-P03-Q02",
+        "FM-L12-P03-Q03",
+        "FM-L12-P03-Q04",
+        "FM-L12-P03-Q05",
+        "FM-L12-P03-Q06",
+        "FM-L12-P03-Q07",
+        "FM-L12-P03-Q08",
+        "FM-L12-P03-Q09",
+        "FM-L12-P03-Q10",
+        "FM-L12-P03-Q11",
+        "FM-L12-P03-Q12",
+        "FM-L12-P03-Q13",
+        "FM-L12-P03-Q14",
+        "FM-L12-P03-Q15"
+      ],
+      "sections": [
+        {
+          "id": "A",
+          "title": "Fundamental Knowledge",
+          "marks": 20,
+          "questionIds": [
+            "FM-L12-P03-Q01",
+            "FM-L12-P03-Q02",
+            "FM-L12-P03-Q03",
+            "FM-L12-P03-Q04",
+            "FM-L12-P03-Q05"
+          ]
+        },
+        {
+          "id": "B",
+          "title": "Conceptual Understanding",
+          "marks": 28,
+          "questionIds": [
+            "FM-L12-P03-Q06",
+            "FM-L12-P03-Q07",
+            "FM-L12-P03-Q08",
+            "FM-L12-P03-Q09"
+          ]
+        },
+        {
+          "id": "C",
+          "title": "Practical Applications",
+          "marks": 32,
+          "questionIds": [
+            "FM-L12-P03-Q10",
+            "FM-L12-P03-Q11",
+            "FM-L12-P03-Q12",
+            "FM-L12-P03-Q13"
+          ]
+        },
+        {
+          "id": "D",
+          "title": "Advanced Reasoning",
+          "marks": 20,
+          "questionIds": [
+            "FM-L12-P03-Q14",
+            "FM-L12-P03-Q15"
+          ]
+        }
+      ],
+      "edition": "1.0",
+      "schemaVersion": "1.0",
+      "source": "Original revision papers generated from uploaded Lecture 1 and Lecture 2 PDFs."
+    },
+    {
+      "id": "FM-L12-P04",
+      "number": 4,
+      "title": "State Boundaries and B Notation",
+      "scope": [
+        1,
+        2
+      ],
+      "suggestedMinutes": 150,
+      "totalMarks": 100,
+      "questionCount": 15,
+      "questionIds": [
+        "FM-L12-P04-Q01",
+        "FM-L12-P04-Q02",
+        "FM-L12-P04-Q03",
+        "FM-L12-P04-Q04",
+        "FM-L12-P04-Q05",
+        "FM-L12-P04-Q06",
+        "FM-L12-P04-Q07",
+        "FM-L12-P04-Q08",
+        "FM-L12-P04-Q09",
+        "FM-L12-P04-Q10",
+        "FM-L12-P04-Q11",
+        "FM-L12-P04-Q12",
+        "FM-L12-P04-Q13",
+        "FM-L12-P04-Q14",
+        "FM-L12-P04-Q15"
+      ],
+      "sections": [
+        {
+          "id": "A",
+          "title": "Fundamental Knowledge",
+          "marks": 20,
+          "questionIds": [
+            "FM-L12-P04-Q01",
+            "FM-L12-P04-Q02",
+            "FM-L12-P04-Q03",
+            "FM-L12-P04-Q04",
+            "FM-L12-P04-Q05"
+          ]
+        },
+        {
+          "id": "B",
+          "title": "Conceptual Understanding",
+          "marks": 28,
+          "questionIds": [
+            "FM-L12-P04-Q06",
+            "FM-L12-P04-Q07",
+            "FM-L12-P04-Q08",
+            "FM-L12-P04-Q09"
+          ]
+        },
+        {
+          "id": "C",
+          "title": "Practical Applications",
+          "marks": 32,
+          "questionIds": [
+            "FM-L12-P04-Q10",
+            "FM-L12-P04-Q11",
+            "FM-L12-P04-Q12",
+            "FM-L12-P04-Q13"
+          ]
+        },
+        {
+          "id": "D",
+          "title": "Advanced Reasoning",
+          "marks": 20,
+          "questionIds": [
+            "FM-L12-P04-Q14",
+            "FM-L12-P04-Q15"
+          ]
+        }
+      ],
+      "edition": "1.0",
+      "schemaVersion": "1.0",
+      "source": "Original revision papers generated from uploaded Lecture 1 and Lecture 2 PDFs."
+    },
+    {
+      "id": "FM-L12-P05",
+      "number": 5,
+      "title": "Integrated Lecture 1–2 Examination",
+      "scope": [
+        1,
+        2
+      ],
+      "suggestedMinutes": 150,
+      "totalMarks": 100,
+      "questionCount": 15,
+      "questionIds": [
+        "FM-L12-P05-Q01",
+        "FM-L12-P05-Q02",
+        "FM-L12-P05-Q03",
+        "FM-L12-P05-Q04",
+        "FM-L12-P05-Q05",
+        "FM-L12-P05-Q06",
+        "FM-L12-P05-Q07",
+        "FM-L12-P05-Q08",
+        "FM-L12-P05-Q09",
+        "FM-L12-P05-Q10",
+        "FM-L12-P05-Q11",
+        "FM-L12-P05-Q12",
+        "FM-L12-P05-Q13",
+        "FM-L12-P05-Q14",
+        "FM-L12-P05-Q15"
+      ],
+      "sections": [
+        {
+          "id": "A",
+          "title": "Fundamental Knowledge",
+          "marks": 20,
+          "questionIds": [
+            "FM-L12-P05-Q01",
+            "FM-L12-P05-Q02",
+            "FM-L12-P05-Q03",
+            "FM-L12-P05-Q04",
+            "FM-L12-P05-Q05"
+          ]
+        },
+        {
+          "id": "B",
+          "title": "Conceptual Understanding",
+          "marks": 28,
+          "questionIds": [
+            "FM-L12-P05-Q06",
+            "FM-L12-P05-Q07",
+            "FM-L12-P05-Q08",
+            "FM-L12-P05-Q09"
+          ]
+        },
+        {
+          "id": "C",
+          "title": "Practical Applications",
+          "marks": 32,
+          "questionIds": [
+            "FM-L12-P05-Q10",
+            "FM-L12-P05-Q11",
+            "FM-L12-P05-Q12",
+            "FM-L12-P05-Q13"
+          ]
+        },
+        {
+          "id": "D",
+          "title": "Advanced Reasoning",
+          "marks": 20,
+          "questionIds": [
+            "FM-L12-P05-Q14",
+            "FM-L12-P05-Q15"
+          ]
+        }
+      ],
+      "edition": "1.0",
+      "schemaVersion": "1.0",
+      "source": "Original revision papers generated from uploaded Lecture 1 and Lecture 2 PDFs."
+    }
+  ],
+  "questions": [
+    {
+      "id": "FM-L12-P01-Q01",
+      "paperId": "FM-L12-P01",
+      "number": 1,
+      "section": "A",
+      "type": "single_choice",
+      "difficulty": "foundational",
+      "marks": 4,
+      "tags": [
+        "L1.3"
+      ],
+      "topicTagSource": "L1.3",
+      "promptMarkdown": "Which best describes a formal specification?",
+      "parts": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "A complete implementation in a programming language."
+        },
+        {
+          "id": "B",
+          "text": "A precise, mathematical description of required properties and behaviour, abstracting from implementation details."
+        },
+        {
+          "id": "C",
+          "text": "A set of screenshots showing expected user interfaces."
+        },
+        {
+          "id": "D",
+          "text": "A guarantee that no software testing will ever be necessary."
+        }
+      ],
+      "workingGuidance": ""
+    },
+    {
+      "id": "FM-L12-P01-Q02",
+      "paperId": "FM-L12-P01",
+      "number": 2,
+      "section": "A",
+      "type": "single_choice",
+      "difficulty": "foundational",
+      "marks": 4,
+      "tags": [
+        "L1.7"
+      ],
+      "topicTagSource": "L1.7",
+      "promptMarkdown": "Let `T = {a,b}`. Which item is an **element** of `POW(T)`?",
+      "parts": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "`a`"
+        },
+        {
+          "id": "B",
+          "text": "`{a,b,c}`"
+        },
+        {
+          "id": "C",
+          "text": "`(a,b)`"
+        },
+        {
+          "id": "D",
+          "text": "`{a}`"
+        }
+      ],
+      "workingGuidance": ""
+    },
+    {
+      "id": "FM-L12-P01-Q03",
+      "paperId": "FM-L12-P01",
+      "number": 3,
+      "section": "A",
+      "type": "written",
+      "difficulty": "foundational",
+      "marks": 4,
+      "tags": [
+        "L1.5",
+        "L1.8"
+      ],
+      "topicTagSource": "L1.5, L1.8",
+      "promptMarkdown": "State whether each claim is true or false and give a brief reason:",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "`{2,2,5}` and `{5,2}` are equal sets. **(2)**",
+          "marks": 2
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "`0 : NAT1`. **(2)**",
+          "marks": 2
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show working and justify reasoning."
+    },
+    {
+      "id": "FM-L12-P01-Q04",
+      "paperId": "FM-L12-P01",
+      "number": 4,
+      "section": "A",
+      "type": "written",
+      "difficulty": "foundational",
+      "marks": 4,
+      "tags": [
+        "L2.1"
+      ],
+      "topicTagSource": "L2.1",
+      "promptMarkdown": "Explain the difference between an **enumerated** set and a **deferred** set. Include a suitable declaration example of each. **(2+2)**",
+      "parts": [],
+      "options": [],
+      "workingGuidance": "Show working and justify reasoning."
+    },
+    {
+      "id": "FM-L12-P01-Q05",
+      "paperId": "FM-L12-P01",
+      "number": 5,
+      "section": "A",
+      "type": "written",
+      "difficulty": "foundational",
+      "marks": 4,
+      "tags": [
+        "L2.7"
+      ],
+      "topicTagSource": "L2.7",
+      "promptMarkdown": "Describe a **safety** property and a **liveness** property for a lift system (no formal temporal notation required). **(2+2)**\n\n## Section B — Conceptual Understanding (28 marks)",
+      "parts": [],
+      "options": [],
+      "workingGuidance": "Show working and justify reasoning."
+    },
+    {
+      "id": "FM-L12-P01-Q06",
+      "paperId": "FM-L12-P01",
+      "number": 6,
+      "section": "B",
+      "type": "written",
+      "difficulty": "intermediate",
+      "marks": 7,
+      "tags": [
+        "L1.1"
+      ],
+      "topicTagSource": "L1.1",
+      "promptMarkdown": "",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "Give two reasons why a natural-language software requirement might cause defects. **(4)**",
+          "marks": 4
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Explain why extensive testing alone cannot establish the complete absence of errors in all cases. **(3)**",
+          "marks": 3
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show working and justify reasoning."
+    },
+    {
+      "id": "FM-L12-P01-Q07",
+      "paperId": "FM-L12-P01",
+      "number": 7,
+      "section": "B",
+      "type": "written",
+      "difficulty": "intermediate",
+      "marks": 7,
+      "tags": [
+        "L1.6"
+      ],
+      "topicTagSource": "L1.6",
+      "promptMarkdown": "Let `A={1,2,3,5}` and `B={2,4,5}`. Evaluate",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "`A \\/ B` **(2)**,",
+          "marks": 2
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "`A /\\ B` **(2)**,",
+          "marks": 2
+        },
+        {
+          "id": "c",
+          "promptMarkdown": "`A - B` **(1)** and",
+          "marks": 1
+        },
+        {
+          "id": "d",
+          "promptMarkdown": "`card(A \\/ B)` **(2)**. Show the resulting sets.",
+          "marks": 2
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show working and justify reasoning."
+    },
+    {
+      "id": "FM-L12-P01-Q08",
+      "paperId": "FM-L12-P01",
+      "number": 8,
+      "section": "B",
+      "type": "written",
+      "difficulty": "intermediate",
+      "marks": 7,
+      "tags": [
+        "L2.2"
+      ],
+      "topicTagSource": "L2.2",
+      "promptMarkdown": "A machine has `SETS Day={Mon,Tue,Wed,Thu,Fri,Sat,Sun}` and constants `Weekend, Workdays`.",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "Write `PROPERTIES` that define `Weekend={Sat,Sun}` and `Workdays=Day-Weekend`, and require both to be subsets of `Day`. **(4)**",
+          "marks": 4
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "State `Workdays`. **(2)**",
+          "marks": 2
+        },
+        {
+          "id": "c",
+          "promptMarkdown": "Explain why these should be constants rather than changing state variables in this example. **(1)**",
+          "marks": 1
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show working and justify reasoning."
+    },
+    {
+      "id": "FM-L12-P01-Q09",
+      "paperId": "FM-L12-P01",
+      "number": 9,
+      "section": "B",
+      "type": "written",
+      "difficulty": "intermediate",
+      "marks": 7,
+      "tags": [
+        "L1.4",
+        "L2.3"
+      ],
+      "topicTagSource": "L1.4, L2.3",
+      "promptMarkdown": "For a B abstract machine, explain the roles of",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "`VARIABLES` **(2)**,",
+          "marks": 2
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "`INVARIANT` **(2)**, and",
+          "marks": 2
+        },
+        {
+          "id": "c",
+          "promptMarkdown": "`INITIALISATION` **(2)**.",
+          "marks": 2
+        },
+        {
+          "id": "d",
+          "promptMarkdown": "State the separator used for parallel assignments in initialisation. **(1)**\n\n## Section C — Practical Applications (32 marks)",
+          "marks": 1
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show working and justify reasoning."
+    },
+    {
+      "id": "FM-L12-P01-Q10",
+      "paperId": "FM-L12-P01",
+      "number": 10,
+      "section": "C",
+      "type": "written",
+      "difficulty": "intermediate",
+      "marks": 8,
+      "tags": [
+        "L1.7",
+        "L1.8"
+      ],
+      "topicTagSource": "L1.7–L1.8",
+      "promptMarkdown": "Define `E` as the set of even numbers in `0..12`.",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "Write a B-style set comprehension using `mod`. **(3)**",
+          "marks": 3
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "List all elements of `E`. **(3)**",
+          "marks": 3
+        },
+        {
+          "id": "c",
+          "promptMarkdown": "Evaluate `card(E)` and `E /\\ {3,4,8,11}`. **(2)**",
+          "marks": 2
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show working and justify reasoning."
+    },
+    {
+      "id": "FM-L12-P01-Q11",
+      "paperId": "FM-L12-P01",
+      "number": 11,
+      "section": "C",
+      "type": "written",
+      "difficulty": "intermediate",
+      "marks": 8,
+      "tags": [
+        "L2.3",
+        "L2.4"
+      ],
+      "topicTagSource": "L2.3–L2.4",
+      "promptMarkdown": "A room has five seats. A machine uses a variable `occupied`, with invariant `occupied : NAT & occupied <= 5`, and initialisation `occupied := 0`.",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "Explain why the initial state is valid. **(2)**",
+          "marks": 2
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Classify values `0`, `5`, `6`, and `-1` as valid/invalid, with reasons. **(4)**",
+          "marks": 4
+        },
+        {
+          "id": "c",
+          "promptMarkdown": "State the precise condition on `occupied` required before an operation `occupied := occupied + 1` can safely execute. **(2)**",
+          "marks": 2
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show working and justify reasoning."
+    },
+    {
+      "id": "FM-L12-P01-Q12",
+      "paperId": "FM-L12-P01",
+      "number": 12,
+      "section": "C",
+      "type": "written",
+      "difficulty": "challenging",
+      "marks": 8,
+      "tags": [
+        "L2.6"
+      ],
+      "topicTagSource": "L2.6",
+      "promptMarkdown": "Initially `x=3`, `y=7`.",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "Evaluate the simultaneous substitution `x,y := y,x`: give both final values and explain the role of old values. **(4)**",
+          "marks": 4
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Compare with two **successive** assignments `x := y; y := x` interpreted as one after the other; give final values and explain the difference. **(4)**",
+          "marks": 4
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show working and justify reasoning."
+    },
+    {
+      "id": "FM-L12-P01-Q13",
+      "paperId": "FM-L12-P01",
+      "number": 13,
+      "section": "C",
+      "type": "written",
+      "difficulty": "challenging",
+      "marks": 8,
+      "tags": [
+        "L2.6"
+      ],
+      "topicTagSource": "L2.6",
+      "promptMarkdown": "Consider:\n\n```text\nIF score >= 80 THEN grade := High\nELSIF score >= 50 THEN grade := Medium\nELSE grade := Low\nEND\n```",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "Determine `grade` for scores 85, 50, and 49. **(3)**",
+          "marks": 3
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "For score 90, explain why only one branch runs although two guards are true. **(3)**",
+          "marks": 3
+        },
+        {
+          "id": "c",
+          "promptMarkdown": "State the result at score 80 and why that boundary matters. **(2)**\n\n## Section D — Advanced Reasoning (20 marks)",
+          "marks": 2
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show working and justify reasoning."
+    },
+    {
+      "id": "FM-L12-P01-Q14",
+      "paperId": "FM-L12-P01",
+      "number": 14,
+      "section": "D",
+      "type": "written",
+      "difficulty": "challenging",
+      "marks": 10,
+      "tags": [
+        "L1.7",
+        "L2.2"
+      ],
+      "topicTagSource": "L1.7, L2.2",
+      "promptMarkdown": "`People={Ali,Bea,Cam,Dee}`. Ali and Bea must **not both** be selected for the same review panel. Let `Forbidden={Ali,Bea}`.",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "Express the set `Allowed` of all permissible panels (including the empty panel) using `POW`, a subset condition and comprehension. **(4)**",
+          "marks": 4
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "How many subsets of `People` are there before filtering? **(2)**",
+          "marks": 2
+        },
+        {
+          "id": "c",
+          "promptMarkdown": "How many permissible panels remain? Explain the count, including the panels that must be excluded. **(4)**",
+          "marks": 4
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show working and justify reasoning."
+    },
+    {
+      "id": "FM-L12-P01-Q15",
+      "paperId": "FM-L12-P01",
+      "number": 15,
+      "section": "D",
+      "type": "written",
+      "difficulty": "challenging",
+      "marks": 10,
+      "tags": [
+        "L2.4",
+        "L2.5"
+      ],
+      "topicTagSource": "L2.4–L2.5",
+      "promptMarkdown": "A kiosk has `tickets : NAT & tickets <= 8` as its invariant, and starts with `tickets := 2`. Its proposed operation is:\n\n```text\naddTickets(n) =\n  PRE n : NAT\n  THEN tickets := tickets + n\n  END\n```",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "Give a valid starting state and a concrete input for which the proposed operation violates the invariant. **(3)**",
+          "marks": 3
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Strengthen the precondition so every permitted call preserves the invariant. **(3)**",
+          "marks": 3
+        },
+        {
+          "id": "c",
+          "promptMarkdown": "Justify that the revised operation preserves both `NAT` membership and the upper bound. **(4)**",
+          "marks": 4
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show working and justify reasoning."
+    },
+    {
+      "id": "FM-L12-P02-Q01",
+      "paperId": "FM-L12-P02",
+      "number": 1,
+      "section": "A",
+      "type": "single_choice",
+      "difficulty": "foundational",
+      "marks": 4,
+      "tags": [
+        "L1.1"
+      ],
+      "topicTagSource": "L1.1",
+      "promptMarkdown": "According to the lecture, which stage is a common source of defects discovered much later?",
+      "parts": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only the final installation stage."
+        },
+        {
+          "id": "B",
+          "text": "Only hardware disposal."
+        },
+        {
+          "id": "C",
+          "text": "Only the delivery of user manuals."
+        },
+        {
+          "id": "D",
+          "text": "Requirements, specification and design stages."
+        }
+      ],
+      "workingGuidance": ""
+    },
+    {
+      "id": "FM-L12-P02-Q02",
+      "paperId": "FM-L12-P02",
+      "number": 2,
+      "section": "A",
+      "type": "single_choice",
+      "difficulty": "foundational",
+      "marks": 4,
+      "tags": [
+        "L1.6"
+      ],
+      "topicTagSource": "L1.6",
+      "promptMarkdown": "Given `A={red,blue}`, which is the correct B-style statement that `green` is not a member of `A`?",
+      "parts": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "`green /: A`"
+        },
+        {
+          "id": "B",
+          "text": "`green <: A`"
+        },
+        {
+          "id": "C",
+          "text": "`green = A`"
+        },
+        {
+          "id": "D",
+          "text": "`A : green`"
+        }
+      ],
+      "workingGuidance": ""
+    },
+    {
+      "id": "FM-L12-P02-Q03",
+      "paperId": "FM-L12-P02",
+      "number": 3,
+      "section": "A",
+      "type": "written",
+      "difficulty": "foundational",
+      "marks": 4,
+      "tags": [
+        "L2.1",
+        "L2.4"
+      ],
+      "topicTagSource": "L2.1, L2.4",
+      "promptMarkdown": "True or false, with reasons:",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "Distinctly named constants in a deferred set must automatically denote different elements. **(2)**",
+          "marks": 2
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "The state chosen by initialisation must satisfy the invariant. **(2)**",
+          "marks": 2
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show working and justify reasoning."
+    },
+    {
+      "id": "FM-L12-P02-Q04",
+      "paperId": "FM-L12-P02",
+      "number": 4,
+      "section": "A",
+      "type": "written",
+      "difficulty": "foundational",
+      "marks": 4,
+      "tags": [
+        "L1.4"
+      ],
+      "topicTagSource": "L1.4",
+      "promptMarkdown": "Identify the primary use of",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "**Atelier B** **(2)** and",
+          "marks": 2
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "**ProB** **(2)** as introduced in Lecture 1.",
+          "marks": 2
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show working and justify reasoning."
+    },
+    {
+      "id": "FM-L12-P02-Q05",
+      "paperId": "FM-L12-P02",
+      "number": 5,
+      "section": "A",
+      "type": "written",
+      "difficulty": "foundational",
+      "marks": 4,
+      "tags": [
+        "L2.7"
+      ],
+      "topicTagSource": "L2.7",
+      "promptMarkdown": "Distinguish",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "safety from **(2)**",
+          "marks": 2
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "responsiveness, giving one short system property of each type. **(2)**\n\n## Section B — Conceptual Understanding (28 marks)",
+          "marks": 2
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show working and justify reasoning."
+    },
+    {
+      "id": "FM-L12-P02-Q06",
+      "paperId": "FM-L12-P02",
+      "number": 6,
+      "section": "B",
+      "type": "written",
+      "difficulty": "intermediate",
+      "marks": 7,
+      "tags": [
+        "L1.7"
+      ],
+      "topicTagSource": "L1.7",
+      "promptMarkdown": "Let `Colour={Red,Green}` and `Level={1,2,3}`.",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "List `Colour * Level`. **(3)**",
+          "marks": 3
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Calculate its cardinality. **(2)**",
+          "marks": 2
+        },
+        {
+          "id": "c",
+          "promptMarkdown": "Explain whether `(Green,2)` belongs to the product and whether `(2,Green)` belongs. **(2)**",
+          "marks": 2
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show working and justify reasoning."
+    },
+    {
+      "id": "FM-L12-P02-Q07",
+      "paperId": "FM-L12-P02",
+      "number": 7,
+      "section": "B",
+      "type": "written",
+      "difficulty": "intermediate",
+      "marks": 7,
+      "tags": [
+        "L2.3",
+        "L2.4"
+      ],
+      "topicTagSource": "L2.3–L2.4",
+      "promptMarkdown": "The following **deliberately incorrect** extract aims to store one on/off value:\n\n```text\nSETS Mode = {On,Off}\nVARIABLES current\nINVARIANT current <: Mode\nINITIALISATION current := Idle\n```",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "Identify the error in the type constraint and write the correct invariant. **(3)**",
+          "marks": 3
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Identify the problem with initialisation. **(2)**",
+          "marks": 2
+        },
+        {
+          "id": "c",
+          "promptMarkdown": "Give one corrected initialisation and justify it. **(2)**",
+          "marks": 2
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show working and justify reasoning."
+    },
+    {
+      "id": "FM-L12-P02-Q08",
+      "paperId": "FM-L12-P02",
+      "number": 8,
+      "section": "B",
+      "type": "written",
+      "difficulty": "intermediate",
+      "marks": 7,
+      "tags": [
+        "L2.5"
+      ],
+      "topicTagSource": "L2.5",
+      "promptMarkdown": "A print queue has a count `q : NAT & q <= 4`.",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "State a precondition for `enqueue` (which increases `q` by 1). **(2)**",
+          "marks": 2
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "State a precondition for `dequeue` (which decreases `q` by 1). **(2)**",
+          "marks": 2
+        },
+        {
+          "id": "c",
+          "promptMarkdown": "Describe the postconditions for `enqueue` and `dequeue`, including what happens to the count. **(3)**",
+          "marks": 3
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show working and justify reasoning."
+    },
+    {
+      "id": "FM-L12-P02-Q09",
+      "paperId": "FM-L12-P02",
+      "number": 9,
+      "section": "B",
+      "type": "written",
+      "difficulty": "intermediate",
+      "marks": 7,
+      "tags": [
+        "L1.1",
+        "L1.2"
+      ],
+      "topicTagSource": "L1.1–L1.2",
+      "promptMarkdown": "",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "Which kind of concern is represented by **EAL** and which by **SIL**, as presented in the lecture? **(4)**",
+          "marks": 4
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Explain why safety-critical software may demand stronger assurance than testing alone. **(3)**\n\n## Section C — Practical Applications (32 marks)",
+          "marks": 3
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show working and justify reasoning."
+    },
+    {
+      "id": "FM-L12-P02-Q10",
+      "paperId": "FM-L12-P02",
+      "number": 10,
+      "section": "C",
+      "type": "written",
+      "difficulty": "intermediate",
+      "marks": 8,
+      "tags": [
+        "L2.2"
+      ],
+      "topicTagSource": "L2.2",
+      "promptMarkdown": "Suppose `SETS Signal={Red,Amber,Green}`.",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "Write `CONSTANTS` and `PROPERTIES` declarations for `Caution={Red,Amber}` and `Go=Signal-Caution`, including subset types. **(5)**",
+          "marks": 5
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Evaluate `Go` and `card(Go)`. **(3)**",
+          "marks": 3
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show working and justify reasoning."
+    },
+    {
+      "id": "FM-L12-P02-Q11",
+      "paperId": "FM-L12-P02",
+      "number": 11,
+      "section": "C",
+      "type": "written",
+      "difficulty": "intermediate",
+      "marks": 8,
+      "tags": [
+        "L1.7"
+      ],
+      "topicTagSource": "L1.7",
+      "promptMarkdown": "Let `S={p,q,r}`.",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "List `POW(S)` completely. **(4)**",
+          "marks": 4
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Give the subsets of `S` of size exactly two. **(2)**",
+          "marks": 2
+        },
+        {
+          "id": "c",
+          "promptMarkdown": "Explain why `{p,q}` belongs to `POW(S)` but `p` does not, treating `p` as a symbolic element. **(2)**",
+          "marks": 2
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show working and justify reasoning."
+    },
+    {
+      "id": "FM-L12-P02-Q12",
+      "paperId": "FM-L12-P02",
+      "number": 12,
+      "section": "C",
+      "type": "written",
+      "difficulty": "challenging",
+      "marks": 8,
+      "tags": [
+        "L2.6"
+      ],
+      "topicTagSource": "L2.6",
+      "promptMarkdown": "Start with `a=1`, `b=4`, `c=9`.",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "Execute the parallel substitution `a,b,c := b,c,a`, stating the result. **(4)**",
+          "marks": 4
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Execute the **successive** assignments `a := b; b := c; c := a` from the *same original state*, stating the result and explaining why it differs. **(4)**",
+          "marks": 4
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show working and justify reasoning."
+    },
+    {
+      "id": "FM-L12-P02-Q13",
+      "paperId": "FM-L12-P02",
+      "number": 13,
+      "section": "C",
+      "type": "written",
+      "difficulty": "challenging",
+      "marks": 8,
+      "tags": [
+        "L2.6"
+      ],
+      "topicTagSource": "L2.6",
+      "promptMarkdown": "Execute:\n\n```text\nIF temp >= 30 THEN alarm := Hot\nELSIF temp >= 20 THEN alarm := Warm\nELSE alarm := Cold\nEND\n```",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "Give the result for `temp=18,20,32`. **(3)**",
+          "marks": 3
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Give the result for `temp=30`, explaining the effect of guard ordering. **(3)**",
+          "marks": 3
+        },
+        {
+          "id": "c",
+          "promptMarkdown": "Describe what `SKIP` would do if it replaced the `ELSE` assignment. **(2)**\n\n## Section D — Advanced Reasoning (20 marks)",
+          "marks": 2
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show working and justify reasoning."
+    },
+    {
+      "id": "FM-L12-P02-Q14",
+      "paperId": "FM-L12-P02",
+      "number": 14,
+      "section": "D",
+      "type": "written",
+      "difficulty": "challenging",
+      "marks": 10,
+      "tags": [
+        "L2.3",
+        "L2.4",
+        "L2.5"
+      ],
+      "topicTagSource": "L2.3–L2.5",
+      "promptMarkdown": "A workshop keeps a set of accepted applicants. `Applicants={Ana,Ben,Cai,Dia}`, `admitted` has invariant `admitted <: Applicants` and starts `admitted := {}`. Consider:\n\n```text\nadmit(person) =\n  PRE person : Applicants\n  THEN admitted := admitted \\/ {person}\n  END\n```",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "Explain why the initial state is valid. **(2)**",
+          "marks": 2
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Compute the state after `admit(Ben)` and then `admit(Dia)`. **(3)**",
+          "marks": 3
+        },
+        {
+          "id": "c",
+          "promptMarkdown": "Argue why every permitted `admit` operation preserves the invariant. **(3)**",
+          "marks": 3
+        },
+        {
+          "id": "d",
+          "promptMarkdown": "What happens to the state if `admit(Ben)` is repeated? **(2)**",
+          "marks": 2
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show working and justify reasoning."
+    },
+    {
+      "id": "FM-L12-P02-Q15",
+      "paperId": "FM-L12-P02",
+      "number": 15,
+      "section": "D",
+      "type": "written",
+      "difficulty": "challenging",
+      "marks": 10,
+      "tags": [
+        "L2.4",
+        "L2.5"
+      ],
+      "topicTagSource": "L2.4–L2.5",
+      "promptMarkdown": "A lounge uses `visitors : NAT & visitors <= 3`, initialised to 0. A proposed `enter` operation unconditionally performs `visitors := visitors+1`.",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "Identify a reachable valid state at which `enter` would make the state invalid. **(3)**",
+          "marks": 3
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Write a corrected `enter` operation using `PRE…THEN…END`. **(3)**",
+          "marks": 3
+        },
+        {
+          "id": "c",
+          "promptMarkdown": "Explain why the corrected precondition is sufficient and state the valid range after execution. **(4)**",
+          "marks": 4
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show working and justify reasoning."
+    },
+    {
+      "id": "FM-L12-P03-Q01",
+      "paperId": "FM-L12-P03",
+      "number": 1,
+      "section": "A",
+      "type": "single_choice",
+      "difficulty": "foundational",
+      "marks": 4,
+      "tags": [
+        "L1.1",
+        "L1.2",
+        "L1.3"
+      ],
+      "topicTagSource": "L1.1–L1.3",
+      "promptMarkdown": "Which statement best contrasts UML diagrams and the formal specifications introduced in Lecture 1?",
+      "parts": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "UML and B abstract machines are identical in syntax and meaning."
+        },
+        {
+          "id": "B",
+          "text": "UML formally proves that all operations preserve invariants."
+        },
+        {
+          "id": "C",
+          "text": "UML uses structured diagrams, while formal specifications use precise mathematics to express state properties and behaviour."
+        },
+        {
+          "id": "D",
+          "text": "Formal specifications must describe the exact processor instructions used."
+        }
+      ],
+      "workingGuidance": ""
+    },
+    {
+      "id": "FM-L12-P03-Q02",
+      "paperId": "FM-L12-P03",
+      "number": 2,
+      "section": "A",
+      "type": "single_choice",
+      "difficulty": "foundational",
+      "marks": 4,
+      "tags": [
+        "L1.7"
+      ],
+      "topicTagSource": "L1.7",
+      "promptMarkdown": "If `X={a,b,c}`, what is `card(POW(X))`?",
+      "parts": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "8"
+        },
+        {
+          "id": "B",
+          "text": "6"
+        },
+        {
+          "id": "C",
+          "text": "3"
+        },
+        {
+          "id": "D",
+          "text": "9"
+        }
+      ],
+      "workingGuidance": ""
+    },
+    {
+      "id": "FM-L12-P03-Q03",
+      "paperId": "FM-L12-P03",
+      "number": 3,
+      "section": "A",
+      "type": "written",
+      "difficulty": "foundational",
+      "marks": 4,
+      "tags": [
+        "L1.6",
+        "L1.7"
+      ],
+      "topicTagSource": "L1.6–L1.7",
+      "promptMarkdown": "True or false, with a reason for each:",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "`{1,2} <<: {1,2}`. **(2)**",
+          "marks": 2
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "`(Red,1) : {Red,Blue} * {1,2}`. **(2)**",
+          "marks": 2
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show working and justify reasoning."
+    },
+    {
+      "id": "FM-L12-P03-Q04",
+      "paperId": "FM-L12-P03",
+      "number": 4,
+      "section": "A",
+      "type": "written",
+      "difficulty": "foundational",
+      "marks": 4,
+      "tags": [
+        "L2.2",
+        "L2.3"
+      ],
+      "topicTagSource": "L2.2–L2.3",
+      "promptMarkdown": "Distinguish the purpose of",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "a `CONSTANTS` declaration **(2)** and",
+          "marks": 2
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "a `VARIABLES` declaration **(2)** in an abstract machine.",
+          "marks": 2
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show working and justify reasoning."
+    },
+    {
+      "id": "FM-L12-P03-Q05",
+      "paperId": "FM-L12-P03",
+      "number": 5,
+      "section": "A",
+      "type": "written",
+      "difficulty": "foundational",
+      "marks": 4,
+      "tags": [
+        "L2.7"
+      ],
+      "topicTagSource": "L2.7",
+      "promptMarkdown": "State what",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "liveness **(2)** and",
+          "marks": 2
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "responsiveness **(2)** mean, using different practical examples for the two.\n\n## Section B — Conceptual Understanding (28 marks)",
+          "marks": 2
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show working and justify reasoning."
+    },
+    {
+      "id": "FM-L12-P03-Q06",
+      "paperId": "FM-L12-P03",
+      "number": 6,
+      "section": "B",
+      "type": "written",
+      "difficulty": "intermediate",
+      "marks": 7,
+      "tags": [
+        "L1.3"
+      ],
+      "topicTagSource": "L1.3",
+      "promptMarkdown": "Explain three characteristics of a formal specification:",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "abstraction from code **(2)**,",
+          "marks": 2
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "precise description of valid data states **(3)**, and",
+          "marks": 3
+        },
+        {
+          "id": "c",
+          "promptMarkdown": "description of what operations should change **(2)**.",
+          "marks": 2
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show working and justify reasoning."
+    },
+    {
+      "id": "FM-L12-P03-Q07",
+      "paperId": "FM-L12-P03",
+      "number": 7,
+      "section": "B",
+      "type": "written",
+      "difficulty": "intermediate",
+      "marks": 7,
+      "tags": [
+        "L1.7",
+        "L1.8"
+      ],
+      "topicTagSource": "L1.7–L1.8",
+      "promptMarkdown": "Evaluate `M={n | n : 1..12 & n mod 3 = 0}`.",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "List the elements of `M`. **(3)**",
+          "marks": 3
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Find `card(M)`. **(1)**",
+          "marks": 1
+        },
+        {
+          "id": "c",
+          "promptMarkdown": "Evaluate `M /\\ {1,3,4,9,12}`. **(3)**",
+          "marks": 3
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show working and justify reasoning."
+    },
+    {
+      "id": "FM-L12-P03-Q08",
+      "paperId": "FM-L12-P03",
+      "number": 8,
+      "section": "B",
+      "type": "written",
+      "difficulty": "intermediate",
+      "marks": 7,
+      "tags": [
+        "L2.3"
+      ],
+      "topicTagSource": "L2.3",
+      "promptMarkdown": "The lecture assigns different separators to different B machine clauses.",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "Give the correct separators for multiple declarations in `SETS`/`OPERATIONS`, for lists in `VARIABLES`, and for conjoined predicates in `INVARIANT`. **(3)**",
+          "marks": 3
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Explain the meaning of `||` in `INITIALISATION`, with a two-variable example. **(4)**",
+          "marks": 4
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show working and justify reasoning."
+    },
+    {
+      "id": "FM-L12-P03-Q09",
+      "paperId": "FM-L12-P03",
+      "number": 9,
+      "section": "B",
+      "type": "written",
+      "difficulty": "intermediate",
+      "marks": 7,
+      "tags": [
+        "L2.4"
+      ],
+      "topicTagSource": "L2.4",
+      "promptMarkdown": "A machine has `level : NAT & level <= 4`, with `level := 1` initially.",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "Is each of `level=0`, `level=3`, `level=5` a valid state? Explain. **(3)**",
+          "marks": 3
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Is the initial state valid? Why? **(2)**",
+          "marks": 2
+        },
+        {
+          "id": "c",
+          "promptMarkdown": "Explain why an operation that preserves the invariant for all permitted starting states is important. **(2)**\n\n## Section C — Practical Applications (32 marks)",
+          "marks": 2
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show working and justify reasoning."
+    },
+    {
+      "id": "FM-L12-P03-Q10",
+      "paperId": "FM-L12-P03",
+      "number": 10,
+      "section": "C",
+      "type": "written",
+      "difficulty": "intermediate",
+      "marks": 8,
+      "tags": [
+        "L1.7"
+      ],
+      "topicTagSource": "L1.7",
+      "promptMarkdown": "Let `Colours={Red,Blue}`.",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "Write out `POW(Colours)`. **(4)**",
+          "marks": 4
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Determine whether `{}` and `{Blue}` belong to `POW(Colours)`, with reasons. **(2)**",
+          "marks": 2
+        },
+        {
+          "id": "c",
+          "promptMarkdown": "Determine whether `Blue : POW(Colours)` is true; explain the distinction between an element and a singleton set. **(2)**",
+          "marks": 2
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show working and justify reasoning."
+    },
+    {
+      "id": "FM-L12-P03-Q11",
+      "paperId": "FM-L12-P03",
+      "number": 11,
+      "section": "C",
+      "type": "written",
+      "difficulty": "intermediate",
+      "marks": 8,
+      "tags": [
+        "L2.1"
+      ],
+      "topicTagSource": "L2.1",
+      "promptMarkdown": "A deferred set `Personnel` is declared with constants `Chair` and `Deputy`.",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "Write the `SETS`, `CONSTANTS` and `PROPERTIES` clauses declaring their membership in `Personnel`. **(4)**",
+          "marks": 4
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Is `Chair = Deputy` forbidden by your current properties? Explain. **(2)**",
+          "marks": 2
+        },
+        {
+          "id": "c",
+          "promptMarkdown": "Add the necessary property if the two roles must denote different people. **(2)**",
+          "marks": 2
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show working and justify reasoning."
+    },
+    {
+      "id": "FM-L12-P03-Q12",
+      "paperId": "FM-L12-P03",
+      "number": 12,
+      "section": "C",
+      "type": "written",
+      "difficulty": "challenging",
+      "marks": 8,
+      "tags": [
+        "L2.4",
+        "L2.5"
+      ],
+      "topicTagSource": "L2.4–L2.5",
+      "promptMarkdown": "A room reservation machine uses `Rooms={R1,R2,R3}` and `booked <: Rooms`, initially `booked := {}`.",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "Write a B-style `book(r)` operation that books an unbooked valid room, including a precondition. **(4)**",
+          "marks": 4
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Evaluate `book(R2)` from the initial state. **(2)**",
+          "marks": 2
+        },
+        {
+          "id": "c",
+          "promptMarkdown": "Explain why the resulting state satisfies the invariant. **(2)**",
+          "marks": 2
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show working and justify reasoning."
+    },
+    {
+      "id": "FM-L12-P03-Q13",
+      "paperId": "FM-L12-P03",
+      "number": 13,
+      "section": "C",
+      "type": "written",
+      "difficulty": "challenging",
+      "marks": 8,
+      "tags": [
+        "L2.6"
+      ],
+      "topicTagSource": "L2.6",
+      "promptMarkdown": "Execute this substitution for three independent cases, using the starting value of `count` specified in each subpart:\n\n```text\nIF count > 3 THEN count := count - 1\nELSIF count = 2 THEN SKIP\nELSE count := count + 2\nEND\n```",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "Give the result at `count=2`. **(2)**",
+          "marks": 2
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Repeat with initial `count=4`. **(3)**",
+          "marks": 3
+        },
+        {
+          "id": "c",
+          "promptMarkdown": "Repeat with initial `count=1`, explaining the selected branch. **(3)**\n\n## Section D — Advanced Reasoning (20 marks)",
+          "marks": 3
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show working and justify reasoning."
+    },
+    {
+      "id": "FM-L12-P03-Q14",
+      "paperId": "FM-L12-P03",
+      "number": 14,
+      "section": "D",
+      "type": "written",
+      "difficulty": "challenging",
+      "marks": 10,
+      "tags": [
+        "L1.7",
+        "L2.2"
+      ],
+      "topicTagSource": "L1.7, L2.2",
+      "promptMarkdown": "A lab has `Stations={S1,S2}` and `Session={AM,PM}`. `Slots=Stations * Session`. Slot `(S1,AM)` is unavailable.",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "List all elements of `Slots`. **(4)**",
+          "marks": 4
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Define `OpenSlots` with a set difference and evaluate it. **(3)**",
+          "marks": 3
+        },
+        {
+          "id": "c",
+          "promptMarkdown": "Calculate `card(OpenSlots)` and state whether `(S2,PM)` is available. **(3)**",
+          "marks": 3
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show working and justify reasoning."
+    },
+    {
+      "id": "FM-L12-P03-Q15",
+      "paperId": "FM-L12-P03",
+      "number": 15,
+      "section": "D",
+      "type": "written",
+      "difficulty": "challenging",
+      "marks": 10,
+      "tags": [
+        "L2.3",
+        "L2.4",
+        "L2.5",
+        "L2.6"
+      ],
+      "topicTagSource": "L2.3–L2.6",
+      "promptMarkdown": "A machine has variables `used,free` with invariant `used : NAT & free : NAT & used+free=6` and initialisation `used := 0 || free := 6`. It offers:\n\n```text\nallocate =\n  PRE free > 0\n  THEN used,free := used+1,free-1\n  END\n```",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "Show that the initial state is valid. **(2)**",
+          "marks": 2
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Compute the state after two permitted `allocate` calls. **(3)**",
+          "marks": 3
+        },
+        {
+          "id": "c",
+          "promptMarkdown": "Explain why the precondition is needed to preserve `free : NAT`. **(2)**",
+          "marks": 2
+        },
+        {
+          "id": "d",
+          "promptMarkdown": "Show algebraically why `used+free=6` is preserved by any permitted call. **(3)**",
+          "marks": 3
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show working and justify reasoning."
+    },
+    {
+      "id": "FM-L12-P04-Q01",
+      "paperId": "FM-L12-P04",
+      "number": 1,
+      "section": "A",
+      "type": "single_choice",
+      "difficulty": "foundational",
+      "marks": 4,
+      "tags": [
+        "L1.6"
+      ],
+      "topicTagSource": "L1.6",
+      "promptMarkdown": "Which interpretation of `A <<: B` is correct?",
+      "parts": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "`A` is an element of `B`."
+        },
+        {
+          "id": "B",
+          "text": "`A` is the Cartesian product of `B` with itself."
+        },
+        {
+          "id": "C",
+          "text": "`A` is equal to `B` for every choice of sets."
+        },
+        {
+          "id": "D",
+          "text": "`A` is a strict subset of `B`."
+        }
+      ],
+      "workingGuidance": ""
+    },
+    {
+      "id": "FM-L12-P04-Q02",
+      "paperId": "FM-L12-P04",
+      "number": 2,
+      "section": "A",
+      "type": "single_choice",
+      "difficulty": "foundational",
+      "marks": 4,
+      "tags": [
+        "L2.3",
+        "L2.4"
+      ],
+      "topicTagSource": "L2.3–L2.4",
+      "promptMarkdown": "Which abstract-machine clause constrains the allowable values of **changing state variables**?",
+      "parts": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "`MACHINE`"
+        },
+        {
+          "id": "B",
+          "text": "`INVARIANT`"
+        },
+        {
+          "id": "C",
+          "text": "`OPERATIONS`"
+        },
+        {
+          "id": "D",
+          "text": "`SETS`"
+        }
+      ],
+      "workingGuidance": ""
+    },
+    {
+      "id": "FM-L12-P04-Q03",
+      "paperId": "FM-L12-P04",
+      "number": 3,
+      "section": "A",
+      "type": "written",
+      "difficulty": "foundational",
+      "marks": 4,
+      "tags": [
+        "L2.1"
+      ],
+      "topicTagSource": "L2.1",
+      "promptMarkdown": "True or false, with short justifications:",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "In `SETS Status={Open,Closed}`, `Open` and `Closed` are distinct enumerated values. **(2)**",
+          "marks": 2
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Distinct constant names of a deferred set may refer to the same element unless restricted. **(2)**",
+          "marks": 2
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show working and justify reasoning."
+    },
+    {
+      "id": "FM-L12-P04-Q04",
+      "paperId": "FM-L12-P04",
+      "number": 4,
+      "section": "A",
+      "type": "written",
+      "difficulty": "foundational",
+      "marks": 4,
+      "tags": [
+        "L1.8"
+      ],
+      "topicTagSource": "L1.8",
+      "promptMarkdown": "Explain the distinction among `INTEGER`, `NAT`, and `NAT1`, giving one value in `INTEGER` but not `NAT`, and one in `NAT` but not `NAT1`. **(2+2)**",
+      "parts": [],
+      "options": [],
+      "workingGuidance": "Show working and justify reasoning."
+    },
+    {
+      "id": "FM-L12-P04-Q05",
+      "paperId": "FM-L12-P04",
+      "number": 5,
+      "section": "A",
+      "type": "written",
+      "difficulty": "foundational",
+      "marks": 4,
+      "tags": [
+        "L2.5"
+      ],
+      "topicTagSource": "L2.5",
+      "promptMarkdown": "Give",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "one input-parameter precondition **(2)** and",
+          "marks": 2
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "one state precondition **(2)** for an operation that adds `n` items to a bounded counter `count` with maximum 10. Assume `count : NAT & count<=10`.\n\n## Section B — Conceptual Understanding (28 marks)",
+          "marks": 2
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show working and justify reasoning."
+    },
+    {
+      "id": "FM-L12-P04-Q06",
+      "paperId": "FM-L12-P04",
+      "number": 6,
+      "section": "B",
+      "type": "written",
+      "difficulty": "intermediate",
+      "marks": 7,
+      "tags": [
+        "L1.1",
+        "L1.2",
+        "L1.3"
+      ],
+      "topicTagSource": "L1.1–L1.3",
+      "promptMarkdown": "A requirement says, “The access door should open quickly when appropriate.”",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "Identify two ambiguous phrases and say what extra information would be needed. **(4)**",
+          "marks": 4
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Explain how a precise specification can reduce the risk of different implementations interpreting this statement differently. **(3)**",
+          "marks": 3
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show working and justify reasoning."
+    },
+    {
+      "id": "FM-L12-P04-Q07",
+      "paperId": "FM-L12-P04",
+      "number": 7,
+      "section": "B",
+      "type": "written",
+      "difficulty": "intermediate",
+      "marks": 7,
+      "tags": [
+        "L1.7"
+      ],
+      "topicTagSource": "L1.7",
+      "promptMarkdown": "Let `Shape={Circle,Square}` and `Size={Small,Large}`.",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "Write `Shape * Size`. **(3)**",
+          "marks": 3
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Give the subset consisting of pairs with size `Large`. **(2)**",
+          "marks": 2
+        },
+        {
+          "id": "c",
+          "promptMarkdown": "Explain why `(Large,Circle)` is not in this product. **(2)**",
+          "marks": 2
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show working and justify reasoning."
+    },
+    {
+      "id": "FM-L12-P04-Q08",
+      "paperId": "FM-L12-P04",
+      "number": 8,
+      "section": "B",
+      "type": "written",
+      "difficulty": "intermediate",
+      "marks": 7,
+      "tags": [
+        "L2.4"
+      ],
+      "topicTagSource": "L2.4",
+      "promptMarkdown": "For `count : NAT & count <= 3`,",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "list all possible valid integer values. **(4)**",
+          "marks": 4
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "explain why `-1`, `2`, and `4` are respectively invalid/valid/invalid. **(3)**",
+          "marks": 3
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show working and justify reasoning."
+    },
+    {
+      "id": "FM-L12-P04-Q09",
+      "paperId": "FM-L12-P04",
+      "number": 9,
+      "section": "B",
+      "type": "written",
+      "difficulty": "intermediate",
+      "marks": 7,
+      "tags": [
+        "L2.6"
+      ],
+      "topicTagSource": "L2.6",
+      "promptMarkdown": "Classify each item as a **predicate**, **expression**, or **substitution** and justify its role:",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "`x : NAT & x <= 5` **(2)**,",
+          "marks": 2
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "`x+2` **(2)**,",
+          "marks": 2
+        },
+        {
+          "id": "c",
+          "promptMarkdown": "`x := x+2` **(3)**.\n\n## Section C — Practical Applications (32 marks)",
+          "marks": 3
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show working and justify reasoning."
+    },
+    {
+      "id": "FM-L12-P04-Q10",
+      "paperId": "FM-L12-P04",
+      "number": 10,
+      "section": "C",
+      "type": "written",
+      "difficulty": "intermediate",
+      "marks": 8,
+      "tags": [
+        "L2.2"
+      ],
+      "topicTagSource": "L2.2",
+      "promptMarkdown": "A club has `Members={A,B,C,D}`. `Unavailable={B,D}`.",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "Using `CONSTANTS`/`PROPERTIES`, specify `Available=Members-Unavailable`, declaring both constants as subsets of `Members`. **(5)**",
+          "marks": 5
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Compute `Available` and its cardinality. **(3)**",
+          "marks": 3
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show working and justify reasoning."
+    },
+    {
+      "id": "FM-L12-P04-Q11",
+      "paperId": "FM-L12-P04",
+      "number": 11,
+      "section": "C",
+      "type": "written",
+      "difficulty": "intermediate",
+      "marks": 8,
+      "tags": [
+        "L2.3",
+        "L2.4"
+      ],
+      "topicTagSource": "L2.3–L2.4",
+      "promptMarkdown": "`Colours={Black,White,Red}`. A display has variables `front,back` and invariant `front : Colours & back : Colours & front /= back`.",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "Give a valid parallel initialisation using the colours shown. **(3)**",
+          "marks": 3
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Show that it satisfies each invariant clause. **(3)**",
+          "marks": 3
+        },
+        {
+          "id": "c",
+          "promptMarkdown": "Explain why `front := Red || back := Red` is invalid. **(2)**",
+          "marks": 2
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show working and justify reasoning."
+    },
+    {
+      "id": "FM-L12-P04-Q12",
+      "paperId": "FM-L12-P04",
+      "number": 12,
+      "section": "C",
+      "type": "written",
+      "difficulty": "challenging",
+      "marks": 8,
+      "tags": [
+        "L2.6"
+      ],
+      "topicTagSource": "L2.6",
+      "promptMarkdown": "Given `direction` is one of `{Left,Right,Other}`, execute:\n\n```text\nIF direction = Left THEN result := TurnLeft\nELSIF direction = Right THEN result := TurnRight\nELSE result := Stop\nEND\n```",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "Determine `result` for each allowed value of `direction`. **(3)**",
+          "marks": 3
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Explain the role of `ELSIF` and the fallback `ELSE`. **(3)**",
+          "marks": 3
+        },
+        {
+          "id": "c",
+          "promptMarkdown": "If the first branch instead used `SKIP`, what would happen to an existing `result=Stop` when `direction=Left`? **(2)**",
+          "marks": 2
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show working and justify reasoning."
+    },
+    {
+      "id": "FM-L12-P04-Q13",
+      "paperId": "FM-L12-P04",
+      "number": 13,
+      "section": "C",
+      "type": "written",
+      "difficulty": "challenging",
+      "marks": 8,
+      "tags": [
+        "L1.6",
+        "L1.7"
+      ],
+      "topicTagSource": "L1.6–L1.7",
+      "promptMarkdown": "Let `Q={2,4,6}`.",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "Evaluate `Q /\\ 1..5` and `Q - {4}`. **(4)**",
+          "marks": 4
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Decide whether `{2,6} : POW(Q)` and `{2,7} <: Q` are true, with reasons. **(4)**\n\n## Section D — Advanced Reasoning (20 marks)",
+          "marks": 4
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show working and justify reasoning."
+    },
+    {
+      "id": "FM-L12-P04-Q14",
+      "paperId": "FM-L12-P04",
+      "number": 14,
+      "section": "D",
+      "type": "written",
+      "difficulty": "challenging",
+      "marks": 10,
+      "tags": [
+        "L1.7",
+        "L2.2",
+        "L2.3",
+        "L2.4",
+        "L2.5"
+      ],
+      "topicTagSource": "L1.7, L2.2–L2.5",
+      "promptMarkdown": "`Room={LabA,LabB}`, `Period={Morning,Afternoon}`. A booking machine defines `AllSlots=Room*Period`; variable `taken` satisfies `taken <: AllSlots`, and starts empty.",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "List `AllSlots` and its cardinality. **(4)**",
+          "marks": 4
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Propose a precondition for booking slot `s` exactly once. **(3)**",
+          "marks": 3
+        },
+        {
+          "id": "c",
+          "promptMarkdown": "Specify the state-changing assignment and justify why it preserves `taken <: AllSlots`. **(3)**",
+          "marks": 3
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show working and justify reasoning."
+    },
+    {
+      "id": "FM-L12-P04-Q15",
+      "paperId": "FM-L12-P04",
+      "number": 15,
+      "section": "D",
+      "type": "written",
+      "difficulty": "challenging",
+      "marks": 10,
+      "tags": [
+        "L2.3",
+        "L2.4",
+        "L2.5"
+      ],
+      "topicTagSource": "L2.3–L2.5",
+      "promptMarkdown": "Consider this intentionally flawed specification fragment:\n\n```text\nSETS Course={AI,DB,SE}\nVARIABLES selected\nINVARIANT selected <: Course\nINITIALISATION selected := {Math}\nOPERATIONS\n  choose(c) =\n    PRE c : Course\n    THEN selected := selected \\/ {c}\n    END\n```",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "Identify the initialisation defect and explain which invariant clause it violates. **(3)**",
+          "marks": 3
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Give a corrected initialisation and prove its validity. **(3)**",
+          "marks": 3
+        },
+        {
+          "id": "c",
+          "promptMarkdown": "Explain whether `choose(c)` preserves the invariant once initialisation is corrected, and whether the operation prevents repeat selections. **(4)**",
+          "marks": 4
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show working and justify reasoning."
+    },
+    {
+      "id": "FM-L12-P05-Q01",
+      "paperId": "FM-L12-P05",
+      "number": 1,
+      "section": "A",
+      "type": "single_choice",
+      "difficulty": "foundational",
+      "marks": 4,
+      "tags": [
+        "L1.1"
+      ],
+      "topicTagSource": "L1.1",
+      "promptMarkdown": "What is a key limitation of software testing highlighted in Lecture 1?",
+      "parts": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It can reduce discovered defects but cannot, in general, guarantee the absence of every defect."
+        },
+        {
+          "id": "B",
+          "text": "It can only be used with the B Method."
+        },
+        {
+          "id": "C",
+          "text": "It proves every input has been exercised if the test suite is large."
+        },
+        {
+          "id": "D",
+          "text": "It is incompatible with formal specifications."
+        }
+      ],
+      "workingGuidance": ""
+    },
+    {
+      "id": "FM-L12-P05-Q02",
+      "paperId": "FM-L12-P05",
+      "number": 2,
+      "section": "A",
+      "type": "single_choice",
+      "difficulty": "foundational",
+      "marks": 4,
+      "tags": [
+        "L1.6"
+      ],
+      "topicTagSource": "L1.6",
+      "promptMarkdown": "If `A={1,3,5}` and `B={3,4,5}`, what is `A /\\ B`?",
+      "parts": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "`{1,3,4,5}`"
+        },
+        {
+          "id": "B",
+          "text": "`{1}`"
+        },
+        {
+          "id": "C",
+          "text": "`{3,5}`"
+        },
+        {
+          "id": "D",
+          "text": "`{4}`"
+        }
+      ],
+      "workingGuidance": ""
+    },
+    {
+      "id": "FM-L12-P05-Q03",
+      "paperId": "FM-L12-P05",
+      "number": 3,
+      "section": "A",
+      "type": "written",
+      "difficulty": "foundational",
+      "marks": 4,
+      "tags": [
+        "L1.5",
+        "L1.8"
+      ],
+      "topicTagSource": "L1.5, L1.8",
+      "promptMarkdown": "True or false; justify each answer:",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "`0 : NAT`. **(2)**",
+          "marks": 2
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "`card({u,u,v}) = 3`. **(2)**",
+          "marks": 2
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show working and justify reasoning."
+    },
+    {
+      "id": "FM-L12-P05-Q04",
+      "paperId": "FM-L12-P05",
+      "number": 4,
+      "section": "A",
+      "type": "written",
+      "difficulty": "foundational",
+      "marks": 4,
+      "tags": [
+        "L2.1",
+        "L2.2"
+      ],
+      "topicTagSource": "L2.1–L2.2",
+      "promptMarkdown": "An abstract machine uses both a base set and a derived set constant.",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "Explain what a **base set** supplies, with one example. **(2)**",
+          "marks": 2
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Explain how a **derived set constant** differs, with one example. **(2)**",
+          "marks": 2
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show working and justify reasoning."
+    },
+    {
+      "id": "FM-L12-P05-Q05",
+      "paperId": "FM-L12-P05",
+      "number": 5,
+      "section": "A",
+      "type": "written",
+      "difficulty": "foundational",
+      "marks": 4,
+      "tags": [
+        "L2.7"
+      ],
+      "topicTagSource": "L2.7",
+      "promptMarkdown": "State",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "a safety property for an online examination portal **(2)** and",
+          "marks": 2
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "a responsiveness property for the same portal. **(2)**\n\n## Section B — Conceptual Understanding (28 marks)",
+          "marks": 2
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show working and justify reasoning."
+    },
+    {
+      "id": "FM-L12-P05-Q06",
+      "paperId": "FM-L12-P05",
+      "number": 6,
+      "section": "B",
+      "type": "written",
+      "difficulty": "intermediate",
+      "marks": 7,
+      "tags": [
+        "L1.5",
+        "L1.6",
+        "L1.7"
+      ],
+      "topicTagSource": "L1.5–L1.7",
+      "promptMarkdown": "Let `S={2}`.",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "Explain why `2`, `{2}` and `{{2}}` are different objects. **(3)**",
+          "marks": 3
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Decide whether `2 : S` and `S : POW(S)` are true. Give reasons. **(4)**",
+          "marks": 4
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show working and justify reasoning."
+    },
+    {
+      "id": "FM-L12-P05-Q07",
+      "paperId": "FM-L12-P05",
+      "number": 7,
+      "section": "B",
+      "type": "written",
+      "difficulty": "intermediate",
+      "marks": 7,
+      "tags": [
+        "L1.7"
+      ],
+      "topicTagSource": "L1.7",
+      "promptMarkdown": "`Zone={North,South,East}` and `Time={AM,PM}`.",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "Give the number of ordered pairs in `Zone*Time`. **(2)**",
+          "marks": 2
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "List all pairs with zone `North` or `South`. **(3)**",
+          "marks": 3
+        },
+        {
+          "id": "c",
+          "promptMarkdown": "State whether `(PM,East)` belongs to `Zone*Time`, with a reason. **(2)**",
+          "marks": 2
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show working and justify reasoning."
+    },
+    {
+      "id": "FM-L12-P05-Q08",
+      "paperId": "FM-L12-P05",
+      "number": 8,
+      "section": "B",
+      "type": "written",
+      "difficulty": "intermediate",
+      "marks": 7,
+      "tags": [
+        "L2.7"
+      ],
+      "topicTagSource": "L2.7",
+      "promptMarkdown": "Classify each statement as **safety**, **liveness**, or **responsiveness**:",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "“No account balance ever becomes negative.” **(2)**",
+          "marks": 2
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "“Every submitted service request eventually receives a response.” **(2)**",
+          "marks": 2
+        },
+        {
+          "id": "c",
+          "promptMarkdown": "“The manufacturing process eventually reaches its completed state.” **(2)**",
+          "marks": 2
+        },
+        {
+          "id": "d",
+          "promptMarkdown": "Explain the common distinction between the latter two. **(1)**",
+          "marks": 1
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show working and justify reasoning."
+    },
+    {
+      "id": "FM-L12-P05-Q09",
+      "paperId": "FM-L12-P05",
+      "number": 9,
+      "section": "B",
+      "type": "written",
+      "difficulty": "intermediate",
+      "marks": 7,
+      "tags": [
+        "L2.5"
+      ],
+      "topicTagSource": "L2.5",
+      "promptMarkdown": "An operation changes a device’s `mode` and returns a report.",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "List three pieces of information an operation interface and precondition should establish. **(3)**",
+          "marks": 3
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Explain what a postcondition should say about changed state, unchanged state, and outputs. **(4)**\n\n## Section C — Practical Applications (32 marks)",
+          "marks": 4
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show working and justify reasoning."
+    },
+    {
+      "id": "FM-L12-P05-Q10",
+      "paperId": "FM-L12-P05",
+      "number": 10,
+      "section": "C",
+      "type": "written",
+      "difficulty": "intermediate",
+      "marks": 8,
+      "tags": [
+        "L1.7",
+        "L2.2"
+      ],
+      "topicTagSource": "L1.7, L2.2",
+      "promptMarkdown": "`Devices={D1,D2,D3}` and `Retired={D2}`.",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "Define `Active` using a set difference and compute it. **(3)**",
+          "marks": 3
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "List `POW(Active)`. **(3)**",
+          "marks": 3
+        },
+        {
+          "id": "c",
+          "promptMarkdown": "Explain whether `{D1,D3} : POW(Devices)` and `D2 : Active` are true. **(2)**",
+          "marks": 2
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show working and justify reasoning."
+    },
+    {
+      "id": "FM-L12-P05-Q11",
+      "paperId": "FM-L12-P05",
+      "number": 11,
+      "section": "C",
+      "type": "written",
+      "difficulty": "intermediate",
+      "marks": 8,
+      "tags": [
+        "L2.1",
+        "L2.2"
+      ],
+      "topicTagSource": "L2.1–L2.2",
+      "promptMarkdown": "A simple ticket kiosk declares `SETS Choice={Buy,Cancel,Exit}` and constant `Leaving`.",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "Give `CONSTANTS`/`PROPERTIES` specifying `Leaving={Cancel,Exit}` and requiring `Leaving <: Choice`. **(4)**",
+          "marks": 4
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Compute `Choice-Leaving`. **(2)**",
+          "marks": 2
+        },
+        {
+          "id": "c",
+          "promptMarkdown": "Explain why `Leaving` is a set-valued constant, not a new enumerated element in `Choice`. **(2)**",
+          "marks": 2
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show working and justify reasoning."
+    },
+    {
+      "id": "FM-L12-P05-Q12",
+      "paperId": "FM-L12-P05",
+      "number": 12,
+      "section": "C",
+      "type": "written",
+      "difficulty": "challenging",
+      "marks": 8,
+      "tags": [
+        "L2.6",
+        "L2.4"
+      ],
+      "topicTagSource": "L2.6, L2.4",
+      "promptMarkdown": "A machine has variables `a,b`, invariant `a : NAT & b : NAT & a+b=10`, and valid starting state `a=4,b=6`.",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "Execute `a,b := a+2,b-2`. **(3)**",
+          "marks": 3
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Check all invariant clauses afterward. **(3)**",
+          "marks": 3
+        },
+        {
+          "id": "c",
+          "promptMarkdown": "Give an additional precondition that would make this substitution safe for **every** valid starting state and explain why. **(2)**",
+          "marks": 2
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show working and justify reasoning."
+    },
+    {
+      "id": "FM-L12-P05-Q13",
+      "paperId": "FM-L12-P05",
+      "number": 13,
+      "section": "C",
+      "type": "written",
+      "difficulty": "challenging",
+      "marks": 8,
+      "tags": [
+        "L2.6"
+      ],
+      "topicTagSource": "L2.6",
+      "promptMarkdown": "An input variable `amount` is in `NAT`. The existing output is `message=Pending` before execution:\n\n```text\nIF amount = 0 THEN SKIP\nELSIF amount < 5 THEN message := Small\nELSE message := Large\nEND\n```",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "Calculate the final message for amounts 0, 4 and 5 (independent executions). **(3)**",
+          "marks": 3
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Explain how `SKIP` changes the outcome for amount 0. **(2)**",
+          "marks": 2
+        },
+        {
+          "id": "c",
+          "promptMarkdown": "Explain why the `ELSIF` branch is not chosen for amount 0. **(3)**\n\n## Section D — Advanced Reasoning (20 marks)",
+          "marks": 3
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show working and justify reasoning."
+    },
+    {
+      "id": "FM-L12-P05-Q14",
+      "paperId": "FM-L12-P05",
+      "number": 14,
+      "section": "D",
+      "type": "written",
+      "difficulty": "challenging",
+      "marks": 10,
+      "tags": [
+        "L1.6",
+        "L1.7",
+        "L2.2"
+      ],
+      "topicTagSource": "L1.6–L1.7, L2.2",
+      "promptMarkdown": "A centre has `Locations={L1,L2,L3,L4}` and `Closed={L2,L4}`. Visitors may select a single location and one of two sessions `Session={AM,PM}`.",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "Compute `OpenLocations=Locations-Closed`. **(2)**",
+          "marks": 2
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "Construct `Options=OpenLocations*Session` by listing all elements. **(4)**",
+          "marks": 4
+        },
+        {
+          "id": "c",
+          "promptMarkdown": "Evaluate `card(Options)` and state whether `(L4,AM) : Options` and `(L1,PM) : Options`, justifying both. **(4)**",
+          "marks": 4
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show working and justify reasoning."
+    },
+    {
+      "id": "FM-L12-P05-Q15",
+      "paperId": "FM-L12-P05",
+      "number": 15,
+      "section": "D",
+      "type": "written",
+      "difficulty": "challenging",
+      "marks": 10,
+      "tags": [
+        "L2.3",
+        "L2.4",
+        "L2.5"
+      ],
+      "topicTagSource": "L2.3–L2.5",
+      "promptMarkdown": "`Students={Ada,Bo,Cy,Di}`. A check-in machine has variables `registered,arrived` and invariant:\n\n```text\nregistered <: Students & arrived <: registered\n```\n\nInitialisation is `registered := {} || arrived := {}`. It has two candidate operations:\n\n```text\nregister(s) = PRE s : Students THEN registered := registered \\/ {s} END\ncheckIn(s) = PRE s : registered THEN arrived := arrived \\/ {s} END\n```",
+      "parts": [
+        {
+          "id": "a",
+          "promptMarkdown": "Verify the initial state. **(2)**",
+          "marks": 2
+        },
+        {
+          "id": "b",
+          "promptMarkdown": "From initialisation, perform `register(Ada)`, `register(Cy)`, then `checkIn(Cy)` and give both final sets. **(3)**",
+          "marks": 3
+        },
+        {
+          "id": "c",
+          "promptMarkdown": "Explain why each operation preserves the invariant under its precondition. **(3)**",
+          "marks": 3
+        },
+        {
+          "id": "d",
+          "promptMarkdown": "Is `checkIn(Bo)` permitted in that final state? Explain. **(2)**",
+          "marks": 2
+        }
+      ],
+      "options": [],
+      "workingGuidance": "Show working and justify reasoning."
+    }
+  ],
+  "answers": [
+    {
+      "questionId": "FM-L12-P01-Q01",
+      "correctOptionId": "B",
+      "modelAnswerMarkdown": "**Correct: B.** A formal specification states properties of data and required operation behaviour precisely and abstractly, usually mathematically. A is implementation, not specification; C is informal presentation; D overclaims: formal methods do not imply that testing has no role. **Mark:** B=4, otherwise 0.",
+      "maxMarks": 4,
+      "gradingMode": "auto_single_choice"
+    },
+    {
+      "questionId": "FM-L12-P01-Q02",
+      "correctOptionId": "D",
+      "modelAnswerMarkdown": "**Correct: D, `{a}`.** `POW({a,b})={{},{a},{b},{a,b}}`. A is an element of `T` but not a subset as written; C is an ordered pair, not a subset; B contains an element outside `T`. **Mark:** D=4.",
+      "maxMarks": 4,
+      "gradingMode": "auto_single_choice"
+    },
+    {
+      "questionId": "FM-L12-P01-Q03",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "(a) **True**: sets disregard duplicate occurrences and ordering, so both denote `{2,5}`. **(1 verdict, 1 explanation)** (b) **False**: `NAT1={1,2,...}`, whereas 0 belongs to `NAT`. **(1+1)**",
+      "maxMarks": 4,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L12-P01-Q04",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "An **enumerated** set lists its distinct symbolic elements, e.g. `SETS Choice={Yes,No}` **(2)**. A **deferred** set declares a new type while leaving its elements unspecified, e.g. `SETS Person` **(2)**. Accept any sound examples and equivalent explanation.",
+      "maxMarks": 4,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L12-P01-Q05",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "Safety means a bad state never occurs, e.g. “the lift never moves with its doors open” **(2)**. Liveness means an eventual goal is reached, e.g. “the lift eventually reaches a requested destination floor” **(2)**. Treat these as abstract property examples, not claims about a real lift.",
+      "maxMarks": 4,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L12-P01-Q06",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "(a) Accept **two distinct** causes, each with explanation, **2 marks each**: an ambiguous word such as “fast” admits incompatible interpretations; a missing boundary condition or incomplete specification leaves behaviour undefined; inconsistent requirements can create contradictory interpretations. **(4)** (b) Testing examines executed cases, not generally every possible input/state/path, so undiscovered defects may remain; even extensive successful tests cannot establish universal absence of errors. **(3)**",
+      "maxMarks": 7,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L12-P01-Q07",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "(a) `A \\/ B={1,2,3,4,5}` **(2)**. (b) `A /\\ B={2,5}` **(2)**. (c) `A-B={1,3}` **(1)**. (d) `card(A \\/ B)=5` **(2)**. Award as indicated, with partial credit for a sound intermediate union.",
+      "maxMarks": 7,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L12-P01-Q08",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "(a) For the stated `Day` declaration:\n\n```text\nCONSTANTS Weekend,Workdays\nPROPERTIES Weekend <: Day & Weekend = {Sat,Sun} &\n           Workdays <: Day & Workdays = Day - Weekend\n```\n\nAward **1** for declaring both, **1** for `Weekend` constraints, **2** for `Workdays` type/definition. (b) `Workdays={Mon,Tue,Wed,Thu,Fri}` **(2)**. (c) These classifications are fixed parts of the model rather than system state that changes as operations execute **(1)**.",
+      "maxMarks": 7,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L12-P01-Q09",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "(a) `VARIABLES` names the changing components of the machine state **(2)**. (b) `INVARIANT` asserts type/other conditions that valid states must satisfy **(2)**. (c) `INITIALISATION` supplies the starting values/state and must satisfy the invariant **(2)**. (d) Parallel assignment uses `||` **(1)**.",
+      "maxMarks": 7,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L12-P01-Q10",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "(a) `E={n | n : 0..12 & n mod 2 = 0}` **(3)**; a `NAT`-based form additionally bounded `n<=12` is valid. (b) `E={0,2,4,6,8,10,12}` **(3)**. Note that the correct `NAT` convention includes 0. (c) `card(E)=7` **(1)** and `E /\\ {3,4,8,11}={4,8}` **(1)**.",
+      "maxMarks": 8,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L12-P01-Q11",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "(a) 0 is a natural number and `0<=5`; hence the invariant is satisfied **(2)**. (b) 0 valid, 5 valid, 6 invalid (too large), -1 invalid (not in `NAT`), one mark each **(4)**. (c) `occupied < 5` (equivalently `occupied <= 4`) **(2)** under the already-assumed invariant. The update adds 1, so starting at 5 would produce 6.",
+      "maxMarks": 8,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L12-P01-Q12",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "(a) Parallel: `(x,y)=(7,3)` **(2)**; both right-hand sides use the initial `(3,7)`, not intermediate assignments **(2)**. (b) Successive: `x:=y` first makes `(7,7)`; then `y:=x` keeps `(7,7)` **(2)**. Difference: the second assignment reads the newly updated `x`, whereas the simultaneous swap uses both old values **(2)**. The semicolon in the question denotes successive, rather than B's parallel, execution.",
+      "maxMarks": 8,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L12-P01-Q13",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "(a) Scores 85→`High`, 50→`Medium`, 49→`Low`; **1 each (3)**. (b) At 90 both `>=80` and `>=50` hold, but `IF`/`ELSIF` chooses the **first true guard**, executes only its branch, and assigns `High` **(3)**. (c) 80→`High` because the first guard uses `>=` and includes the boundary **(2)**.",
+      "maxMarks": 8,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L12-P01-Q14",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "(a) `Allowed={P | P : POW(People) & Forbidden /<: P}` **(4)**. Equivalently `{P | P <: People & not(Forbidden <: P)}` is correct, provided the condition clearly rules out containing both Ali and Bea; the B ASCII negative subset operator is preferred. (b) Four people give `2^4=16` possible subsets **(2)**. (c) Exactly four invalid subsets contain **both** Ali and Bea: `{Ali,Bea}`, `{Ali,Bea,Cam}`, `{Ali,Bea,Dee}`, `{Ali,Bea,Cam,Dee}` **(2)**. Thus `16-4=12` permitted panels **(2)**. The empty panel is permitted.",
+      "maxMarks": 10,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L12-P01-Q15",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "(a) The state `tickets=2` satisfies the invariant; input `n=7` passes the original `n:NAT` check, but makes `tickets=9`, violating `tickets<=8` **(3)**. Any valid counterexample receives full credit. (b) Strengthened operation:\n\n```text\naddTickets(n) =\n  PRE n : NAT & tickets+n <= 8\n  THEN tickets := tickets+n\n  END\n```\n\n**(3)**. (c) Pre-state `tickets : NAT` and input `n:NAT` imply `tickets+n : NAT` **(2)**. The strengthened guard gives `tickets+n<=8`, so after assignment the upper bound remains true **(2)**. A different mathematically equivalent condition `n <= 8-tickets` is valid under the invariant.",
+      "maxMarks": 10,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L12-P02-Q01",
+      "correctOptionId": "D",
+      "modelAnswerMarkdown": "**Correct: D.** Many defects originate at requirements, specification and design, but emerge in implementation, testing or maintenance. A, B and C incorrectly exclude these early stages. **4** for D.",
+      "maxMarks": 4,
+      "gradingMode": "auto_single_choice"
+    },
+    {
+      "questionId": "FM-L12-P02-Q02",
+      "correctOptionId": "A",
+      "modelAnswerMarkdown": "**Correct: A, `green /: A`.** `/:` means non-membership. `<:` is a subset operator and is not appropriate for a single colour element; the other expressions are unrelated or type-inappropriate. **4** for A.",
+      "maxMarks": 4,
+      "gradingMode": "auto_single_choice"
+    },
+    {
+      "questionId": "FM-L12-P02-Q03",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "(a) **False**: different deferred-set constants may denote the same element unless explicit inequalities are added **(2: verdict 1, reason 1)**. (b) **True**: initial states must be valid, meaning they satisfy the invariant **(2)**.",
+      "maxMarks": 4,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L12-P02-Q04",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "(a) Atelier B: specification editor/type checker, **(2)**; (b) ProB: simulator for B models, **(2)**. Do not require claims about tools beyond these lecture descriptions.",
+      "maxMarks": 4,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L12-P02-Q05",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "(a) Safety: a bad state never occurs, e.g. “the storage counter never exceeds capacity” **(2)**. (b) Responsiveness: following an event, the system eventually reacts, e.g. “each submitted print request eventually receives an acknowledgement” **(2)**.",
+      "maxMarks": 4,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L12-P02-Q06",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "(a) `{(Red,1),(Red,2),(Red,3),(Green,1),(Green,2),(Green,3)}` **(3)**. (b) `2*3=6` **(2)**. (c) `(Green,2)` is a member: first component belongs to `Colour`, second to `Level` **(1)**; `(2,Green)` is not, since components are reversed and fail those types **(1)**.",
+      "maxMarks": 7,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L12-P02-Q07",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "(a) `current <: Mode` says a **set** is a subset of `Mode`, but `current` is intended to store one element. Correct: `INVARIANT current : Mode` **(3)**. (b) `Idle` is not an element of `{On,Off}` **(2)**. (c) `INITIALISATION current := On` or `current := Off`, plus membership justification **(2)**. This question is intentionally about errors; do not treat the flawed extract as valid B code.",
+      "maxMarks": 7,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L12-P02-Q08",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "(a) `q < 4` or `q <= 3` under the invariant **(2)**. (b) `q > 0` or `q >= 1` **(2)**. (c) Enqueue produces `q' = q+1` and dequeue produces `q' = q-1` **(2)**; unaffected state components, if any, stay unchanged; valid post-states are within `0..4` **(1)**. A simple explanation in words is sufficient: the notation `q'` here is only an explanatory post-state marker, not a required new B construct.",
+      "maxMarks": 7,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L12-P02-Q09",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "(a) EAL concerns security assurance, for example information systems **(2)**; SIL concerns safety integrity, for example transport and industrial systems **(2)**. (b) In safety-critical applications bugs can cause serious physical harm; testing samples behaviour and cannot guarantee defect absence, so precise specification and more rigorous assurance are desirable **(3)**. Do not require detailed certification procedures not taught.",
+      "maxMarks": 7,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L12-P02-Q10",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "(a)\n\n```text\nCONSTANTS Caution,Go\nPROPERTIES Caution <: Signal & Caution = {Red,Amber} &\n           Go <: Signal & Go = Signal-Caution\n```\n\n**(5): 1** declaration, **2** membership/definition for Caution, **2** for Go. (b) `Go={Green}` **(2)**, `card(Go)=1` **(1)**.",
+      "maxMarks": 8,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L12-P02-Q11",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "(a) `POW(S)={{},{p},{q},{r},{p,q},{p,r},{q,r},{p,q,r}}` **(4)**, with credit for all 8 and no non-subsets. (b) `{p,q}`, `{p,r}`, `{q,r}` **(2)**. (c) `{p,q}` is itself a **subset of S**, so it is an element of `POW(S)` **(1)**; `p` is an element of `S`, not a set-valued subset **(1)**.",
+      "maxMarks": 8,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L12-P02-Q12",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "(a) Simultaneous assignment reads original `(a,b,c)=(1,4,9)`, resulting in `(4,9,1)` **(3 result + 1 explanation)**. (b) Successive: after `a:=b` state `(4,4,9)`; after `b:=c` state `(4,9,9)`; after `c:=a` state `(4,9,4)` **(3)**. The last assignment uses the **new** value of `a` **(1)**.",
+      "maxMarks": 8,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L12-P02-Q13",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "(a) 18→`Cold`, 20→`Warm`, 32→`Hot` **(3)**. (b) 30→`Hot` because the first true guard wins; the `>=20` guard is also true but is not executed **(3)**. (c) Replacing ELSE's assignment with `SKIP` leaves `alarm` unchanged when both guards are false; it does **not** force `Cold` **(2)**. Since no prior alarm value is stated, no specific retained value can be asserted.",
+      "maxMarks": 8,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L12-P02-Q14",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "(a) `{}` is a subset of `Applicants`, so the initial state satisfies the invariant **(2)**. (b) First `{Ben}`, then `{Ben,Dia}` **(3)**. (c) `person : Applicants` guarantees `{person} <: Applicants`; the union of two subsets of `Applicants` is also a subset, so the post-state still satisfies `admitted <: Applicants` **(3)**. (d) Re-admitting Ben adds an already-present set element; sets have no duplicates, so the set remains `{Ben,Dia}` **(2)**.",
+      "maxMarks": 10,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L12-P02-Q15",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "(a) Starting at 0, three entries can yield valid `visitors=3`; a fourth unconditional `enter` yields 4, violating `<=3` **(3)**. (b)\n\n```text\nenter =\n  PRE visitors < 3\n  THEN visitors := visitors+1\n  END\n```\n\n**(3)**. (c) A valid pre-state has `0<=visitors<=3`; requiring `<3` narrows this to `0..2` **(2)**. Incrementing produces a natural number in `1..3`, preserving both clauses **(2)**. Accept equivalent preconditions.",
+      "maxMarks": 10,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L12-P03-Q01",
+      "correctOptionId": "C",
+      "modelAnswerMarkdown": "**Correct: C.** The lecture contrasts structured but non-formal UML diagrams with precise logic/mathematics in B specifications. A confuses distinct notations; B claims a proof UML does not itself deliver; D confuses abstract specifications with implementation. **4** for C.",
+      "maxMarks": 4,
+      "gradingMode": "auto_single_choice"
+    },
+    {
+      "questionId": "FM-L12-P03-Q02",
+      "correctOptionId": "A",
+      "modelAnswerMarkdown": "**Correct: A, 8.** Three independent element-inclusion choices give `2^3=8` subsets. The other numbers miscount subsets. **4** for A.",
+      "maxMarks": 4,
+      "gradingMode": "auto_single_choice"
+    },
+    {
+      "questionId": "FM-L12-P03-Q03",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "(a) **False**: a set cannot be its own **strict** subset; the sets are equal **(2)**. (b) **True**: `Red` is in the first set and 1 in the second, hence the ordered pair is in their product **(2)**.",
+      "maxMarks": 4,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L12-P03-Q04",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "(a) Constants define fixed values and derived mathematical structures constrained by `PROPERTIES` **(2)**. (b) Variables hold the current, changeable machine state and are constrained by `INVARIANT` **(2)**.",
+      "maxMarks": 4,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L12-P03-Q05",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "(a) Liveness: a goal is eventually reached, e.g. “the cleaning robot eventually finishes its assigned route” **(2)**. (b) Responsiveness: an event eventually elicits a reaction, e.g. “every pressed call button eventually gets an acknowledgement” **(2)**. Distinction: responsiveness is triggered by an occurrence; liveness as taught concerns eventual arrival at a goal.",
+      "maxMarks": 4,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L12-P03-Q06",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "(a) A specification focuses on **what** is required, not exact code/algorithm details **(2)**. (b) A mathematical invariant states which combinations of state values are valid and what conditions must always hold **(3)**. (c) Operation descriptions identify which data changes and how, including results and any unchanged components, so intended behaviour is explicit **(2)**.",
+      "maxMarks": 7,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L12-P03-Q07",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "(a) Multiples of 3 in 1..12: `M={3,6,9,12}` **(3)**. (b) `card(M)=4` **(1)**. (c) `M /\\ {1,3,4,9,12}={3,9,12}` **(3)**.",
+      "maxMarks": 7,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L12-P03-Q08",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "(a) `;` separates complete `SETS` or `OPERATIONS` declarations, `,` separates `VARIABLES` list items, and `&` conjoins invariant predicates **(1 each)**. (b) `||` represents simultaneous/parallel assignment, for example `x := 1 || y := 2` **(2)**; both assignments update their own variables in one simultaneous substitution, reading any right-hand sides from the pre-state **(2)**. Accept an alternative legal two-variable example.",
+      "maxMarks": 7,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L12-P03-Q09",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "(a) 0 valid, 3 valid, 5 invalid because it exceeds 4 **(3)**. (b) 1 belongs to `NAT` and is <=4 **(2)**. (c) Initialisation supplies a valid state; if every permitted operation maps a valid state to a valid state, later reachable states also satisfy the invariant **(2)**.",
+      "maxMarks": 7,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L12-P03-Q10",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "(a) `POW(Colours)={{},{Red},{Blue},{Red,Blue}}` **(4)**. (b) Both `{}` and `{Blue}` are subsets of `Colours`, hence each is in its power set **(2)**. (c) `Blue : POW(Colours)` is **false**: `Blue` is a colour value, while `{Blue}` is the singleton set in the power set **(2)**.",
+      "maxMarks": 8,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L12-P03-Q11",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "(a)\n\n```text\nSETS Personnel\nCONSTANTS Chair,Deputy\nPROPERTIES Chair : Personnel & Deputy : Personnel\n```\n\n**(4): 1** set declaration, **1** constants list, **2** membership predicates. (b) **No**: those membership constraints allow equality of the two constants **(2)**. (c) Add `& Chair /= Deputy` to `PROPERTIES` **(2)**.",
+      "maxMarks": 8,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L12-P03-Q12",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "(a)\n\n```text\nbook(r) =\n  PRE r : Rooms & r /: booked\n  THEN booked := booked \\/ {r}\n  END\n```\n\n**(4): 1** interface, **2** both preconditions, **1** substitution. (b) `booked={R2}` **(2)**. (c) `{R2} <: Rooms` since `R2 : Rooms`; generally the union of a subset of `Rooms` with a singleton containing a member of `Rooms` remains a subset **(2)**.",
+      "maxMarks": 8,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L12-P03-Q13",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "(a) With 2, first guard false; second true, so `SKIP` keeps `count=2` **(2)**. (b) With 4, first guard true, so the result is 3; no later branch is considered **(3)**. (c) With 1, both guards false, so ELSE gives `count=1+2=3` **(3)**. Each execution begins independently from the specified original count.",
+      "maxMarks": 8,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L12-P03-Q14",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "(a) `Slots={(S1,AM),(S1,PM),(S2,AM),(S2,PM)}` **(4)**. (b) `OpenSlots=Slots-{(S1,AM)}={(S1,PM),(S2,AM),(S2,PM)}` **(3)**. (c) `card(OpenSlots)=3` **(1)**; `(S2,PM)` is in `OpenSlots` **(1)** because it is a listed, nonexcluded slot **(1)**.",
+      "maxMarks": 10,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L12-P03-Q15",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "(a) `used=0` and `free=6` are natural numbers; sum `0+6=6`, so the initial state satisfies all three conjuncts **(2)**. (b) After one call `(used,free)=(1,5)`, after two `(2,4)` **(3)**. (c) Without `free>0`, a valid `free=0` state could be updated to `-1`, violating `free : NAT`; positive natural `free` ensures `free-1>=0` **(2)**. (d) After any allowed parallel update, `(used+1)+(free-1)=used+free=6` **(3)**, and both right-hand sides use pre-state values. The property remains true.",
+      "maxMarks": 10,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L12-P04-Q01",
+      "correctOptionId": "D",
+      "modelAnswerMarkdown": "**Correct: D.** `<<:` means **strict/proper subset**. The relation does not assert membership, universal equality or Cartesian product. **4** for D.",
+      "maxMarks": 4,
+      "gradingMode": "auto_single_choice"
+    },
+    {
+      "questionId": "FM-L12-P04-Q02",
+      "correctOptionId": "B",
+      "modelAnswerMarkdown": "**Correct: B, `INVARIANT`.** This clause constrains permissible combinations of changing state values. Other clauses identify or specify different machine features. **4** for B.",
+      "maxMarks": 4,
+      "gradingMode": "auto_single_choice"
+    },
+    {
+      "questionId": "FM-L12-P04-Q03",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "(a) **True**: an enumerated set explicitly lists distinct symbolic values **(2)**. (b) **True**: unlike elements in an enumerated set, values bound to separate deferred-set constants may coincide unless inequalities forbid it **(2)**.",
+      "maxMarks": 4,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L12-P04-Q04",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "(a) `INTEGER` includes negative, zero and positive integers; `NAT` includes integers from 0; `NAT1` includes integers from 1 **(2)**. (b) Example values: -1 in `INTEGER` not `NAT`; 0 in `NAT` not `NAT1` **(2)**.",
+      "maxMarks": 4,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L12-P04-Q05",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "(a) Require `n : NAT` (input is a nonnegative integer) **(2)**. (b) Given the invariant, require `count+n <= 10` or `n <= 10-count` **(2)**. Together these prevent an oversized result; `count` is already known to be in `0..10`.",
+      "maxMarks": 4,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L12-P04-Q06",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "(a) “Quickly” lacks a measurable time limit and starting point; “appropriate” lacks a precise event/permission condition. One point for each ambiguous expression and one for each needed clarification **(4)**. (b) A formal specification can express exact triggering conditions, allowable states and outcomes, avoiding two teams implementing different unstated interpretations; precision allows systematic checking of intended behaviour **(3)**. No invented door-control protocol is required.",
+      "maxMarks": 7,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L12-P04-Q07",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "(a) `{(Circle,Small),(Circle,Large),(Square,Small),(Square,Large)}` **(3)**. (b) `{(Circle,Large),(Square,Large)}` **(2)**. (c) `(Large,Circle)` is reversed: the product requires shape first and size second **(2)**.",
+      "maxMarks": 7,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L12-P04-Q08",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "(a) `{0,1,2,3}` **(4)**. (b) -1 violates `NAT`; 2 belongs to `NAT` and `<=3`; 4 exceeds the bound **(3)**.",
+      "maxMarks": 7,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L12-P04-Q09",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "(a) `x : NAT & x <= 5` is a **predicate**, stating a truth-valued condition about data **(2)**. (b) `x+2` is an **expression**, denoting a calculated value **(2)**. (c) `x := x+2` is a **substitution**, specifying a state change via assignment **(3)**.",
+      "maxMarks": 7,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L12-P04-Q10",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "(a) A suitable declaration is:\n\n```text\nCONSTANTS Unavailable,Available\nPROPERTIES Unavailable <: Members & Unavailable={B,D} &\n           Available <: Members & Available=Members-Unavailable\n```\n\n**(5): 1** constants, **2** unavailable constraints, **2** available constraints. (b) `Available={A,C}` **(2)** and `card(Available)=2` **(1)**.",
+      "maxMarks": 8,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L12-P04-Q11",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "(a) `front := Black || back := White` (or any two different valid Colours) **(3)**. (b) `Black : Colours`, `White : Colours`, and `Black /= White` satisfy all three clauses **(3)**. (c) Assigning Red to both makes `front=back`, violating the required inequality, though type membership still holds **(2)**.",
+      "maxMarks": 8,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L12-P04-Q12",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "(a) Left→`TurnLeft`, Right→`TurnRight`, Other→`Stop` **(3)**. (b) `ELSIF` checks a following guard if preceding guards fail; `ELSE` handles cases with no true guard; exactly one selected branch executes **(3)**. (c) With prior `result=Stop`, `direction=Left` selects the first branch; if it is `SKIP`, no assignment occurs, so `result` remains `Stop` **(2)**.",
+      "maxMarks": 8,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L12-P04-Q13",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "(a) `Q /\\ 1..5={2,4}` **(2)**; `Q-{4}={2,6}` **(2)**. (b) `{2,6} : POW(Q)` **true**, since `{2,6} <: Q` **(2)**; `{2,7} <: Q` **false**, because `7 /: Q` **(2)**.",
+      "maxMarks": 8,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L12-P04-Q14",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "(a) `AllSlots={(LabA,Morning),(LabA,Afternoon),(LabB,Morning),(LabB,Afternoon)}` and `card(AllSlots)=4` **(4)**. (b) `s : AllSlots & s /: taken` **(3)**, where `taken <: AllSlots` is guaranteed by the invariant before execution. (c) `taken := taken \\/ {s}` **(1)**; the existing set and `{s}` are each subsets of `AllSlots`, so their union is also a subset **(2)**.",
+      "maxMarks": 10,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L12-P04-Q15",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "(a) `{Math}` is not a subset of `Course={AI,DB,SE}`, because Math is not one of its elements; `selected <: Course` is violated **(3)**. (b) `selected := {}` or e.g. `selected := {AI}` **(2)**; verify the chosen set is a subset of Course **(1)**. (c) For valid `selected <: Course` and `c : Course`, `{c} <: Course`, so `selected \\/ {c} <: Course` and the invariant is preserved **(3)**. Repeat selection is **not** prevented: unioning an already present member changes nothing **(1)**. The fragment is intentionally flawed only in its initialisation.",
+      "maxMarks": 10,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L12-P05-Q01",
+      "correctOptionId": "A",
+      "modelAnswerMarkdown": "**Correct: A.** Testing can expose defects but, generally, cannot establish the total absence of bugs. B, C, and D claim restrictions or guarantees the lectures reject. **4** for A.",
+      "maxMarks": 4,
+      "gradingMode": "auto_single_choice"
+    },
+    {
+      "questionId": "FM-L12-P05-Q02",
+      "correctOptionId": "C",
+      "modelAnswerMarkdown": "**Correct: C, `{3,5}`.** Intersection retains only members common to both sets. A is the union, B is not the intersection, and D lists an element only in B. **4** for C.",
+      "maxMarks": 4,
+      "gradingMode": "auto_single_choice"
+    },
+    {
+      "questionId": "FM-L12-P05-Q03",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "(a) **True**: `NAT` contains natural numbers starting at zero **(2)**. (b) **False**: duplicates do not increase set cardinality; `{u,u,v}={u,v}` has two elements **(2)**.",
+      "maxMarks": 4,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L12-P05-Q04",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "(a) A base set supplies a type/domain, e.g. `SETS Route={North,South}` (an enumerated base set), or `SETS Person` (a deferred base set) **(2)**. (b) A derived constant is a fixed set or value defined from existing types/operations through `CONSTANTS`/`PROPERTIES`, e.g. `CONSTANTS Open PROPERTIES Open <: Route & Open={North}` **(2)**. Accept other type-correct examples.",
+      "maxMarks": 4,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L12-P05-Q05",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "(a) Safety example: “the number of active exam submissions never exceeds the configured capacity” or “a candidate never enters an invalid system state” **(2)**. (b) Responsiveness example: “after an answer is submitted, the platform eventually acknowledges the submission” **(2)**. These are example requirements, not properties verified for a particular portal.",
+      "maxMarks": 4,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L12-P05-Q06",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "(a) `2` is a numeric element, `{2}` is a set containing that number, and `{{2}}` is a set whose only element is the set `{2}`; nesting levels matter **(3)**. (b) `2 : S` is **true** because `S={2}` **(2)**; `S : POW(S)` is **true** because every set is a subset of itself, so `{2}` is one of the subsets listed in `POW({2})={{},{2}}` **(2)**. This distinction tests element-vs-subset thinking.",
+      "maxMarks": 7,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L12-P05-Q07",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "(a) `card(Zone*Time)=3*2=6` **(2)**. (b) `{(North,AM),(North,PM),(South,AM),(South,PM)}` **(3)**. (c) `(PM,East)` is not in the product: its first component is a time rather than a zone, and the order is wrong **(2)**.",
+      "maxMarks": 7,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L12-P05-Q08",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "(a) Safety: always no negative balance **(2)**. (b) Responsiveness: a request event eventually receives a reaction **(2)**. (c) Liveness: a goal/completed state is eventually reached **(2)**. (d) Responsiveness is conditional on an event; liveness here is progress toward a goal **(1)**.",
+      "maxMarks": 7,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L12-P05-Q09",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "(a) Accept any three of operation name, optional input parameters/types, optional output variables, input constraints, and state precondition; **1 point each (3)**. (b) A postcondition should identify modified state and its result **(2)**, components left unchanged **(1)**, and assigned output results/reports **(1)**. Explain as a contract, without requiring advanced proof notation.",
+      "maxMarks": 7,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L12-P05-Q10",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "(a) `Active=Devices-Retired={D1,D3}` **(3)**. (b) `POW(Active)={{},{D1},{D3},{D1,D3}}` **(3)**. (c) `{D1,D3} : POW(Devices)` is **true** since it is a subset of Devices **(1)**; `D2 : Active` is **false** because D2 was removed **(1)**.",
+      "maxMarks": 8,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L12-P05-Q11",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "(a)\n\n```text\nCONSTANTS Leaving\nPROPERTIES Leaving <: Choice & Leaving={Cancel,Exit}\n```\n\n**(4): 1** declaration, **1** subset typing, **2** exact value. (b) `Choice-Leaving={Buy}` **(2)**. (c) `Leaving` denotes a **subset** containing two existing `Choice` elements, not a fourth symbolic element declared inside the enumerated type **(2)**.",
+      "maxMarks": 8,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L12-P05-Q12",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "(a) Parallel update from `(4,6)` gives `(a,b)=(6,4)` **(3)**. (b) `6 : NAT`, `4 : NAT`, and `6+4=10`; all invariant clauses hold **(3)**. (c) Add precondition `b >= 2` (equivalently `b > 1`) **(1)**: then `b-2` remains in `NAT`, `a+2` remains in `NAT`, and their sum is unchanged **(1)**. The pre-state is assumed invariant-valid.",
+      "maxMarks": 8,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L12-P05-Q13",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "(a) With preexisting `message=Pending`, 0→`Pending`, 4→`Small`, 5→`Large` **(3)**. (b) `SKIP` makes no changes, so at 0 the previous message survives rather than assigning a new one **(2)**. (c) At 0 the **first** condition `amount=0` is true and that branch executes; `ELSIF` is checked only if the earlier condition fails, even though `0<5` is also true **(3)**.",
+      "maxMarks": 8,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L12-P05-Q14",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "(a) `OpenLocations={L1,L3}` **(2)**. (b) `Options={(L1,AM),(L1,PM),(L3,AM),(L3,PM)}` **(4)**. (c) `card(Options)=4` **(2)**. `(L4,AM) : Options` is **false** because L4 is closed **(1)**; `(L1,PM) : Options` is **true** because L1 is open and PM is a session **(1)**.",
+      "maxMarks": 10,
+      "gradingMode": "guided_self_assessment"
+    },
+    {
+      "questionId": "FM-L12-P05-Q15",
+      "correctOptionId": null,
+      "modelAnswerMarkdown": "(a) Both variables are empty sets, so `registered <: Students` and `arrived <: registered` are both true **(2)**. (b) After the registrations, `registered={Ada,Cy}`; after `checkIn(Cy)`, `arrived={Cy}` **(3)**. (c) `register(s)` adds a member of Students to `registered`, so that set remains a subset of Students; it leaves `arrived` unchanged, and thus still a subset of the enlarged `registered` **(2)**. `checkIn(s)` requires `s : registered`, so adding `{s}` to `arrived` keeps `arrived <: registered` while `registered` stays unchanged **(1)**. (d) `checkIn(Bo)` is **not permitted** because `Bo /: registered` in the final state, so its precondition is false **(2)**. Repeated check-ins of registered students are allowed but have no additional set effect; distinctness was not required.",
+      "maxMarks": 10,
+      "gradingMode": "guided_self_assessment"
+    }
+  ],
+  "topics": [
+    {
+      "id": "L1.1",
+      "lecture": 1,
+      "title": "Why formal methods matter",
+      "pages": "7–12",
+      "description": "Software failures, ambiguity, UML, and the limitations of testing."
+    },
+    {
+      "id": "L1.2",
+      "lecture": 1,
+      "title": "Critical software assurance",
+      "pages": "13",
+      "description": "Introductory safety/security-critical systems, EAL and SIL."
+    },
+    {
+      "id": "L1.3",
+      "lecture": 1,
+      "title": "Formal specification",
+      "pages": "14",
+      "description": "Precise, abstract descriptions of data properties and required behaviour."
+    },
+    {
+      "id": "L1.4",
+      "lecture": 1,
+      "title": "The B Method",
+      "pages": "15–21",
+      "description": "Abstract machines, clauses, operations, Atelier B and ProB."
+    },
+    {
+      "id": "L1.5",
+      "lecture": 1,
+      "title": "Set fundamentals",
+      "pages": "22–23",
+      "description": "Set membership, unordered values, no duplicates and nested sets."
+    },
+    {
+      "id": "L1.6",
+      "lecture": 1,
+      "title": "Set operations",
+      "pages": "24–25",
+      "description": "Union, intersection, difference, membership, subsets and cardinality."
+    },
+    {
+      "id": "L1.7",
+      "lecture": 1,
+      "title": "Constructing sets",
+      "pages": "26",
+      "description": "Power sets, products, integer ranges and comprehension."
+    },
+    {
+      "id": "L1.8",
+      "lecture": 1,
+      "title": "Integer types and arithmetic",
+      "pages": "27–28",
+      "description": "INTEGER, NAT, NAT1, mod and B arithmetic comparisons."
+    },
+    {
+      "id": "L2.1",
+      "lecture": 2,
+      "title": "Base set types",
+      "pages": "2–8",
+      "description": "Built-in, enumerated and deferred sets and constant distinctness."
+    },
+    {
+      "id": "L2.2",
+      "lecture": 2,
+      "title": "Derived sets and constants",
+      "pages": "9–11",
+      "description": "CONSTANTS and PROPERTIES, type constraints and derived data."
+    },
+    {
+      "id": "L2.3",
+      "lecture": 2,
+      "title": "State clauses",
+      "pages": "12–13",
+      "description": "VARIABLES, INVARIANT, INITIALISATION and clause separators."
+    },
+    {
+      "id": "L2.4",
+      "lecture": 2,
+      "title": "System states",
+      "pages": "14–18",
+      "description": "Valid, invalid and initial states; invariant preservation."
+    },
+    {
+      "id": "L2.5",
+      "lecture": 2,
+      "title": "Operation contracts",
+      "pages": "19–20",
+      "description": "Interfaces, preconditions, effects, outputs and postconditions."
+    },
+    {
+      "id": "L2.6",
+      "lecture": 2,
+      "title": "Introductory AMN",
+      "pages": "21–23",
+      "description": "Predicates, expressions, substitutions, conditionals and parallel assignment."
+    },
+    {
+      "id": "L2.7",
+      "lecture": 2,
+      "title": "Safety, liveness, responsiveness",
+      "pages": "24",
+      "description": "Conceptual system properties; no temporal formulae required."
+    }
+  ]
+}
